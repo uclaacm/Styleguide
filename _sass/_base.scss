@@ -1,0 +1,19 @@
+$font-display: 'Poppins', sans-serif;
+$font-header: 'Palanquin Dark', sans-serif;
+$font-body: 'Chivo', sans-serif;
+$font-code: 'Space Mono', monospace;
+$primary-board: #3B59ED;
+$primary-hack: #C960FF;
+$primary-acmw: #1BC3A9;
+$primary-ai: #1EBDF4;
+$primary-icpc: #FF6B6B;
+$primary-studio: #FB4469;
+$primary-netsec: #FFBA44;
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}

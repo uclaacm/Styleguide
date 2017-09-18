@@ -1,0 +1,27 @@
+body {
+  font-family: $font-body;
+}
+
+footer {
+  font-family: $font-display;
+}
+
+.navigation {
+  width: 30%;
+  float: left;
+  ul {
+    list-style-type: none;
+    li {
+      font-family: $font-display;
+      color: $primary-board;
+    }
+  }
+}
+
+.content {
+  width: 70%;
+  float: right;
+  h1 {
+    font-family: $font-display;
+  }
+}
