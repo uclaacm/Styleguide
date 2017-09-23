@@ -1,9 +1,29 @@
 <div class="navigation">
-  <ul>
-    {% for page in site.pages %}
-      {% if page.title %}
-        <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-      {% endif %}
-    {% endfor %}
-  </ul>
+    {% if page.title == "ACM Design" %}
+      <div class="navigation-home">
+        <a href="{{ site.baseurl }}/"><h2>ACM Design</h2></a>
+      </div>
+      <ul>
+        {% for node in site.pages %}
+          {% if node.title != "ACM Design" %}
+            <li><a href="{{ node.url | prepend: site.baseurl }}" class="not-active">{{ node.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    {% else %}
+      <div class="navigation-home">
+        <a href="{{ site.baseurl }}/"><h2>ACM Design</h2></a>
+      </div>
+      <ul>
+        {% for node in site.pages %}
+          {% if node.title != "ACM Design" %}
+            {% if page.url == node.url %}
+              <li><a href="{{ node.url | prepend: site.baseurl }}"  class="active">{{ node.title }}</a></li>
+            {% else %}
+              <li ><a href="{{ node.url | prepend: site.baseurl }}" class="not-active">{{ node.title }}</a></li>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+    {% endif %}
 </div>
