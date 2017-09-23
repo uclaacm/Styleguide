@@ -17,10 +17,24 @@
       <ul>
         {% for node in site.pages %}
           {% if node.title != "ACM Design" %}
-            {% if page.url == node.url %}
+            {% if page.url contains node.url %}
               <li><a href="{{ node.url | prepend: site.baseurl }}"  class="active">{{ node.title }}</a></li>
+              {% if node.title == "Committees" %}
+                {% for committee in site.committees %}
+                  <ul>
+                    <li><a href="{{ committee.url }}">{{ committee.title }}</a></li>
+                  </ul>
+                {% endfor %}
+              {% endif %}
             {% else %}
               <li ><a href="{{ node.url | prepend: site.baseurl }}" class="not-active">{{ node.title }}</a></li>
+              {% if node.title == "Committees" %}
+                {% for committee in site.committees %}
+                  <ul>
+                    <li><a href="{{ committee.url }}">{{ committee.title }}</a></li>
+                  </ul>
+                {% endfor %}
+              {% endif %}
             {% endif %}
           {% endif %}
         {% endfor %}

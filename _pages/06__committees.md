@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Committees
-permalink: /committees
+permalink: /committees/
 ---
 These are our committees.
 
 {% for committee in site.committees %}
-  <p>{{ committee.title }}</p>
+  <a href="{{ committee.url }}" class="committee-link">{{ committee.title }}</a>
 {% endfor %}
