@@ -6,6 +6,7 @@ body {
 }
 
 footer {
+  text-align: center;
   font-family: $font-display;
   p {
     margin: 0;
@@ -13,33 +14,41 @@ footer {
 }
 
 .navigation {
-  width: 20%;
+  width: 250px;
   height: 100vh;
-  float: left;
+  position: fixed;
   background-color: #242424;
   ul {
-    margin: 0;
-    padding: 0 0 0 14px;;
+    padding: 0 0 0 30px;
+    line-height: 50px;
     list-style-type: none;
+    font-weight: 700;
+    font-size: 20px;
+    a {
+        text-decoration: none;
+    }
     li {
       font-family: $font-display;
-      a {
-        text-decoration: none;
-      }
+      
     }
   }
 }
 
 .navigation-home {
   font-family: $font-display;
-  background-color: #555555;
+  background-color: #2E2E2E;
   a {
     text-decoration: none;
     h2 {
-      color: white;
+      line-height: 60px;
+      color: $primary-board;
+      font-weight: 500;
       margin: 0;
-      text-align: center;
-      padding: 10px 0 10px 0;
+      padding: 10px 0px 10px 30px;
+    }
+    span {
+      color: white;
+      font-weight: 700;
     }
   }
 }
@@ -53,10 +62,11 @@ footer {
 }
 
 .content {
-  width: 80%;
-  float: right;
+  margin-left: 250px;
+  width: auto;
   h2 {
     font-family: $font-display;
+    line-height: 60px;
     background-color: #DADADA;
     text-align: center;
     margin: 0;
@@ -66,4 +76,5 @@ footer {
 
 .content-body {
   padding: 10px;
+  padding-left: 20%;
 }
