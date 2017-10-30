@@ -1,7 +1,7 @@
 <div class="navigation">
     {% if page.title == "ACM Design" %}
       <div class="navigation-home">
-        <a href="{{ site.baseurl }}/"><h2>ACM Design</h2></a>
+        <a href="{{ site.baseurl }}/"><h2><span>ACM</span> Design</h2></a>
       </div>
       <ul>
         {% for node in site.pages %}
@@ -12,7 +12,7 @@
       </ul>
     {% else %}
       <div class="navigation-home">
-        <a href="{{ site.baseurl }}/"><h2>ACM Design</h2></a>
+        <a href="{{ site.baseurl }}/"><h2><span>ACM</span> Design</h2></a>
       </div>
       <ul>
         {% for node in site.pages %}
@@ -22,7 +22,7 @@
               {% if node.title == "Committees" %}
                 {% for committee in site.committees %}
                   <ul>
-                    <li><a href="{{ committee.url }}">{{ committee.title }}</a></li>
+                    <li><a href="{{ committee.url }}" class = "not-active">{{ committee.title }}</a></li>
                   </ul>
                 {% endfor %}
               {% endif %}
@@ -31,7 +31,7 @@
               {% if node.title == "Committees" %}
                 {% for committee in site.committees %}
                   <ul>
-                    <li><a href="{{ committee.url }}">{{ committee.title }}</a></li>
+                    <li><a href="{{ committee.url }}" class="not-active">{{ committee.title }}</a></li>
                   </ul>
                 {% endfor %}
               {% endif %}
