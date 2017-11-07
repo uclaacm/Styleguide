@@ -6,8 +6,13 @@ body {
 }
 
 footer {
-  text-align: center;
+  height: 200px;
+  padding-top: 20px;
   font-family: $font-display;
+  background-color: #2E2E2E;
+  color: white;
+  text-align: center;
+  
   p {
     margin: 0;
   }
@@ -61,20 +66,23 @@ footer {
   color: white;
 }
 
+.page-header {
+  position: fixed;
+  left: 250px;
+  width: 100%;
+  margin: 0;
+  padding: 10px 250px 10px 0px;
+  line-height: 60px;
+  font-family: $font-display;
+  background-color: #DADADA;
+  text-align: center;
+}
+
 .content {
   margin-left: 250px;
   width: auto;
-  h2 {
-    font-family: $font-display;
-    line-height: 60px;
-    background-color: #DADADA;
-    text-align: center;
-    margin: 0;
-    padding: 10px 0 10px 0;
-  }
 }
 
 .content-body {
-  padding: 10px;
-  padding-left: 20%;
+  padding: 200px 20%;
 }
