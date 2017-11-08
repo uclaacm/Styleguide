@@ -3,8 +3,10 @@
 {% include head.html %}
 <body>
   {% include header.html %}
+  <div class="page-header">
+    {% if page.title %}{{ page.title }}{% endif %}
+  </div>
   <div class="content">
-    <h2>{% if page.title %}{{ page.title }}{% endif %}</h2>
     <div class="content-body">
       {{ content }}
     </div>
