@@ -11,7 +11,7 @@
           {% if node.title == "Committees" %}
             <ul class="navigation-committee">
               {% for committee in site.committees %}
-                <li><a href="{{ committee.url }}"  class="not-active">{{ committee.title }}</a></li>
+                <li><a href="{{ committee.url | prepend: site.baseurl }}"  class="not-active">{{ committee.title }}</a></li>
               {% endfor %}
             </ul>
           {% endif %}
@@ -30,9 +30,9 @@
                 <ul class="navigation-committee">
                   {% for committee in site.committees %}
                     {% if page.url == committee.url %}
-                      <li><a href="{{ committee.url }}" class="active-{{ committee.title | downcase}}">{{ committee.title }}</a></li>
+                      <li><a href="{{ committee.url | prepend: site.baseurl }}" class="active-{{ committee.title | downcase}}">{{ committee.title }}</a></li>
                     {% else %}
-                      <li><a href="{{ committee.url }}" class="not-active">{{ committee.title }}</a></li>
+                      <li><a href="{{ committee.url | prepend: site.baseurl }}" class="not-active">{{ committee.title }}</a></li>
                     {% endif %}
                   {% endfor %}
                 </ul>
@@ -42,7 +42,7 @@
               {% if node.title == "Committees" %}
                 <ul class="navigation-committee">
                   {% for committee in site.committees %}
-                    <li><a href="{{ committee.url }}"  class="not-active">{{ committee.title }}</a></li>
+                    <li><a href="{{ committee.url | prepend: site.baseurl }}"  class="not-active">{{ committee.title }}</a></li>
                   {% endfor %}
                 </ul>
               {% endif %}
