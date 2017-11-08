@@ -8,6 +8,13 @@
           {% if node.title != "ACM Design" %}
             <li><a href="{{ node.url | prepend: site.baseurl }}" class="not-active">{{ node.title }}</a></li>
           {% endif %}
+          {% if node.title == "Committees" %}
+            <ul class="navigation-committee">
+              {% for committee in site.committees %}
+                <li><a href="{{ committee.url }}"  class="not-active">{{ committee.title }}</a></li>
+              {% endfor %}
+            </ul>
+          {% endif %}
         {% endfor %}
       </ul>
     {% else %}
@@ -18,22 +25,26 @@
         {% for node in site.pages %}
           {% if node.title != "ACM Design" %}
             {% if page.url contains node.url %}
-              <li><a href="{{ node.url | prepend: site.baseurl }}"  class="active">{{ node.title }}</a></li>
+              <li><a href="{{ node.url | prepend: site.baseurl }}" class="active">{{ node.title }}</a></li>
               {% if node.title == "Committees" %}
-                {% for committee in site.committees %}
-                  <ul>
-                    <li><a href="{{ committee.url }}" class = "not-active">{{ committee.title }}</a></li>
-                  </ul>
-                {% endfor %}
+                <ul class="navigation-committee">
+                  {% for committee in site.committees %}
+                    {% if page.url == committee.url %}
+                      <li><a href="{{ committee.url }}" class="active-{{ committee.title | downcase}}">{{ committee.title }}</a></li>
+                    {% else %}
+                      <li><a href="{{ committee.url }}" class="not-active">{{ committee.title }}</a></li>
+                    {% endif %}
+                  {% endfor %}
+                </ul>
               {% endif %}
             {% else %}
               <li ><a href="{{ node.url | prepend: site.baseurl }}" class="not-active">{{ node.title }}</a></li>
               {% if node.title == "Committees" %}
-                {% for committee in site.committees %}
-                  <ul>
-                    <li><a href="{{ committee.url }}" class="not-active">{{ committee.title }}</a></li>
-                  </ul>
-                {% endfor %}
+                <ul class="navigation-committee">
+                  {% for committee in site.committees %}
+                    <li><a href="{{ committee.url }}"  class="not-active">{{ committee.title }}</a></li>
+                  {% endfor %}
+                </ul>
               {% endif %}
             {% endif %}
           {% endif %}

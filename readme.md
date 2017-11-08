@@ -7,8 +7,9 @@
 * Use RubyGems to install bundler to take care of dependencies
   * Run the command `gem install bundler`
     * May need to use `sudo gem install bundler`
-* Run command `bundle exec jekyll serve` and go to [localhost:4000](http://localhost:4000/)
-* For Windows 10 users using Bash on Ubuntu for Windows, run `bundle exec jekyll serve --no-watch` because Windows does not have auto-regeneration
+* Run command `bundle exec jekyll serve --baseurl ''` and go to [localhost:4000](http://localhost:4000/)
+* For Windows 10 users using Bash on Ubuntu for Windows, run `bundle exec jekyll serve --no-watch --baseurl ''` because Windows does not have auto-regeneration
+  * Passing in the flag `--baseurl ''` lets you develop on this locally
 
 ## Troubleshooting
 * If you are on OSX and you need a newer version of Ruby, open your terminal and run `\curl -sSL https://get.rvm.io | bash -s stable`
