@@ -29,7 +29,7 @@ footer {
     }
     li {
       font-family: $font-display;
-      
+
     }
   }
 }
@@ -53,12 +53,40 @@ footer {
   }
 }
 
+.navigation-committee {
+  left: 50px;
+}
+
 .active {
   color: $primary-board;
 }
 
 .not-active {
   color: white;
+}
+
+.active-hack {
+  color: $primary-hack;
+}
+
+.active-w {
+  color: $primary-acmw;
+}
+
+.active-ai {
+  color: $primary-ai;
+}
+
+.active-icpc {
+  color: $primary-icpc;
+}
+
+.active-studio {
+  color: $primary-studio;
+}
+
+.active-netsec {
+  color: $primary-netsec;
 }
 
 .content {
