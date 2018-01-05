@@ -79,7 +79,9 @@ footer {
   line-height: 60px;
   font-family: $font-display;
   font-weight: 800;
-  background-color: #DADADA;
+  background-color: white;
+  border-bottom: 2px solid #DADADA;
+  box-sizing: border-box;
   text-align: center;
 }
 
@@ -125,7 +127,7 @@ footer {
     line-height: 1em;    
   }
   p {
-    line-height: 32px;
+    line-height: 1.6em;
   }
   .button { 
     display: table;
@@ -167,7 +169,7 @@ footer {
     background-color: #DADADA;
     width: 160px;
     font-size: 12px;
-    margin: 10px 5px 10px 0;
+    margin: 10px 5px 0 0;
     border-radius: 5px;
     .dl-title {
       padding: 10px;
@@ -190,16 +192,16 @@ footer {
     background-color: #DADADA;
     width: 160px;
     font-size: 12px;
-    margin: 10px 5px 10px 0;
+    margin: 10px 5px 0 0;
     border-radius: 5px;
-    height: 170px;
+    height: 135px;
     .color {
       height: 50px;
       border-radius: 5px 5px 0 0;      
     }
     .color-label {
       padding: 10px;
-      height: 130px;
+      height: 95px;
       border-radius: 0 0 5px 5px;
       font-size: 14px;
       .color-name {
