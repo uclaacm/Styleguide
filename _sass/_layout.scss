@@ -6,9 +6,9 @@ body {
 }
 
 footer {
-  height: 65px;
+  height: 70px;
   padding-top: 20px;
-  font-family: $font-display;
+  font-family: $font-header;
   background-color: #2E2E2E;
   color: white;
   text-align: center;
@@ -116,8 +116,12 @@ footer {
   padding: 150px 20% 50px;
   font-size: 20px;
   h1,h2,h3 {
+    font-family: $font-header;
     margin-bottom: 0em;
     margin-top: 1.5em;
+  }
+  p {
+    line-height: 32px;
   }
   .button { 
     display: table;
