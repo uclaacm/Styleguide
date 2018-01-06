@@ -117,6 +117,7 @@ footer {
 .content-body {
   padding: 150px 20% 50px;
   font-size: 20px;
+  color: #242424;
   h1,h2,h3 {
     font-family: $font-header;
     margin-bottom: 0em;
@@ -160,7 +161,7 @@ footer {
     max-width: 150px;
     margin: 0 auto;
   }
-  #logo-margins {
+  .image-full-width {
     max-width: 100%;
   }
   .dl-container {
@@ -194,6 +195,7 @@ footer {
     font-size: 12px;
     margin: 10px 5px 0 0;
     border-radius: 5px;
+    border: 1px solid rgba(#DADADA, 0.1);
     height: 135px;
     .color {
       height: 50px;
