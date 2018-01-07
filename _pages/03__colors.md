@@ -7,7 +7,7 @@ permalink: /colors
 Each group in UCLA ACM has four colors: a primary color, a lighter and darker version of the primary color, and a secondary color. 
 
 ## Primary Colors ##
-These are the main differentiating factors between committees. They make up each committees' logos and are the key elements to the committees' graphics.
+These are the main differentiating components between committees. They make up each committees' logos and are the key elements to the committees' graphics.
 {% include colorswatch.html name="ACM Cobalt" hex="#3B59ED" rgb="(59, 89, 237)" %}
 {% include colorswatch.html name="W Teal" hex="#1BC3A9" rgb="(27, 195, 169)" %}
 {% include colorswatch.html name="Hack Purple" hex="#C960FF" rgb="(201, 96, 255)" %}
