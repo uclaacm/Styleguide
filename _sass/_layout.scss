@@ -221,35 +221,44 @@ footer {
       }
     }
   }
-  .committee-container {
-    display: inline-block;
-    vertical-align: top;
-    width: 300px;
-    transition: 0.2s;
+  
+}
+
+.committee-container {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 12px;
+  width: 25em;
+  transition: 0.2s;
+  &:hover{
+    transform: scale(1.08);
+  }
+  &.committee-title {
+    font-size: 20px;
+    transition: none;
     &:hover{
-      transform: scale(1.08);
+      transform: none;
     }
-    .committee-logo {
-      float: left;
-      width: 100px;
-      padding: 10px;
-      img {
-        max-width: 100%;
-      }
+  }
+  .committee-logo {
+    float: left;
+    width: 8em;
+    padding: 0.8em;
+    img {
+      max-width: 100%;
     }
-    .committee-description {
-      float: right;
-      font-size: 12px;
-      width: 200px;
-      color: $primary-black;
-      h1 {
-        font-family: $font-display;
-        margin-top: 30px;
-      }
-      p {
-        margin-top: 3px;
-        line-height: 1.2em;
-      }
+  }
+  .committee-description {
+    float: right;
+    width: 17em;
+    color: $primary-black;
+    h1 {
+      font-family: $font-display;
+      margin-top: 1.25em;
+    }
+    p {
+      margin-top: 0.25em;
+      line-height: 1.2em;
     }
   }
 }

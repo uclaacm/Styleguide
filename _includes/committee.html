@@ -1,9 +1,15 @@
-    <div class="committee-container">
-            <div class="committee-logo">
-                <img src="{{ site.baseurl }}/assets/logos/{{ include.committee.filename }}-logo.png">
-            </div>
+<div class="committee-container">
+    <a href="{{ site.baseurl }}/{{ include.committee.url }}">
+        <div class="committee-logo">
+            <img src="{{ site.baseurl }}/assets/logos/{{ include.committee.filename }}-logo.png">
+        </div>
+    </a>
+    <a href="{{ include.ommittee.url }}">
         <div class="committee-description">
-            <h1> ACM <span style="color: #{{ include.committee.hex }}">{{ include.committee.title }}</span></h1>
+            <h1> ACM
+                <span style="color: #{{ include.committee.hex }}; font-weight:400">{{ include.committee.title }}</span>
+            </h1>
             <p> {{ include.committee.tagline }} </p>
         </div>
-    </div>
+    </a>
+</div>

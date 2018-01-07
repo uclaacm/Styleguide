@@ -1,7 +1,18 @@
 ---
 layout: page
 ---
+{% assign committee = site.committees | where: "title", page.title | first %}
 <div>
-  <p>{{ page.title }}</p>
+  <div class="committee-container committee-title">
+      <div class="committee-logo">
+        <img src="{{ site.baseurl }}/assets/logos/{{ committee.filename }}-logo.png">
+      </div>
+      <div class="committee-description">
+        <h1> ACM
+          <span style="color: #{{ committee.hex }}; font-weight:400">{{ committee.title }}</span>
+        </h1>
+        <p> {{ committee.tagline }} </p>
+      </div>
+  </div>
   {{ content }}
 </div>
