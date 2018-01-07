@@ -184,6 +184,10 @@ footer {
       min-height: 70px;
       img {
         width: 100%;
+        transition: 0.5s;
+        &:hover {
+          transform: scale(1.08);
+        }
       }
     }
   }
