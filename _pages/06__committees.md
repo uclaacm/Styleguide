@@ -8,7 +8,7 @@ The six committees that make up ACM—W, Hack, ICPC, AI, Studio, and NetSec—ea
 
 {% for committee in site.committees %}
 <div class="committee-container">
-    <a href="{{ committee.url }}"><div class="committee-logo">
+    <a href="{{ site.baseurl }}/{{ committee.url }}"><div class="committee-logo">
         <img src="{{ site.baseurl }}/assets/logos/{{ committee.filename }}-logo.png">
     </div></a>
     <a href="{{ committee.url }}"><div class="committee-description">
