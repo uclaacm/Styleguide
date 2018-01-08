@@ -167,60 +167,6 @@ footer {
   .image-full-width {
     max-width: 100%;
   }
-  .dl-container {
-    display: inline-block;
-    vertical-align: top;
-    background-color: #DADADA;
-    width: 160px;
-    font-size: 12px;
-    margin: 10px 5px 0 0;
-    border-radius: 5px;
-    .dl-title {
-      padding: 10px;
-      background-color: #2E2E2E;
-      color: white;
-      border-radius: 5px 5px 0 0;
-    }
-    .dl-content {
-      padding: 20px;
-      border-radius: 0 0 5px 5px;
-      min-height: 70px;
-      img {
-        width: 100%;
-        transition: 0.5s;
-        &:hover {
-          transform: scale(1.08);
-        }
-      }
-    }
-  }
-  .color-container {
-    display: inline-block;
-    vertical-align: top;
-    background-color: #DADADA;
-    width: 160px;
-    font-size: 12px;
-    margin: 10px 5px 0 0;
-    border-radius: 5px;
-    border: 1px solid rgba(#DADADA, 0.1);
-    height: 135px;
-    .color {
-      height: 50px;
-      border-radius: 5px 5px 0 0;      
-    }
-    .color-label {
-      padding: 10px;
-      height: 95px;
-      border-radius: 0 0 5px 5px;
-      font-size: 14px;
-      .color-name {
-        font-weight: 700;
-      }
-      p {
-        margin: 0;
-      }
-    }
-  }
   
 }
 
@@ -259,6 +205,83 @@ footer {
     p {
       margin-top: 0.25em;
       line-height: 1.2em;
+    }
+  }
+}
+
+.color-container {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #DADADA;
+  width: 160px;
+  font-size: 12px;
+  margin: 10px 5px 0 0;
+  border-radius: 5px;
+  border: 1px solid rgba(#DADADA, 0.1);
+  height: 135px;
+  .color {
+    height: 50px;
+    border-radius: 5px 5px 0 0;      
+  }
+  .color-label {
+    padding: 10px;
+    height: 95px;
+    border-radius: 0 0 5px 5px;
+    font-size: 14px;
+    .color-name {
+      font-weight: 700;
+    }
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.dl-container {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #DADADA;
+  width: 160px;
+  font-size: 12px;
+  margin: 10px 5px 0 0;
+  border-radius: 5px;
+  .dl-title {
+    padding: 10px;
+    background-color: #2E2E2E;
+    color: white;
+    border-radius: 5px 5px 0 0;
+  }
+  .dl-content {
+    padding: 20px;
+    border-radius: 0 0 5px 5px;
+    min-height: 70px;
+    img {
+      width: 100%;
+      transition: 0.5s;
+      &:hover {
+        transform: scale(1.08);
+      }
+    }
+  }
+}
+
+.type-container {
+  border-left: 10px solid $primary-black;
+  margin-left: -30px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  background-color: #DADADA;
+  h1 {
+    font-size: 3em;
+    margin-top: 0;
+    line-height: 2em;
+    font-family: inherit;
+  }
+  p {
+    margin: 0;
+    font-size: 1.2em;
+    &.type-upper {
+      text-transform: uppercase;
     }
   }
 }
