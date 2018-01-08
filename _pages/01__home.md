@@ -14,4 +14,10 @@ As UCLA ACM's community grew in size, so did our need for a unified visual ident
 
 UCLA ACM is comprised of a single administrative group and six committees, each covering different subtopics inside the world of computer science. This leads to seven different groups that need personalized, but unified, branding. To see more, click on one of the sections in the sidebar on the left!
 
+### How to use this website ###
+All these resources are for all UCLA ACM designers and officers to use. Any resources/asset in this box:
+{% include assetbox.html title="UCLA ACM logomark" file="logos/acm-logo.png" %}
+can be downloaded by clicking on the item inside it. Download links to all the assets are also available.
+
+### Special Thanks ###
 This rebranding was put together by Paulina Lei, Rong Zhang, Bryan Wong, and Justin Liu. We'll be posting a write-up about our journey soon!
