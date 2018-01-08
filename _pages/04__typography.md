@@ -3,7 +3,7 @@ layout: page
 title: Typography
 permalink: /typography
 ---
-# What the font? #
+# Typography #
 UCLA ACM uses three main typefaces: Poppins, Palanquin Dark, and Chivo. 
 
 {% include type.html family="Poppins" weight="700" %}
@@ -15,5 +15,5 @@ Palanquin Dark is our main header typeface, which we use on all our websites whe
 {% include type.html family="Chivo" weight="400" %}
 Chivo is our main body typeface. It's design is more similar to tech aesthetics, and can be used for casual copy, or more serious situations. We suggest using Chivo for smaller UI elements and body text.
 
-## More on our typography ##
+## Keep it Poppin' ##
 There aren't really strict guidelines on how to use these typefaces—designing with them is up to your discretion. Likewise, there's no need to adhere to these type families, as they may change in the future. That being said, when in doubt and don't care about font specifics, use Poppins.
