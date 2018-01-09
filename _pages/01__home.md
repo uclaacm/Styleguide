@@ -21,4 +21,4 @@ All these resources are for all UCLA ACM designers and officers to use. Any reso
 can be downloaded by clicking on the item inside it. Download links to all the assets are also available.
 
 ### Special Thanks ###
-This rebranding was put together by Paulina Lei, Rong Zhang, Bryan Wong, and Justin Liu. We'll be posting a write-up about our journey soon!
+This rebranding was put together by <a href="http://www.paulinalei.com/">Paulina Lei</a>, <a href="https://rongzhang.myportfolio.com">Rong Zhang</a>, <a href="http://wongbryan.design/">Bryan Wong</a>, and <a href="https://justin-liu.me/">Justin Liu</a>. We'll be posting a write-up about our journey soon!
