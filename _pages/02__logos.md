@@ -15,6 +15,7 @@ An exception to this would be when using them in conjunction with each other, or
 {% include button.html file="allmarks.zip" filename="all-logos" content="Download all logomarks and wordmarks" %}
 
 ## Logomarks ##
+Our logomark takes inspiration from ACM's official diamond-shaped logo. Each has an icon representing each committee's topic of focus.
 {% include assetbox.html title="UCLA ACM logomark" file="logos/acm-logo.png" %}
 {% include assetbox.html title="ACM-W logomark" file="logos/w-logo.png" %}
 {% include assetbox.html title="ACM Hack logomark" file="logos/hack-logo.png" %}
