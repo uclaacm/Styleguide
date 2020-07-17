@@ -19,7 +19,7 @@ css_links: ['/css/master.css']
         <title>UCLA ACM | {{ title }}</title>
 
         {% for ref in css_links %}
-        <link rel="stylesheet" href="{{ ref }}">
+        <link rel="stylesheet" href="{{ ref | prepend: site.baseurl}}">
         {% endfor %}
 
         <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
