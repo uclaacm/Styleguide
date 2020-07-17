@@ -1,0 +1,23 @@
+---
+title: Branding Guideline
+desc: "Official branding guideline for UCLA ACM and all of its committees"
+css_links: ['/css/master.css']
+---
+<!DOCTYPE HTML>
+    <head>
+        <meta charset="utf-8">
+        <title>UCLA ACM | {{ title }}</title>
+        <meta name="description" content="{{ desc }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {% for ref in css_links %}
+        <link rel="stylesheet" href="{{ ref }}">
+        {% endfor %}
+       
+    </head>
+    <body>
+    
+        {{ content | safe }}
+    
+    </body>
+
+</html>

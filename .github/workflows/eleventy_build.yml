@@ -1,0 +1,21 @@
+name: Eleventy Build
+on: 
+    push:
+        branches: 
+            - release
+
+jobs:
+    build_deploy:
+        runs-on: ubuntu-18.04
+        steps:
+            - uses: actions/checkout@master
+            - name: Build 
+              uses: TartanLlama/actions-eleventy@v1.2
+              with:
+                install_dependencies: true
+            - name: Deploy 
+              uses: peaceiris/actions-gh-pages@v1.1.0 
+              with:
+                github_token: ${{ secrets.GITHUB_TOKEN }}
+                publish_branch: master 
+               

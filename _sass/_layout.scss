@@ -108,8 +108,16 @@ footer {
   color: $primary-studio;
 }
 
-.active-netsec {
-  color: $primary-netsec;
+.active-cyber {
+  color: $primary-cyber;
+}
+
+.active-design {
+  color: $primary-design;
+}
+
+.active-teachla {
+  color: $primary-teachla;
 }
 
 .content {
@@ -284,4 +292,14 @@ footer {
       text-transform: uppercase;
     }
   }
+}
+
+// tablet
+@media only screen and (max-width: 1000px){
+
+}
+
+//mobile
+@media only screen and (max-width: 400px){
+
 }

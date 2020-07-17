@@ -1,16 +1,45 @@
-<!DOCTYPE html>
+---
+title: Branding Guideline
+desc: "Official branding guideline for UCLA ACM and all of its committees"
+css_links: ['/css/master.css']
+---
+
+{%- assign $title = title -%}
+{%- if renderData.title -%}
+  {%- assign $title = renderData.title -%}
+{%- endif -%}
+
+<!DOCTYPE HTML>
 <html>
-{% include head.html %}
-<body>
-  {% include header.html %}
-  <div class="page-header">
-    {% if page.title %}{{ page.title }}{% endif %}
-  </div>
-  <div class="content">
-    <div class="content-body">
-      {{ content }}
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="{{ desc }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>UCLA ACM | {{ title }}</title>
+
+        {% for ref in css_links %}
+        <link rel="stylesheet" href="{{ ref }}">
+        {% endfor %}
+
+        <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+        <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css?family=Chivo:300,400,700,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+        <link rel="shortcut icon" type="image/png" href="{{ site.baseurl}}/assets/favicon.png" />
+       
+    </head>
+    <body>
+    {% include "header.html" %}
+    <div class="page-header">
+      {% if title %}{{ title }}{% endif %}
     </div>
-    {% include footer.html %}
-  </div>
-</body>
+    <div class="content">
+      <div class="content-body">
+        {{ content | safe }}
+      </div>
+      {% include "footer.html" %}
+    </div>
+    </body>
 </html>
