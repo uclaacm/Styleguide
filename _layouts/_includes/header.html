@@ -1,0 +1,29 @@
+<nav class="navigation">
+    <div class="navigation-home">
+        <a href="{{ site.baseurl }}/"><h2><span>ACM</span> Design</h2></a>
+    </div>
+    <ul>
+    {% for node in collections.nav %}
+        
+        {% if page.url == node.url %}
+            <li><a href="{{{{ node.url | prepend: site.baseurl }}" class="active">{{ node.data.title }}</a></li>
+        {% else %}
+            <li><a href="{{{{ node.url | prepend: site.baseurl }}" class="not-active">{{ node.data.title }}</a></li>
+        {% endif %}
+
+        {% if node.data.title == "Committees" %}
+
+            <ul class="navigation-committee">
+            {% for committee in committees %}
+            <script>console.log("{{ committee.filename }}")</script>
+                {% if page.url contains committee.filename %}
+                    <li><a href="/committees/{{ committee.filename }}/" class="active-{{ committee.title | downcase}}">{{ committee.title }}</a></li>
+                {% else %}
+                    <li><a href="/committees/{{ committee.filename }}/"  class="not-active">{{ committee.title }}</a></li>
+                {% endif %}
+            {% endfor %}
+            </ul>
+        {% endif %}
+    {% endfor %}
+    </ul>
+</nav>

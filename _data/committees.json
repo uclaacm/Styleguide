@@ -1,0 +1,226 @@
+[
+    {
+        "title": "W",
+        "filename": "w",
+        "tagline": "Starting Conversations About Diversity in Tech",
+        "hex": "1BC3A9",
+        "colors": [
+            {
+                "name": "W Teal",
+                "hex": "#1BC3A9",
+                "rgb": "(27, 195, 169)"
+            },
+            {
+                "name": "W Tint",
+                "hex": "#80D3C6",
+                "rgb": "(128, 211, 198)"
+            },
+            {
+                "name": "W Black",
+                "hex": "#233431",
+                "rgb": "(35, 52, 49)"
+            },
+            {
+                "name": "W Secondary",
+                "hex": "#3B59ED",
+                "rgb": "(59, 89, 237)"
+            }
+        ]
+    },
+    {
+        "title": "Hack",
+        "filename": "hack",
+        "tagline": "Move Fast, Build Things",
+        "hex": "C960FF",
+        "colors": [
+            {
+                "name": "Hack Purple",
+                "hex": "#C960FF",
+                "rgb": "(201, 96, 255)"
+            },
+            {
+                "name": "Hack Tint",
+                "hex": "#DB99FD",
+                "rgb": "(219, 153, 253)"
+            },
+            {
+                "name": "Hack Black",
+                "hex": "#352A3A",
+                "rgb": "(53, 42, 58)"
+            },
+            {
+                "name": "Hack Secondary",
+                "hex": "#ED3266",
+                "rgb": "(237, 50, 102)"
+            }
+        ]
+    },
+    {
+        "title": "ICPC",
+        "filename": "icpc",
+        "tagline": "Mastering Algorithms and Competitive Programming",
+        "hex": "FF6B6B",
+        "colors": [
+            {
+                "name": "ICPC Tangerine",
+                "hex": "#FF6B6B",
+                "rgb": "(255, 107, 107)"
+            },
+            {
+                "name": "ICPC Tint",
+                "hex": "#EEAEAE",
+                "rgb": "(238, 174, 174)"
+            },
+            {
+                "name": "ICPC Black",
+                "hex": "#3A2B2B",
+                "rgb": "(58, 43, 43)"
+            },
+            {
+                "name": "ICPC Secondary",
+                "hex": "#1BC3A9",
+                "rgb": "(27, 195, 169)"
+            }
+        ]
+    },
+    {
+        "title": "AI",
+        "filename": "ai",
+        "tagline": "Learning Machine Learning",
+        "hex": "1EBDF4",
+        "colors": [
+            {
+                "name": "AI Arctic",
+                "hex": "#1EBDF4",
+                "rgb": "(30, 189, 244)"
+            },
+            {
+                "name": "AI Tint",
+                "hex": "#94D8F0",
+                "rgb": "(148, 216, 240)"
+            },
+            {
+                "name": "AI Black",
+                "hex": "#233339",
+                "rgb": "(35, 51, 57)"
+            },
+            {
+                "name": "AI Secondary",
+                "hex": "#C960FF",
+                "rgb": "(201, 96, 255)"
+            }
+        ]
+    },
+    {
+        "title": "Studio",
+        "filename": "studio",
+        "tagline": "Creative Expression through Games and VR",
+        "hex": "ED3266",
+        "colors": [
+            {
+                "name": "Studio Raspberry",
+                "hex": "#ED3266",
+                "rgb": "(237, 50, 102)"
+            },
+            {
+                "name": "Studio Tint",
+                "hex": "#F09FB0",
+                "rgb": "(240, 159, 176)"
+            },
+            {
+                "name": "Studio Black",
+                "hex": "#3A2B2B",
+                "rgb": "(58, 43, 43)"
+            },
+            {
+                "name": "Studio Secondary",
+                "hex": "#FF6B6B",
+                "rgb": "(255, 107, 107)"
+            }
+        ]
+    },
+    {
+        "title": "Cyber",
+        "filename": "cyber",
+        "tagline": "Cybersecurity Made Simple",
+        "hex": "FFBA44",
+        "colors": [
+            {
+                "name": "Cyber Amber",
+                "hex": "#FFBA44",
+                "rgb": "(255, 186, 68)"
+            },
+            {
+                "name": "Cyber Tint",
+                "hex": "#EDCD98",
+                "rgb": "(237, 205, 152)"
+            },
+            {
+                "name": "Cyber Black",
+                "hex": "#3A3327",
+                "rgb": "(58, 51, 39)"
+            },
+            {
+                "name": "Cyber Secondary",
+                "hex": "#1EBDF4",
+                "rgb": "(30, 189, 244)"
+            }
+        ]
+    },
+    {
+        "title": "Design",
+        "filename": "design",
+        "tagline": "Form Follows Function",
+        "hex": "FE823C",
+        "colors": [
+            {
+                "name": "Design Amber",
+                "hex": "#FE823C",
+                "rgb": "(254, 130, 60)"
+            },
+            {
+                "name": "Design Tint",
+                "hex": "#FFBC96",
+                "rgb": "(255, 188, 150)"
+            },
+            {
+                "name": "Design Black",
+                "hex": "#372B25",
+                "rgb": "(55, 43, 37)"
+            },
+            {
+                "name": "Design Secondary",
+                "hex": "#A1D900",
+                "rgb": "(161, 217, 0)"
+            }
+        ]
+    },
+    {
+        "title": "TeachLA",
+        "filename": "teachla",
+        "tagline": "Make Coding Accessible",
+        "hex": "A1D900",
+        "colors": [
+            {
+                "name": "TeachLA Lime",
+                "hex": "#A1D900",
+                "rgb": "(161, 217, 0)"
+            },
+            {
+                "name": "TeachLA Tint",
+                "hex": "#C6DC85",
+                "rgb": "(198, 220, 133)"
+            },
+            {
+                "name": "TeachLA Black",
+                "hex": "#2C3022",
+                "rgb": "(44, 48, 34)"
+            },
+            {
+                "name": "TeachLA Secondary",
+                "hex": "#FE823C",
+                "rgb": "(254, 130, 60)"
+            }
+        ]
+    }
+]
