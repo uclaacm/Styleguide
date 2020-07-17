@@ -8,7 +8,7 @@ jobs:
     build_deploy:
         runs-on: ubuntu-18.04
         steps:
-            - uses: actions/checkout@master
+            - uses: actions/checkout@gh-pages
             - name: Build 
               uses: TartanLlama/actions-eleventy@v1.2
               with:
@@ -17,5 +17,5 @@ jobs:
               uses: peaceiris/actions-gh-pages@v1.1.0 
               with:
                 github_token: ${{ secrets.GITHUB_TOKEN }}
-                publish_branch: master 
+                publish_branch: gh-pages
                
