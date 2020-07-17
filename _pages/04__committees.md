@@ -10,10 +10,10 @@ The eight committees that make up ACM—W, Hack, ICPC, AI, Studio, Cyber, Design
 
 {% for committee in committees %}
 <div class="committee-container">
-    <a href="/committees/{{ committee.filename }}/"><div class="committee-logo">
+    <a href="{{ site.baseurl }}/committees/{{ committee.filename }}/"><div class="committee-logo">
         <img src="{{ site.baseurl }}/assets/logos/{{ committee.filename }}-logo.png">
     </div></a>
-    <a href="{{ committee.filename }}/"><div class="committee-description">
+    <a href="{{ committee.filename | prepend: site.baseurl}}/"><div class="committee-description">
         <h1> ACM <span style="color: #{{ committee.hex }}; font-weight:400">{{ committee.title }}</span></h1>
         <p> {{ committee.tagline }} </p>
     </div></a>
