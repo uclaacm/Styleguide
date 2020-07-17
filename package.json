@@ -1,0 +1,26 @@
+{
+  "name": "design-guideline",
+  "version": "1.0.0",
+  "description": "Branding guidelines for UCLA ACM",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp sass; eleventy",
+    "serve": "gulp watch & eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uclaacm/design-guideline.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "markdown-it": "^10.0.0",
+    "markdown-it-attrs": "^3.0.2"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "sass": "^1.26.3"
+  }
+}
