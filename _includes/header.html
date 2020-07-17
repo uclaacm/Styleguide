@@ -17,9 +17,9 @@
             {% for committee in committees %}
             <script>console.log("{{ committee.filename }}")</script>
                 {% if page.url contains committee.filename %}
-                    <li><a href="/committees/{{ committee.filename }}/" class="active-{{ committee.title | downcase}}">{{ committee.title }}</a></li>
+                    <li><a href="{{ site.baseurl }}/committees/{{ committee.filename }}/" class="active-{{ committee.title | downcase}}">{{ committee.title }}</a></li>
                 {% else %}
-                    <li><a href="/committees/{{ committee.filename }}/"  class="not-active">{{ committee.title }}</a></li>
+                    <li><a href="{{ site.baseurl }}/committees/{{ committee.filename }}/"  class="not-active">{{ committee.title }}</a></li>
                 {% endif %}
             {% endfor %}
             </ul>
