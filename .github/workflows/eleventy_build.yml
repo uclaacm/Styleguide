@@ -16,8 +16,8 @@ jobs:
               uses: actions/setup-node@v1
               with:
                 node-version: ${{ matrix.node-version }}
-            - run: npm install sass
-            - run: npm run sass /_sass -o /css
+            - run: npm install -g sass
+            - run: sass /_sass -o /css
             - name: Build 
               uses: TartanLlama/actions-eleventy@v1.2
               with:
