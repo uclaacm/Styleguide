@@ -1,15 +1,13 @@
 *, *::before, *::after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body {
   margin: 0;
   font-family: "Chivo", sans-serif;
   width: 100vw;
-  height: 100vh;
-}
+  height: 100vh; }
 
 footer {
   height: 70px;
@@ -74,16 +72,13 @@ footer p {
 }
 
 .navigation-committee {
-  left: 50px;
-}
+  left: 50px; }
 
 .active {
-  color: #3B59ED;
-}
+  color: #3B59ED; }
 
 .not-active {
-  color: white;
-}
+  color: white; }
 
 .page-header {
   position: fixed;
@@ -97,36 +92,31 @@ footer p {
   background-color: white;
   border-bottom: 2px solid #DADADA;
   box-sizing: border-box;
-  text-align: center;
-}
+  text-align: center; }
 
 .active-hack {
-  color: #C960FF;
-}
+  color: #C960FF; }
 
 .active-w {
-  color: #1BC3A9;
-}
+  color: #1BC3A9; }
 
 .active-ai {
-  color: #1EBDF4;
-}
+  color: #1EBDF4; }
 
 .active-icpc {
-  color: #FF6B6B;
-}
+  color: #FF6B6B; }
 
 .active-studio {
-  color: #FB4469;
-}
+  color: #FB4469; }
 
 .active-cyber {
-  color: #FFBA44;
-}
+  color: #FFBA44; }
 
 .active-design {
-  color: #FE823C;
-}
+  color: #FE823C; }
+
+.active-teachla {
+  color: #A1D900; }
 
 .active-teachla {
   color: #A1D900;
@@ -134,8 +124,7 @@ footer p {
 
 .content {
   margin-left: 250px;
-  width: auto;
-}
+  width: auto; }
 
 .content-body {
   padding: 150px 20% 50px;

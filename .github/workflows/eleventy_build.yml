@@ -7,8 +7,21 @@ on:
 jobs:
     build_deploy:
         runs-on: ubuntu-18.04
+        strategy:
+            matrix:
+                node-version: [12.x]
         steps:
             - uses: actions/checkout@master
+            - name: Use Node.js ${{ matrix.node-version }}
+              uses: actions/setup-node@v1
+              with:
+                node-version: ${{ matrix.node-version }}
+            - run: npm install -g sass
+            
+            - run: rm -r css
+        
+            - run: sass _sass:css
+        
             - name: Build 
               uses: TartanLlama/actions-eleventy@v1.2
               with:
