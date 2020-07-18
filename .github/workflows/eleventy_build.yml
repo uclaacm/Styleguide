@@ -20,7 +20,7 @@ jobs:
             
             - run: rm -r css
         
-            - run: sass _sass css
+            - run: sass _sass:css
         
             - name: Build 
               uses: TartanLlama/actions-eleventy@v1.2
