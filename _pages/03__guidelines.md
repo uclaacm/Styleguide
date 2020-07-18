@@ -32,7 +32,7 @@ Our logomark takes inspiration from ACM's official diamond-shaped logo. Each has
 ### Suggested Usage for logomarks ###
 Use logomarks when you are limited in the space you're given to insert branding. (Ex: Laptop Sticker)
 
-{% include "button.html", file: "logomarks.zip", filename: "logomarks", content: "Download all logomarks" %}
+{% include "button.html", file: "_Logomarks.zip", filename: "logomarks", content: "Download all logomarks" %}
 
 ## Wordmarks ##
 
@@ -49,7 +49,7 @@ Use logomarks when you are limited in the space you're given to insert branding.
 ### Suggested Usage for wordmarks ###
 Try to use wordmarks in conjunction with the logomarks. If this isn't possible, make sure the sizing of the wordmark clearly establishes the committee as the group of ownership.
 
-{% include "button.html", file: "wordmarks.zip", filename: "wordmarks", content: "Download all wordmarks" %}
+{% include "button.html", file: "_Wordmarks.zip", filename: "wordmarks", content: "Download all wordmarks" %}
 
 
 # Colors #
