@@ -28,11 +28,12 @@ Our logomark takes inspiration from ACM's official diamond-shaped logo. Each has
 {% include "assetbox.html", title: "ACM Studio logomark", file: "logos/studio-logo.png" %}
 {% include "assetbox.html", title: "ACM Cyber logomark", file: "logos/cyber-logo.png" %}
 {% include "assetbox.html", title: "ACM Design logomark", file: "logos/design-logo.png" %}
+{% include "assetbox.html", title: "ACM TeachLA logomark", file: "logos/teachla-logo.png" %}
 
 ### Suggested Usage for logomarks ###
 Use logomarks when you are limited in the space you're given to insert branding. (Ex: Laptop Sticker)
 
-{% include "button.html", file: "logomarks.zip", filename: "logomarks", content: "Download all logomarks" %}
+{% include "button.html", file: "_Logomarks.zip", filename: "logomarks", content: "Download all logomarks" %}
 
 ## Wordmarks ##
 
@@ -44,12 +45,12 @@ Use logomarks when you are limited in the space you're given to insert branding.
 {% include "assetbox.html", title: "ACM Studio wordmark", file: "logos/studio-wordmark-darkcolor.png" %}
 {% include "assetbox.html", title: "ACM Cyber wordmark", file: "logos/cyber-wordmark-darkcolor.png" %}
 {% include "assetbox.html", title: "ACM Design wordmark", file: "logos/design-wordmark-darkcolor.png" %}
-
+{% include "assetbox.html", title: "ACM TeachLA wordmark", file: "logos/teachla-wordmark-darkcolor.png" %}
 
 ### Suggested Usage for wordmarks ###
 Try to use wordmarks in conjunction with the logomarks. If this isn't possible, make sure the sizing of the wordmark clearly establishes the committee as the group of ownership.
 
-{% include "button.html", file: "wordmarks.zip", filename: "wordmarks", content: "Download all wordmarks" %}
+{% include "button.html", file: "_Wordmarks.zip", filename: "wordmarks", content: "Download all wordmarks" %}
 
 
 # Colors #
@@ -64,7 +65,9 @@ These are the main differentiating components between committees. They make up e
 {% include "colorswatch.html", name: "AI Arctic", hex: "#1EBDF4", rgb: "(30, 189, 244)" %}
 {% include "colorswatch.html", name: "Studio Raspberry", hex: "#ED3266", rgb: "(237, 50, 102)" %}
 {% include "colorswatch.html", name: "Cyber Amber", hex: "#FFBA44", rgb: "(255, 186, 68)" %}
-{% include "colorswatch.html", name: "Design Amber", hex: "#FE823C", rgb: "(254, 130, 60)" %}
+{% include "colorswatch.html", name: "Design Papaya", hex: "#FE823C", rgb: "(254, 130, 60)" %}
+{% include "colorswatch.html", name: "TeachLA Lime", hex: "#A1D900", rgb: "(161, 217, 0)" %}
+
 
 ## Light Primary Colors ##
 Use these where you would like to have committee branding, without as much emphasis.
@@ -76,6 +79,8 @@ Use these where you would like to have committee branding, without as much empha
 {% include "colorswatch.html", name: "Studio Tint", hex: "#F09FB0", rgb: "(240, 159, 176)" %}
 {% include "colorswatch.html", name: "Cyber Tint", hex: "#EDCD98", rgb: "(237, 205, 152)" %}
 {% include "colorswatch.html", name: "Design Tint", hex: "#FFBC96", rgb: "(255, 188, 150)" %}
+{% include "colorswatch.html", name: "TeachLA Tint", hex: "#C6DC85", rgb: "(198, 220, 133)" %}
+
 
 ## Dark Primary Colors ##
 Use these shades in situations where you would normally use black.
@@ -87,6 +92,7 @@ Use these shades in situations where you would normally use black.
 {% include "colorswatch.html", name: "Studio Black", hex: "#39272B", rgb: "(57, 39, 43)" %}
 {% include "colorswatch.html", name: "Cyber Black", hex: "#3A3327", rgb: "(58, 51, 39)" %}
 {% include "colorswatch.html", name: "Design Black", hex: "#372B25", rgb: "(55, 43, 37)" %}
+{% include "colorswatch.html", name: "TeachLA Black", hex: "#2C3022", rgb: "(44, 48, 34)" %}
 
 ## Secondary Colors ##
 Each committee's secondary color is one of the other committee's primary color (ex. Hack's secondary is Studio's Raspberry). 
@@ -98,6 +104,7 @@ Each committee's secondary color is one of the other committee's primary color (
 {% include "colorswatch.html", name: "Studio Secondary", hex: "#FF6B6B", rgb: "(255, 107, 107)" %}
 {% include "colorswatch.html", name: "Cyber Secondary", hex: "#1EBDF4", rgb: "(30, 189, 244)" %}
 {% include "colorswatch.html", name: "Design Secondary", hex: "#A1D900", rgb: "(161, 217, 0)" %}
+{% include "colorswatch.html", name: "TeachLA Secondary", hex: "#FE823C", rgb: "(254, 130, 60)" %}
 
 ## Supplementary Colors ##
 These colors are always available to use, regardless of committee. When normally using pure black (#000000), opt for the black below instead.
