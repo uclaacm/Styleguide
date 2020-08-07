@@ -22,77 +22,89 @@ footer p {
   margin: 0;
 }
 
+.openbtn {
+  visibility: hidden; }
+
 .navigation {
-  width: 250px;
-  height: 100vh;
+  width: 100%;
+  height: 90px;
   position: fixed;
   background-color: #242424;
-}
+  /* hide close button for mobile version (while in desktop mode) */
+  /* About, Guidelines, Committees links */ }
+  .navigation .closebtn {
+    visibility: hidden; }
+  .navigation .topbarLinks {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 30px 20px 30px 30px;
+    font-weight: 700;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+    /* the dropdown mechanism for Committees */ }
+    .navigation .topbarLinks a {
+      margin: 0 15px 0 15px;
+      text-decoration: none; }
+      .navigation .topbarLinks a:hover {
+        opacity: 0.7; }
+    .navigation .topbarLinks .navigation-committee {
+      position: relative;
+      display: inline-block;
+      /* dropdown button itself (a.k.a Committees button) */
+      /* the individual committee buttons when dropped down */ }
+      .navigation .topbarLinks .navigation-committee .dropbtn {
+        margin-right: 30px;
+        color: #f2f2f2;
+        background-color: #242424;
+        font-size: 17px;
+        font-family: inherit;
+        font-weight: inherit;
+        border: none;
+        cursor: pointer; }
+        .navigation .topbarLinks .navigation-committee .dropbtn:hover {
+          opacity: 0.7; }
+      .navigation .topbarLinks .navigation-committee .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #242424;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        /* individual links */ }
+        .navigation .topbarLinks .navigation-committee .dropdown-content a {
+          padding: 16px 16px;
+          text-decoration: none;
+          font-weight: 600;
+          text-align: left;
+          display: block; }
+          .navigation .topbarLinks .navigation-committee .dropdown-content a:hover {
+            opacity: 0.7; }
+      .navigation .topbarLinks .navigation-committee:hover .dropdown-content {
+        display: block; }
 
-.navigation ul {
-  padding: 0 0 0 30px;
-  line-height: 50px;
-  list-style-type: none;
-  font-weight: 700;
-  font-size: 20px;
-}
-
-.navigation ul a {
-  text-decoration: none;
-}
-
-.navigation ul a:hover {
-  opacity: 0.7;
-}
-
-.navigation ul li {
-  font-family: "Poppins", sans-serif;
-}
-
+/* the "ACM Design" that takes you to landing page */
 .navigation-home {
-  font-family: "Poppins", sans-serif;
-  background-color: #2E2E2E;
-}
-
-.navigation-home a {
-  text-decoration: none;
-}
-
-.navigation-home a h2 {
-  line-height: 60px;
-  color: #3B59ED;
-  font-weight: 500;
-  margin: 0;
-  padding: 10px 0px 10px 30px;
-}
-
-.navigation-home a span {
-  color: white;
-  font-weight: 700;
-}
-
-.navigation-committee {
-  left: 50px; }
+  float: left;
+  font-family: "Poppins", sans-serif; }
+  .navigation-home a {
+    text-decoration: none; }
+    .navigation-home a h2 {
+      line-height: 60px;
+      color: #3B59ED;
+      font-weight: 500;
+      margin: 0;
+      padding: 14px 15px 30px 50px; }
+    .navigation-home a span {
+      color: white;
+      font-weight: 700; }
 
 .active {
   color: #3B59ED; }
 
 .not-active {
   color: white; }
-
-.page-header {
-  position: fixed;
-  left: 250px;
-  width: 100%;
-  margin: 0;
-  padding: 10px 250px 10px 0px;
-  line-height: 60px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  background-color: white;
-  border-bottom: 2px solid #DADADA;
-  box-sizing: border-box;
-  text-align: center; }
 
 .active-hack {
   color: #C960FF; }
@@ -123,7 +135,6 @@ footer p {
 }
 
 .content {
-  margin-left: 250px;
   width: auto; }
 
 .content-body {
@@ -188,6 +199,7 @@ footer p {
 
 .committee-container {
   display: inline-block;
+  block-size: auto;
   vertical-align: top;
   font-size: 12px;
   width: 25em;
@@ -302,24 +314,84 @@ footer p {
   margin-left: -30px;
   padding-left: 20px;
   padding-bottom: 20px;
-  background-color: #DADADA;
-}
+  background-color: #DADADA; }
+  .type-container h1 {
+    font-size: 3em;
+    margin-top: 0;
+    line-height: 2em;
+    font-family: inherit; }
+  .type-container p {
+    margin: 0;
+    font-size: 1.2em; }
+    .type-container p.type-upper {
+      text-transform: uppercase; }
 
-.type-container h1 {
-  font-size: 3em;
-  margin-top: 0;
-  line-height: 2em;
-  font-family: inherit;
-}
-
-.type-container p {
-  margin: 0;
-  font-size: 1.2em;
-}
-
-.type-container p.type-upper {
-  text-transform: uppercase;
-}
+@media only screen and (max-width: 700px) {
+  .navigation {
+    background-color: #242424;
+    height: 100%;
+    /* Specify a height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 2;
+    /* Stay on top */
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.35s;
+    /* 0.5 second transition effect to slide in the sidepanel */ }
+    .navigation .topbarLinks a {
+      margin: 10px 20px 10px 8px; }
+    .navigation .topbarLinks .navigation-committee .dropbtn {
+      margin: 0 20px 0 8px; }
+    .navigation .closebtn {
+      text-decoration: none;
+      opacity: 0.7;
+      color: white;
+      visibility: visible;
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px; }
+  .openbtn {
+    visibility: visible;
+    z-index: 1;
+    font-size: 20px;
+    position: fixed;
+    float: right;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    padding: 18px 25px;
+    border: none; }
+  .openbtn:hover {
+    background-color: #dfdfdf; }
+  .content {
+    margin-left: 0px; }
+  .content-body {
+    padding: 150px 15% 50px;
+    font-size: 18px; }
+  .page-header {
+    text-align: center;
+    position: fixed;
+    left: 0px;
+    width: 100%;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    line-height: 65px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    background-color: white;
+    border-bottom: 2px solid #DADADA;
+    box-sizing: border-box; }
+  .committee-container.committee-title {
+    font-size: 3vw; } }
 
 /**
  * Syntax highlighting styles
