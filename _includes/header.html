@@ -9,9 +9,9 @@
         {% if node.data.title == "Committees" %}
             <div class="navigation-committee">
                 {% if page.url == node.url %}
-                    <a class="dropbtn" href="{{{{ node.url | prepend: site.baseurl }}" class="active">{{ node.data.title }}</a>
+                    <div class ="dropbtn"><a href="{{{{ node.url | prepend: site.baseurl }}" class="active">{{ node.data.title }}</a></div>
                 {% else %}
-                    <a class="dropbtn" href="{{{{ node.url | prepend: site.baseurl }}" class="not-active">{{ node.data.title }}</a>
+                <div class ="dropbtn"><a href="{{{{ node.url | prepend: site.baseurl }}" class="not-active">{{ node.data.title }}</a></div>
                 {% endif %}
                 <div id="dropdown" class="dropdown-content">
                     {% for committee in committees %}
