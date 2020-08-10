@@ -196,28 +196,28 @@
         ]
     },
     {
-        "title": "TeachLA",
+        "title": "Teach LA",
         "filename": "teachla",
         "tagline": "Make Coding Accessible",
         "hex": "A1D900",
         "colors": [
             {
-                "name": "TeachLA Lime",
+                "name": "Teach LA Lime",
                 "hex": "#A1D900",
                 "rgb": "(161, 217, 0)"
             },
             {
-                "name": "TeachLA Tint",
+                "name": "Teach LA Tint",
                 "hex": "#C6DC85",
                 "rgb": "(198, 220, 133)"
             },
             {
-                "name": "TeachLA Black",
+                "name": "Teach LA Black",
                 "hex": "#2C3022",
                 "rgb": "(44, 48, 34)"
             },
             {
-                "name": "TeachLA Secondary",
+                "name": "Teach LA Secondary",
                 "hex": "#FE823C",
                 "rgb": "(254, 130, 60)"
             }
