@@ -23,6 +23,8 @@ module.exports = function (eleventyConfig) {
         ]
     });
 
+    eleventyConfig.addPassthroughCopy("CNAME");
+
     let md_it = require("markdown-it");
     var md_attr = require("markdown-it-attrs");
 
