@@ -3,7 +3,7 @@
     "email": "uclaacm@gmail.com",
     "description": "UCLA ACM Design's site for publishing.",
     "url": "",
-    "baseurl": "/Styleguide",
+    "baseurl": "",
     "og_locale": "en_US",
     "twitter_username": "uclaacm",
     "github_username": "uclaacm"
