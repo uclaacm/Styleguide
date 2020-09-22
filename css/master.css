@@ -205,21 +205,24 @@ footer {
   display: inline-block;
   vertical-align: top;
   background-color: #F5F5F5;
-  width: 160px;
+  width: 180px;
   font-size: 0.75em;
   margin: 10px 5px 0 0;
   border-radius: 5px; }
   .dl-container .dl-title {
-    padding-left: 40px;
-    padding-right: 70px;
+    padding-left: 20px;
+    padding-right: 40px;
     padding-top: 35px;
     padding-bottom: 35px;
     background-color: white;
     color: #2E2E2E;
     border-radius: 0px 0px 5px 5px;
-    border: 0.5px solid #CFCFCF; }
+    border: 0.5px solid #CFCFCF;
+    height: 80px; }
   .dl-container .dl-content {
     padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     border-radius: 5px 5px 0px 0px;
     min-height: 70px;
     border: 0.5405px solid #CFCFCF; }
