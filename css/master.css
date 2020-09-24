@@ -46,11 +46,10 @@ footer {
   color: #A1D900; }
 
 .content {
-  margin-left: 250px;
   width: auto; }
 
 .content-body {
-  padding: 150px 20% 50px;
+  padding: 150px 15% 50px;
   font-size: 20px;
   color: #242424; }
   .content-body h1, .content-body h2, .content-body h3 {
@@ -328,7 +327,8 @@ footer {
   width: 100%;
   height: 90px;
   position: fixed;
-  background-color: white; }
+  background-color: white;
+  /* The 'About' and 'Guidelines' links -- 'Committees' is separate due to dropdown menu */ }
   .navigation .links {
     display: block;
     float: right;
@@ -339,22 +339,17 @@ footer {
     line-height: 27px;
     letter-spacing: 0em;
     text-align: center;
-    padding: 30px 12vw 30px 30px; }
+    padding: 30px 12.5% 30px 30px; }
     .navigation .links a {
-      padding: 0 0 0 5vw;
+      padding: 0 2.5vw 0;
       text-decoration: none; }
       .navigation .links a:hover {
         opacity: 0.7; }
-    .navigation .links li {
-      font-family: "Poppins", sans-serif; }
 
+/* 'acm at UCLA' logo */
 .navigation-home {
   float: left;
-  font-family: "Poppins", sans-serif;
-  padding: 30px 30px 30px 12vw; }
-
-.navigation-committee {
-  left: 50px; }
+  padding: 30px 30px 30px 15%; }
 
 .active {
   color: #3B59ED; }

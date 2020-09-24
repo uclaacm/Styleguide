@@ -11,7 +11,7 @@
             <a href="{{{{ node.url | prepend: site.baseurl }}" class="not-active">{{ node.data.title }}</a>
         {% endif %}
 
-        {% if node.data.title == "Committees" %}
+        <!-- {% if node.data.title == "Committees" %}
 
             <ul class="navigation-committee">
             {% for committee in committees %}
@@ -23,7 +23,7 @@
                 {% endif %}
             {% endfor %}
             </ul>
-        {% endif %}
+        {% endif %} -->
     {% endfor %}
     </div>
 </nav>
