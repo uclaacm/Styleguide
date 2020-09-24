@@ -3,6 +3,7 @@
   height: 90px;
   position: fixed;
   background-color: white;
+  display: table;
 
   /* The 'About' and 'Guidelines' links -- 'Committees' is separate due to dropdown menu */
   .links {
@@ -13,12 +14,12 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
-    line-height: 27px;
     letter-spacing: 0em;
     text-align: center;
     
     padding: 30px 12.5% 30px 30px;
     a {
+        vertical-align: middle;
         padding: 0 2.5vw 0; 
         text-decoration: none;
         &:hover {
@@ -32,6 +33,7 @@
 .navigation-committee {
   position: relative;
   display: inline-block;
+  vertical-align: middle;
 
   .dropbtn {
     font-family: inherit;
@@ -64,8 +66,10 @@
 
 /* 'acm at UCLA' logo */
 .navigation-home {
+  // display: table-cell;
+  // vertical-align: middle;
   float: left;
-  padding: 30px 30px 30px 15%;
+  padding: 25px 0 15px 15%;
 }
 
 .active {
