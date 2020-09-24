@@ -1,4 +1,13 @@
 <footer class="active-{{ committee.filename | downcase}}-bg">
-  <a href="/">{% include 'facebook-logo.svg' %}</a>
-  <p>Made and maintained with love by UCLA ACM Design &copy; 2020</p>
+  <div class="socials">
+    <!-- to be replaced by actual links and different logos -->
+      <a href="/">{% include 'facebook-logo.svg' %}</a>
+      <a href="/">{% include 'facebook-logo.svg' %}</a>
+      <a href="/">{% include 'facebook-logo.svg' %}</a>
+      <a href="/">{% include 'facebook-logo.svg' %}</a>
+    <div class="vl"></div>
+    <p>email@uclaacm.com</p>
+  </div>
+  <p>ACM at UCLA acm.{{ committee.filename }} &copy</p>
+  <img src="{{ site.baseurl }}/assets/logos/design-logo-white.png" class="logo">
 </footer>

@@ -411,9 +411,30 @@ body {
 
 footer {
   height: 220px;
-  padding-top: 20px;
+  width: 100vw;
   font-family: "Palanquin Dark", sans-serif;
-  color: black;
+  color: white;
   text-align: center; }
+  footer .socials {
+    float: left; }
+    footer .socials a {
+      vertical-align: middle;
+      padding-right: 10px;
+      display: inline;
+      text-decoration: none; }
+    footer .socials .vl {
+      vertical-align: middle;
+      display: inline;
+      border-left: 1px solid white; }
   footer p {
-    margin: 0; }
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 176.68%; }
+  footer .logo {
+    display: block;
+    margin-right: 15%;
+    float: right;
+    height: 70px;
+    width: 70px; }
