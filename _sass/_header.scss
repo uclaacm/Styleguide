@@ -28,6 +28,40 @@
   }
 }
 
+/* 'Committees' link */ 
+.navigation-committee {
+  position: relative;
+  display: inline-block;
+
+  .dropbtn {
+    font-family: inherit;
+    font-weight: inherit;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* the individual committee buttons when dropped down */
+  .dropdown-content {
+    display: none; // hidden by default -- shown only when hovering
+    position: absolute;
+    background-color: #242424;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    /* individual links */
+    a {
+      padding: 16px 16px;
+      text-decoration: none;
+      text-align: left;
+      display: block;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+  &:hover .dropdown-content {display: block;}
+}
+
 /* 'acm at UCLA' logo */
 .navigation-home {
   float: left;
@@ -40,4 +74,8 @@
 
 .not-active {
   color: #3A3A3A;
+}
+
+.committee-not-active {
+  color: white;
 }
