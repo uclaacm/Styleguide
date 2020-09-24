@@ -1,57 +1,29 @@
-<nav id="navBar" class="navigation">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<nav class="navigation">
     <div class="navigation-home">
-        <a href="{{ site.baseurl }}/"><h2><span>ACM</span> Design</h2></a>
+        <a href="{{ site.baseurl }}/">{% include 'ucla-acm-logo.svg' %}</a>
     </div>
-    <div class="topbarLinks">
+    <div class="links">
     {% for node in collections.nav %}
-    
-        {% if node.data.title == "Committees" %}
-            <div class="navigation-committee">
-                {% if page.url == node.url %}
-                    <div class ="dropbtn"><a href="{{{{ node.url | prepend: site.baseurl }}" class="active">{{ node.data.title }}</a></div>
-                {% else %}
-                <div class ="dropbtn"><a href="{{{{ node.url | prepend: site.baseurl }}" class="not-active">{{ node.data.title }}</a></div>
-                {% endif %}
-                <div id="dropdown" class="dropdown-content">
-                    {% for committee in committees %}
-                        <script>console.log("{{ committee.filename }}")</script>
-                        {% if page.url contains committee.filename %}
-                            <a href="{{ site.baseurl }}/committees/{{ committee.filename }}/" class="active-{{ committee.title | downcase}}">{{ committee.title }}</a>
-                        {% else %}
-                            <a href="{{ site.baseurl }}/committees/{{ committee.filename }}/"  class="not-active">{{ committee.title }}</a>
-                        {% endif %}
-                    {% endfor %}
-                </div>
-            </div>
+        
+        {% if page.url == node.url %}
+            <a href="{{{{ node.url | prepend: site.baseurl }}" class="active">{{ node.data.title }}</a>
         {% else %}
-            {% if page.url == node.url %}
-                <a href="{{{{ node.url | prepend: site.baseurl }}" class="active">{{ node.data.title }}</a>
-            {% else %}
-                <a href="{{{{ node.url | prepend: site.baseurl }}" class="not-active">{{ node.data.title }}</a>
-            {% endif %}
+            <a href="{{{{ node.url | prepend: site.baseurl }}" class="not-active">{{ node.data.title }}</a>
         {% endif %}
-    
+
+        {% if node.data.title == "Committees" %}
+
+            <ul class="navigation-committee">
+            {% for committee in committees %}
+            <script>console.log("{{ committee.filename }}")</script>
+                {% if page.url contains committee.filename %}
+                    <li><a href="{{ site.baseurl }}/committees/{{ committee.filename }}/" class="active-{{ committee.title | downcase}}">{{ committee.title }}</a></li>
+                {% else %}
+                    <li><a href="{{ site.baseurl }}/committees/{{ committee.filename }}/"  class="not-active">{{ committee.title }}</a></li>
+                {% endif %}
+            {% endfor %}
+            </ul>
+        {% endif %}
     {% endfor %}
     </div>
 </nav>
-
-<button class="openbtn" onclick="openNav()">&#9776;</button>
-
-<script>
-    // set width of sidebar in mobile view
-    function openNav() {
-        document.getElementById("navBar").style.width = "250px";
-    }
-    function closeNav() {
-        document.getElementById("navBar").style.width = "0";
-    }
-
-    // clear element.style from mobile width style settings 
-    function resetWidth() {
-        document.getElementById("navBar").style.removeProperty("width");
-    }
-    var x = window.matchMedia("(max-width: 700px)")
-    resetWidth(x)
-    x.addListener(resetWidth)
-</script>
