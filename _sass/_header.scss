@@ -26,6 +26,11 @@
           opacity: 0.7;
         }
     }
+    
+    /* prep for mobile layout */
+    @media screen and (max-width: 900px) {
+      display: none;
+    }
   }
 }
 
