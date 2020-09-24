@@ -35,6 +35,31 @@ body {
 .active-teachla {
   color: #A1D900; }
 
+/* ----------------------------------*/
+.active-hack-bg {
+  background-color: #C960FF; }
+
+.active-w-bg {
+  background-color: #1BC3A9; }
+
+.active-ai-bg {
+  background-color: #1EBDF4; }
+
+.active-icpc-bg {
+  background-color: #FF6B6B; }
+
+.active-studio-bg {
+  background-color: #FB4469; }
+
+.active-cyber-bg {
+  background-color: #FFBA44; }
+
+.active-design-bg {
+  background-color: #FE823C; }
+
+.active-teachla-bg {
+  background-color: #A1D900; }
+
 .content {
   width: auto; }
 
@@ -385,11 +410,10 @@ body {
   color: white; }
 
 footer {
-  height: 70px;
+  height: 220px;
   padding-top: 20px;
   font-family: "Palanquin Dark", sans-serif;
-  background-color: #2E2E2E;
-  color: white;
+  color: black;
   text-align: center; }
   footer p {
     margin: 0; }
