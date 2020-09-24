@@ -414,27 +414,49 @@ footer {
   width: 100vw;
   font-family: "Palanquin Dark", sans-serif;
   color: white;
-  text-align: center; }
+  background-color: #181818;
+  text-align: center;
+  position: relative;
+  /* ACM Design logo */
+  /* ACM at UCLA acm.commitee */ }
   footer .socials {
-    float: left; }
+    float: left;
+    position: absolute;
+    padding-left: 15%;
+    margin: 0;
+    top: 50%;
+    transform: translateY(-50%); }
     footer .socials a {
       vertical-align: middle;
-      padding-right: 10px;
       display: inline;
+      padding-right: 20px;
       text-decoration: none; }
     footer .socials .vl {
       vertical-align: middle;
       display: inline;
       border-left: 1px solid white; }
-  footer p {
-    display: inline-block;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 176.68%; }
+    footer .socials #email {
+      vertical-align: middle;
+      text-align: center;
+      display: inline;
+      padding-left: 20px;
+      font-style: normal;
+      font-weight: 200;
+      font-size: 11px; }
   footer .logo {
-    display: block;
+    position: relative;
+    margin: 0;
+    top: 50%;
+    transform: translateY(-50%);
     margin-right: 15%;
     float: right;
     height: 70px;
     width: 70px; }
+  footer #committee-name {
+    padding-left: 15%;
+    top: 140px;
+    float: left;
+    position: relative;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 10px; }
