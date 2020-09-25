@@ -8,6 +8,7 @@ footer {
     
     position: relative;
     
+    /* social media logos/links, vertical line, and email */
     .socials {
         float: left;
         position: absolute;
@@ -43,6 +44,7 @@ footer {
         }
         
     }
+
     /* ACM Design logo */
     .logo {
         position: relative;
@@ -55,14 +57,17 @@ footer {
         width: 70px;
     }
 
-    /* ACM at UCLA acm.commitee */
+    /* ACM at UCLA (acm.commitee) 
+       made and maintained by... */
     #committee-name {
+        text-align: left;
         padding-left: 15%;
-        top: 135px;
+        top: 130px;
         float: left;
         position: relative;
         font-style: normal;
         font-weight: 200;
         font-size: 10px;
+        line-height: 1.5em;
     }
   }

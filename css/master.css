@@ -417,8 +417,10 @@ footer {
   background-color: #181818;
   text-align: center;
   position: relative;
+  /* social media logos/links, vertical line, and email */
   /* ACM Design logo */
-  /* ACM at UCLA acm.commitee */ }
+  /* ACM at UCLA (acm.commitee) 
+       made and maintained by... */ }
   footer .socials {
     float: left;
     position: absolute;
@@ -457,10 +459,12 @@ footer {
     height: 70px;
     width: 70px; }
   footer #committee-name {
+    text-align: left;
     padding-left: 15%;
-    top: 135px;
+    top: 130px;
     float: left;
     position: relative;
     font-style: normal;
     font-weight: 200;
-    font-size: 10px; }
+    font-size: 10px;
+    line-height: 1.5em; }
