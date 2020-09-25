@@ -209,23 +209,33 @@ footer {
   font-size: 0.75em;
   margin: 10px 5px 0 0;
   border-radius: 5px; }
+  .dl-container a {
+    color: red;
+    text-decoration: red;
+    border-bottom: red; }
   .dl-container .dl-title {
-    padding-left: 20px;
-    padding-right: 40px;
-    padding-top: 35px;
-    padding-bottom: 35px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: white;
     color: #2E2E2E;
     border-radius: 0px 0px 5px 5px;
     border: 0.5px solid #CFCFCF;
-    height: 80px; }
+    height: 60px; }
+    .dl-container .dl-title img {
+      width: 100%;
+      max-width: 13px;
+      padding-left: 3px;
+      transition: 0.5s; }
+      .dl-container .dl-title img:hover {
+        transform: scale(1.08); }
   .dl-container .dl-content {
     padding: 20px;
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 5px 5px 0px 0px;
-    min-height: 70px;
-    border: 0.5405px solid #CFCFCF; }
+    border: 0.5405px solid #CFCFCF;
+    border-bottom: 0; }
     .dl-container .dl-content img {
       width: 100%;
       transition: 0.5s; }
