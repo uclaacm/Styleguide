@@ -249,7 +249,7 @@ footer {
   display: inline-block;
   vertical-align: top;
   background-color: #F5F5F5;
-  width: 180px;
+  width: 190px;
   font-size: 0.75em;
   margin: 10px 5px 0 0;
   border-radius: 5px;
@@ -285,6 +285,10 @@ footer {
     border-radius: 5px 5px 0px 0px;
     border: 0.5405px solid #CFCFCF;
     border-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95px;
     img {
       width: 100%;
       transition: 0.5s;
@@ -292,12 +296,6 @@ footer {
         transform: scale(1.08);
       }
     }
-    // &:nth-child(n){
-    //   position: absolute;
-    //   top: 50%;
-    //   left: 50%;
-      
-    // }
   }
 }
 
