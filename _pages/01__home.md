@@ -17,7 +17,7 @@ As UCLA ACM's community grew in size, so did our need for a unified visual ident
 
 ### How to use this website ###
 All these resources are for all UCLA ACM designers and officers to use. Any resources/assets in this type of box:
-{% include "assetbox.html", title: "UCLA ACM logomark", file: "logos/acm-logo.png" %}
+{% include "assetbox-light.html", title: "UCLA ACM logomark", file: "logos/acm-logo.png" %}
 can be downloaded by clicking on the item inside it.
 
 ### Special Thanks ###

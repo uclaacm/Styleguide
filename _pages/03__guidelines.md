@@ -20,15 +20,15 @@ An exception to this would be when using them in conjunction with each other, or
 
 ## Logomarks ##
 Our logomark takes inspiration from ACM's official diamond-shaped logo. Each has an icon representing each committee's topic of focus.
-{% include "assetbox.html", title: "UCLA ACM logomark", file: "logos/acm-logo.png" %}
-{% include "assetbox.html", title: "ACM-W logomark", file: "logos/w-logo.png" %}
-{% include "assetbox.html", title: "ACM Hack logomark", file: "logos/hack-logo.png" %}
-{% include "assetbox.html", title: "ACM ICPC logomark", file: "logos/icpc-logo.png" %}
-{% include "assetbox.html", title: "ACM AI logomark", file: "logos/ai-logo.png" %}
-{% include "assetbox.html", title: "ACM Studio logomark", file: "logos/studio-logo.png" %}
-{% include "assetbox.html", title: "ACM Cyber logomark", file: "logos/cyber-logo.png" %}
-{% include "assetbox.html", title: "ACM Design logomark", file: "logos/design-logo.png" %}
-{% include "assetbox.html", title: "ACM TeachLA logomark", file: "logos/teachla-logo.png" %}
+{% include "assetbox-light.html", title: "UCLA ACM logomark", file: "logos/acm-logo.png" %}
+{% include "assetbox-light.html", title: "ACM-W logomark", file: "logos/w-logo.png" %}
+{% include "assetbox-light.html", title: "ACM Hack logomark", file: "logos/hack-logo.png" %}
+{% include "assetbox-light.html", title: "ACM ICPC logomark", file: "logos/icpc-logo.png" %}
+{% include "assetbox-light.html", title: "ACM AI logomark", file: "logos/ai-logo.png" %}
+{% include "assetbox-light.html", title: "ACM Studio logomark", file: "logos/studio-logo.png" %}
+{% include "assetbox-light.html", title: "ACM Cyber logomark", file: "logos/cyber-logo.png" %}
+{% include "assetbox-light.html", title: "ACM Design logomark", file: "logos/design-logo.png" %}
+{% include "assetbox-light.html", title: "ACM TeachLA logomark", file: "logos/teachla-logo.png" %}
 
 ### Suggested Usage for logomarks ###
 Use logomarks when you are limited in the space you're given to insert branding. (Ex: Laptop Sticker)
@@ -37,15 +37,15 @@ Use logomarks when you are limited in the space you're given to insert branding.
 
 ## Wordmarks ##
 
-{% include "assetbox.html", title: "UCLA ACM wordmark", file: "logos/acm-wordmark-darkcolor.png" %}
-{% include "assetbox.html", title: "ACM-W wordmark", file: "logos/w-wordmark-darkcolor.png" %}
-{% include "assetbox.html", title: "ACM Hack wordmark", file: "logos/hack-wordmark-darkcolor.png" %}
-{% include "assetbox.html", title: "ACM ICPC wordmark", file: "logos/icpc-wordmark-darkcolor.png" %}
-{% include "assetbox.html", title: "ACM AI wordmark", file: "logos/ai-wordmark-darkcolor.png" %}
-{% include "assetbox.html", title: "ACM Studio wordmark", file: "logos/studio-wordmark-darkcolor.png" %}
-{% include "assetbox.html", title: "ACM Cyber wordmark", file: "logos/cyber-wordmark-darkcolor.png" %}
-{% include "assetbox.html", title: "ACM Design wordmark", file: "logos/design-wordmark-darkcolor.png" %}
-{% include "assetbox.html", title: "ACM TeachLA wordmark", file: "logos/teachla-wordmark-darkcolor.png" %}
+{% include "assetbox-light.html", title: "UCLA ACM wordmark", file: "logos/acm-wordmark-darkcolor.png" %}
+{% include "assetbox-light.html", title: "ACM-W wordmark", file: "logos/w-wordmark-darkcolor.png" %}
+{% include "assetbox-light.html", title: "ACM Hack wordmark", file: "logos/hack-wordmark-darkcolor.png" %}
+{% include "assetbox-light.html", title: "ACM ICPC wordmark", file: "logos/icpc-wordmark-darkcolor.png" %}
+{% include "assetbox-light.html", title: "ACM AI wordmark", file: "logos/ai-wordmark-darkcolor.png" %}
+{% include "assetbox-light.html", title: "ACM Studio wordmark", file: "logos/studio-wordmark-darkcolor.png" %}
+{% include "assetbox-light.html", title: "ACM Cyber wordmark", file: "logos/cyber-wordmark-darkcolor.png" %}
+{% include "assetbox-light.html", title: "ACM Design wordmark", file: "logos/design-wordmark-darkcolor.png" %}
+{% include "assetbox-light.html", title: "ACM TeachLA wordmark", file: "logos/teachla-wordmark-darkcolor.png" %}
 
 ### Suggested Usage for wordmarks ###
 Try to use wordmarks in conjunction with the logomarks. If this isn't possible, make sure the sizing of the wordmark clearly establishes the committee as the group of ownership.

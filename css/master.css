@@ -209,10 +209,6 @@ footer {
   font-size: 0.75em;
   margin: 10px 5px 0 0;
   border-radius: 5px; }
-  .dl-container a {
-    color: red;
-    text-decoration: red;
-    border-bottom: red; }
   .dl-container .dl-title {
     text-align: center;
     padding-top: 20px;
@@ -229,7 +225,7 @@ footer {
       transition: 0.5s; }
       .dl-container .dl-title img:hover {
         transform: scale(1.08); }
-  .dl-container .dl-content {
+  .dl-container .dl-content-light {
     padding: 20px;
     padding-left: 40px;
     padding-right: 40px;
@@ -240,10 +236,27 @@ footer {
     justify-content: center;
     align-items: center;
     min-height: 95px; }
-    .dl-container .dl-content img {
+    .dl-container .dl-content-light img {
       width: 100%;
       transition: 0.5s; }
-      .dl-container .dl-content img:hover {
+      .dl-container .dl-content-light img:hover {
+        transform: scale(1.08); }
+  .dl-container .dl-content-dark {
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px 5px 0px 0px;
+    border: 0.5405px solid #CFCFCF;
+    border-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95px;
+    background: black; }
+    .dl-container .dl-content-dark img {
+      width: 100%;
+      transition: 0.5s; }
+      .dl-container .dl-content-dark img:hover {
         transform: scale(1.08); }
 
 .type-container {

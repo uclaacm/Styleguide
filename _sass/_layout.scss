@@ -253,11 +253,7 @@ footer {
   font-size: 0.75em;
   margin: 10px 5px 0 0;
   border-radius: 5px;
-  a {
-    color: red;
-    text-decoration: red;
-    border-bottom: red;
-  }
+  
   .dl-title {
     text-align: center;
     padding-top: 20px;
@@ -278,7 +274,7 @@ footer {
       }
     }
   }
-  .dl-content {
+  .dl-content-light {
     padding: 20px;
     padding-left: 40px;
     padding-right: 40px;
@@ -289,6 +285,26 @@ footer {
     justify-content: center;
     align-items: center;
     min-height: 95px;
+    img {
+      width: 100%;
+      transition: 0.5s;
+      &:hover {
+        transform: scale(1.08);
+      }
+    }
+  }
+  .dl-content-dark {
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px 5px 0px 0px;
+    border: 0.5405px solid #CFCFCF;
+    border-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95px;
+    background: black;
     img {
       width: 100%;
       transition: 0.5s;
