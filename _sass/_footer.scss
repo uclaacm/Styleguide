@@ -1,0 +1,73 @@
+footer {
+    height: 220px;
+    width: 100vw;
+    font-family: $font-header;
+    color: white;
+    background-color: #181818;
+    text-align: center;
+    
+    position: relative;
+    
+    /* social media logos/links, vertical line, and email */
+    .socials {
+        float: left;
+        position: absolute;
+        padding-left: 15%;
+        line-height: 100%;
+
+        margin: 0;
+        top: 50%;
+        transform: translateY(-60%);
+        a {
+            
+            vertical-align: middle;
+            display: inline-block;
+            padding-right: 20px;
+            text-decoration: none;
+        }
+        .vl {
+            vertical-align: middle;
+            display: inline-block;
+            border-left: 1.5px solid white;
+            height: 20px;
+        }
+        #email{
+            line-height: 100%;
+            vertical-align: middle;
+            text-align: center;
+            display: inline-block;
+            padding-left: 20px;
+            padding-bottom: 5px;
+            font-style: normal;
+            font-weight: 200;
+            font-size: 11px;
+        }
+        
+    }
+
+    /* ACM Design logo */
+    .logo {
+        position: relative;
+        margin: 0;
+        top: 50%;
+        transform: translateY(-60%);
+        margin-right: 15%;
+        float: right;
+        height: 70px;
+        width: 70px;
+    }
+
+    /* ACM at UCLA (acm.commitee) 
+       made and maintained by... */
+    #committee-name {
+        text-align: left;
+        padding-left: 15%;
+        top: 130px;
+        float: left;
+        position: relative;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 10px;
+        line-height: 1.5em;
+    }
+  }

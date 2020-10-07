@@ -5,89 +5,6 @@ body {
   height: 100vh;
 }
 
-footer {
-  height: 70px;
-  padding-top: 20px;
-  font-family: $font-header;
-  background-color: #2E2E2E;
-  color: white;
-  text-align: center;
-  
-  p {
-    margin: 0;
-  }
-}
-
-.navigation {
-  width: 250px;
-  height: 100vh;
-  position: fixed;
-  background-color: #242424;
-  ul {
-    padding: 0 0 0 30px;
-    line-height: 50px;
-    list-style-type: none;
-    font-weight: 700;
-    font-size: 20px;
-    a {
-        text-decoration: none;
-        &:hover {
-          opacity: 0.7;
-        }
-    }
-    li {
-      font-family: $font-display;
-
-    }
-  }
-}
-
-.navigation-home {
-  font-family: $font-display;
-  background-color: #2E2E2E;
-  a {
-    text-decoration: none;
-    h2 {
-      line-height: 60px;
-      color: $primary-board;
-      font-weight: 500;
-      margin: 0;
-      padding: 10px 0px 10px 30px;
-    }
-    span {
-      color: white;
-      font-weight: 700;
-    }
-  }
-}
-
-.navigation-committee {
-  left: 50px;
-}
-
-.active {
-  color: $primary-board;
-}
-
-.not-active {
-  color: white;
-}
-
-.page-header {
-  position: fixed;
-  left: 250px;
-  width: 100%;
-  margin: 0;
-  padding: 10px 250px 10px 0px;
-  line-height: 60px;
-  font-family: $font-display;
-  font-weight: 800;
-  background-color: white;
-  border-bottom: 2px solid #DADADA;
-  box-sizing: border-box;
-  text-align: center;
-}
-
 .active-hack {
   color: $primary-hack;
 }
@@ -120,13 +37,45 @@ footer {
   color: $primary-teachla;
 }
 
+/* ----------------------------------*/
+.active-hack-bg {
+  background-color: $primary-hack;
+}
+
+.active-w-bg {
+  background-color: $primary-acmw;
+}
+
+.active-ai-bg {
+  background-color: $primary-ai;
+}
+
+.active-icpc-bg {
+  background-color: $primary-icpc;
+}
+
+.active-studio-bg {
+  background-color: $primary-studio;
+}
+
+.active-cyber-bg {
+  background-color: $primary-cyber;
+}
+
+.active-design-bg {
+  background-color: $primary-design;
+}
+
+.active-teachla-bg {
+  background-color: $primary-teachla;
+}
+
 .content {
-  margin-left: 250px;
   width: auto;
 }
 
 .content-body {
-  padding: 150px 20% 50px;
+  padding: 150px 15% 50px;
   font-size: 20px;
   color: #242424;
   h1,h2,h3 {
