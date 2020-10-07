@@ -31,9 +31,9 @@ tags:
   {% capture white_logomark_filepath %}logos/{{committee.filename}}-logo-white.png{% endcapture %}
   {% capture black_logomark_filepath %}logos/{{committee.filename}}-logo-black.png{% endcapture %}
 
-  {% include "assetbox.html", title: "Primary logomark", file: logomark_filepath %}
-  {% include "assetbox.html", title: "White logomark", file: white_logomark_filepath %}
-  {% include "assetbox.html", title: "Black logomark", file: black_logomark_filepath %}
+  {% include "assetbox-light.html", title: "Primary logomark", file: logomark_filepath %}
+  {% include "assetbox-dark.html", title: "White logomark", file: white_logomark_filepath %}
+  {% include "assetbox-light.html", title: "Black logomark", file: black_logomark_filepath %}
 
   {% capture logomark_dl %}{{committee.filename}}-logomarks.zip{% endcapture %}
   {% capture logomark_dl_button %}Download all {{committee.title}} logomarks{% endcapture %}
@@ -54,11 +54,11 @@ tags:
   {% capture dark_wordmark_filepath %}logos/{{committee.filename}}-wordmark-dark.png{% endcapture %}
   {% capture fullcolor_wordmark_filepath %}logos/{{committee.filename}}-wordmark-fullcolor.png{% endcapture %}
   
-  {% include "assetbox.html", title: "Primary wordmark", file: darkcolor_wordmark_filepath %}
-  {% include "assetbox.html", title: "Secondary wordmark", file: lightcolor_wordmark_filepath %}
-  {% include "assetbox.html", title: "Light wordmark", file: light_wordmark_filepath %}
-  {% include "assetbox.html", title: "Dark wordmark", file: dark_wordmark_filepath %}
-  {% include "assetbox.html", title: "Full color wordmark", file: fullcolor_wordmark_filepath %}
+  {% include "assetbox-light.html", title: "Primary wordmark", file: darkcolor_wordmark_filepath %}
+  {% include "assetbox-dark.html", title: "Secondary wordmark", file: lightcolor_wordmark_filepath %}
+  {% include "assetbox-dark.html", title: "Light wordmark", file: light_wordmark_filepath %}
+  {% include "assetbox-light.html", title: "Dark wordmark", file: dark_wordmark_filepath %}
+  {% include "assetbox-dark.html", title: "Full color wordmark", file: fullcolor_wordmark_filepath %}
 
   {% capture wordmark_dl %}{{committee.filename}}-wordmarks.zip{% endcapture %}
   {% capture wordmark_dl_button %}Download all {{committee.title}} wordmarks{% endcapture %}

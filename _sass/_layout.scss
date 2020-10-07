@@ -93,16 +93,16 @@ body {
   .button { 
     display: table;
     margin-top: 10px;
-    padding: 10px;
-    text-transform: uppercase;
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 700;
     color: #2E2E2E;
     font-size: 0.75em;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 30.27px;
     background-color: #DADADA;
-    box-shadow: 0px 3px #242424;
     width: auto;
     clear: both;
     &:hover {
@@ -197,21 +197,63 @@ body {
 .dl-container {
   display: inline-block;
   vertical-align: top;
-  background-color: #DADADA;
-  width: 160px;
-  font-size: 12px;
+  background-color: #F5F5F5;
+  width: 190px;
+  font-size: 0.75em;
   margin: 10px 5px 0 0;
   border-radius: 5px;
+  
   .dl-title {
-    padding: 10px;
-    background-color: #2E2E2E;
-    color: white;
-    border-radius: 5px 5px 0 0;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:white;
+    color: #2E2E2E;
+    border-radius: 0px 0px 5px 5px;
+    border: 0.5px solid #CFCFCF;
+    height: 60px;
+    img {
+      width: 100%;
+      max-width: 13px;
+      padding-left: 3px;
+      
+      transition: 0.5s;
+      &:hover {
+        transform: scale(1.08);
+      }
+    }
   }
-  .dl-content {
+  .dl-content-light {
     padding: 20px;
-    border-radius: 0 0 5px 5px;
-    min-height: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px 5px 0px 0px;
+    border: 0.5405px solid #CFCFCF;
+    border-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95px;
+    img {
+      width: 100%;
+      transition: 0.5s;
+      &:hover {
+        transform: scale(1.08);
+      }
+    }
+  }
+  .dl-content-dark {
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px 5px 0px 0px;
+    border: 0.5405px solid #CFCFCF;
+    border-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95px;
+    background: black;
     img {
       width: 100%;
       transition: 0.5s;
