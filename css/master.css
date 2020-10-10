@@ -11,74 +11,6 @@ body {
   width: 100vw;
   height: 100vh; }
 
-
-footer {
-  height: 70px;
-  padding-top: 20px;
-  font-family: "Palanquin Dark", sans-serif;
-  background-color: #2E2E2E;
-  color: white;
-  text-align: center; }
-  footer p {
-    margin: 0; }
-
-.navigation {
-  width: 250px;
-  height: 100vh;
-  position: fixed;
-  background-color: #242424; }
-  .navigation ul {
-    padding: 0 0 0 30px;
-    line-height: 50px;
-    list-style-type: none;
-    font-weight: 700;
-    font-size: 20px; }
-    .navigation ul a {
-      text-decoration: none; }
-      .navigation ul a:hover {
-        opacity: 0.7; }
-    .navigation ul li {
-      font-family: "Poppins", sans-serif; }
-
-.navigation-home {
-  font-family: "Poppins", sans-serif;
-  background-color: #2E2E2E; }
-  .navigation-home a {
-    text-decoration: none; }
-    .navigation-home a h2 {
-      line-height: 60px;
-      color: #3B59ED;
-      font-weight: 500;
-      margin: 0;
-      padding: 10px 0px 10px 30px; }
-    .navigation-home a span {
-      color: white;
-      font-weight: 700; }
-
-.navigation-committee {
-  left: 50px; }
-
-.active {
-  color: #3B59ED; }
-
-.not-active {
-  color: white; }
-
-.page-header {
-  position: fixed;
-  left: 250px;
-  width: 100%;
-  margin: 0;
-  padding: 10px 250px 10px 0px;
-  line-height: 60px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  background-color: white;
-  border-bottom: 2px solid #DADADA;
-  box-sizing: border-box;
-  text-align: center; }
-
-
 .active-hack {
   color: #C960FF; }
 
@@ -103,14 +35,36 @@ footer {
 .active-teachla {
   color: #A1D900; }
 
+/* ----------------------------------*/
+.active-hack-bg {
+  background-color: #C960FF; }
+
+.active-w-bg {
+  background-color: #1BC3A9; }
+
+.active-ai-bg {
+  background-color: #1EBDF4; }
+
+.active-icpc-bg {
+  background-color: #FF6B6B; }
+
+.active-studio-bg {
+  background-color: #FB4469; }
+
+.active-cyber-bg {
+  background-color: #FFBA44; }
+
+.active-design-bg {
+  background-color: #FE823C; }
+
+.active-teachla-bg {
+  background-color: #A1D900; }
 
 .content {
-  margin-left: 250px;
   width: auto; }
 
 .content-body {
-  padding: 150px 20% 50px;
-
+  padding: 150px 15% 50px;
   font-size: 20px;
   color: #242424; }
   .content-body h1, .content-body h2, .content-body h3 {
@@ -125,7 +79,6 @@ footer {
   .content-body .button {
     display: table;
     margin-top: 10px;
-
     padding: 5px;
     padding-left: 40px;
     padding-right: 40px;
@@ -136,7 +89,6 @@ footer {
     text-align: center;
     border-radius: 30.27px;
     background-color: #DADADA;
-
     width: auto;
     clear: both; }
     .content-body .button:hover {
@@ -216,7 +168,6 @@ footer {
   margin: 10px 5px 0 0;
   border-radius: 5px; }
   .dl-container .dl-title {
-
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -264,7 +215,6 @@ footer {
       width: 100%;
       transition: 0.5s; }
       .dl-container .dl-content-dark img:hover {
-
         transform: scale(1.08); }
 
 .type-container {
@@ -553,4 +503,3 @@ footer {
     font-weight: 200;
     font-size: 10px;
     line-height: 1.5em; }
-
