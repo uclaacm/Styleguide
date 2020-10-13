@@ -60,6 +60,11 @@ Try to use wordmarks in conjunction with the logomarks. If this isn't possible, 
 # Colors #
 Each group in UCLA ACM has four colors: a primary color, a lighter and darker version of the primary color, and a secondary color. 
 
+{% include "ok-bad-partials.html", title: "OK", file: "partials/acmGood01partial.svg" %}
+{% include "ok-bad-partials.html", title: "OK", file: "partials/acmGood02partial.svg" %}
+{% include "ok-bad-partials.html", title: "BAD", file: "partials/acmBad03partial.svg" %}
+{% include "ok-bad-partials.html", title: "BAD", file: "partials/acmBad04partial.svg" %}
+
 ## Primary Colors ##
 These are the main differentiating components between committees. They make up each committees' logos and are the key elements to the committees' graphics.
 {% include "colorswatch.html", name: "ACM Cobalt", hex: "#3B59ED", rgb: "(59, 89, 237)" %}

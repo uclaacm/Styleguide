@@ -234,6 +234,30 @@ body {
     .type-container p.type-upper {
       text-transform: uppercase; }
 
+.asset-container-ok-bad {
+  display: inline-block;
+  vertical-align: top;
+  justify-content: center;
+  background-color: white; }
+  .asset-container-ok-bad .asset-content-ok-bad {
+    padding: 20px;
+    border-radius: 9.28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95px;
+    background: white; }
+    .asset-container-ok-bad .asset-content-ok-bad img {
+      width: 100%; }
+  .asset-container-ok-bad .asset-title-ok-bad {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.12em; }
+
 /**
  * Syntax highlighting styles
  */
