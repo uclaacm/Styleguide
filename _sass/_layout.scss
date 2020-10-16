@@ -83,9 +83,29 @@ body {
     margin-bottom: 0em;
     margin-top: 1.5em;
     clear: both;
+
+    font-family: Poppins;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.585em;
+    text-transform: uppercase;
+
+    color: #737373;
   }
-  h1 {
-    line-height: 1em;    
+  h1,h2 {
+    line-height: 1em;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;    
+  }
+
+  // h2 for Applied Motif
+  h3{
+    font-weight: 600;
+    font-size: 24.6676px;
+    line-height: 37px;
+    color: #131313;
   }
   p {
     line-height: 1.6em;

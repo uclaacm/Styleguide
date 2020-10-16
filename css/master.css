@@ -71,9 +71,24 @@ body {
     font-family: "Palanquin Dark", sans-serif;
     margin-bottom: 0em;
     margin-top: 1.5em;
-    clear: both; }
-  .content-body h1 {
-    line-height: 1em; }
+    clear: both;
+    font-family: Poppins;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.585em;
+    text-transform: uppercase;
+    color: #737373; }
+  .content-body h1, .content-body h2 {
+    line-height: 1em;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px; }
+  .content-body h3 {
+    font-weight: 600;
+    font-size: 24.6676px;
+    line-height: 37px;
+    color: #131313; }
   .content-body p {
     line-height: 1.6em; }
   .content-body .button {
