@@ -68,7 +68,7 @@ tags:
   {{ content }}
 
   {%- for color in committee.colors %}
-  {% include "colorswatch.html", name: color.name, hex: color.hex, rgb: color.rgb %}
+  {% include "color-grid-committees.html", hex: color.hex, rgb: color.rgb %}
   {% endfor -%}
 
   <h2>Pattern/Motif</h2>
