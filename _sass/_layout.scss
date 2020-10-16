@@ -314,8 +314,34 @@ body {
     letter-spacing: 0.12em;
     
   }
+}
 
+.landing-text {
+  display: inline-block;
+  width: 50%;
+  h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    color: #000000;
+  }
+  h2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #2D2D2D;
+    }
+}
 
+.landing-graphic {
+  display: inline-block;
+  img {
+    max-width: 300px;
+  }
 }
 
 // tablet
