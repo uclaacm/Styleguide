@@ -125,31 +125,11 @@ body {
   display: inline-block;
   vertical-align: top;
   font-size: 12px;
-  width: 25em;
-  transition: 0.2s; }
-  .committee-container:hover {
-    transform: scale(1.08); }
-  .committee-container.committee-title {
-    font-size: 20px;
-    transition: none; }
-    .committee-container.committee-title:hover {
-      transform: none; }
-  .committee-container .committee-logo {
-    float: left;
-    width: 8em;
-    padding: 0.8em; }
-    .committee-container .committee-logo img {
-      max-width: 100%; }
-  .committee-container .committee-description {
-    float: right;
-    width: 17em;
-    color: #242424; }
-    .committee-container .committee-description h1 {
-      font-family: "Poppins", sans-serif;
-      margin-top: 1.25em; }
-    .committee-container .committee-description p {
-      margin-top: 0.25em;
-      line-height: 1.2em; }
+  padding-left: -20px;
+  padding-right: -20px;
+  margin: 0; }
+  .committee-container img {
+    width: 100vw; }
 
 .color-container {
   display: inline-block;
@@ -359,6 +339,11 @@ body {
     font-weight: 600;
     font-size: 1.33125rem;
     line-height: 37px; }
+
+#motif-head {
+  width: 100vw;
+  padding-left: 0px;
+  padding-right: 0px; }
 
 /**
  * Syntax highlighting styles

@@ -13,7 +13,7 @@ tags:
 ---
 
 <div>
-  <div class="committee-container committee-title">
+  <!-- <div class="committee-container committee-title">
       <div class="committee-logo">
         <img src="{{ site.baseurl }}/assets/logos/{{ committee.filename }}-logo.png">
       </div>
@@ -23,7 +23,11 @@ tags:
         </h1>
         <p> {{ committee.tagline }} </p>
       </div>
+  </div> -->
+  <div class="committee-container committee-title">
+    <img class="image-full-width" id="motif-head" src="{{ site.baseurl }}/assets/logos/{{ committee.filename }}-coverphoto.png" style="width: 100vw">
   </div>
+  
 
   <h2>Logomarks</h2>
   <p>We suggest using the white and black logomarks in situations where the primary logomark may not be clearly visible.</p>
