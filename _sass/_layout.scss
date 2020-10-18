@@ -316,31 +316,32 @@ body {
   }
 }
 
-.landing-text {
-  display: inline-block;
-  width: 50%;
-  h1 {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 60px;
-    color: #000000;
-  }
-  h2 {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 23px;
-    color: #2D2D2D;
+.landing-banner {
+  .landing-text {
+    vertical-align: middle;
+    display: inline-block;
+    width: 50%;
+    h1 {
+      margin-top: 0;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 60px;
+      color: #000000;
     }
-}
-
-.landing-graphic {
-  display: inline-block;
+    h2 {
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 23px;
+      color: #2D2D2D;
+      }
+  }
   img {
-    max-width: 300px;
+    vertical-align: middle;
+    width: 50%;
   }
 }
 

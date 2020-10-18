@@ -258,17 +258,19 @@ body {
     text-align: center;
     letter-spacing: 0.12em; }
 
-.landing-text {
+.landing-banner .landing-text {
+  vertical-align: middle;
   display: inline-block;
   width: 50%; }
-  .landing-text h1 {
+  .landing-banner .landing-text h1 {
+    margin-top: 0;
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
     line-height: 60px;
     color: #000000; }
-  .landing-text h2 {
+  .landing-banner .landing-text h2 {
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
@@ -276,10 +278,9 @@ body {
     line-height: 23px;
     color: #2D2D2D; }
 
-.landing-graphic {
-  display: inline-block; }
-  .landing-graphic img {
-    max-width: 300px; }
+.landing-banner img {
+  vertical-align: middle;
+  width: 50%; }
 
 /**
  * Syntax highlighting styles
