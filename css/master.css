@@ -305,6 +305,61 @@ body {
       .partials-container-lg .partials-title-lg img:hover {
         transform: scale(1.08); }
 
+.color-grid-container {
+  display: grid;
+  max-width: 925px;
+  grid-template-areas: "primary primary primary primary-text" "secondary-1 secondary-2 secondary-3 secondary-text" "accent accent accent accent-text" "gradient gradient gradient gradient-text";
+  gap: 10px;
+  height: 30rem; }
+  .color-grid-container #primary {
+    grid-area: primary;
+    border-radius: 4.71541px; }
+  .color-grid-container #primary-text {
+    grid-area: primary-text; }
+  .color-grid-container #secondary-1 {
+    grid-area: secondary-1;
+    border-radius: 4.71541px; }
+  .color-grid-container #secondary-2 {
+    grid-area: secondary-2;
+    background: cyan;
+    border-radius: 4.71541px; }
+  .color-grid-container #secondary-3 {
+    grid-area: secondary-3;
+    background: red;
+    border-radius: 4.71541px; }
+  .color-grid-container #secondary-text {
+    grid-area: secondary-text; }
+  .color-grid-container #accent {
+    grid-area: accent;
+    background: lavender;
+    border-radius: 4.71541px; }
+  .color-grid-container #accent-text {
+    grid-area: accent-text; }
+  .color-grid-container #gradient {
+    grid-area: gradient;
+    background: skyblue;
+    border-radius: 4.71541px; }
+  .color-grid-container #gradient-text {
+    grid-area: gradient-text; }
+  .color-grid-container > div {
+    position: relative; }
+    .color-grid-container > div .color-text {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      color: white;
+      padding: 1rem;
+      font-size: 0.8rem; }
+  .color-grid-container .grid-text {
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.33125rem;
+    line-height: 37px; }
+
 /**
  * Syntax highlighting styles
  */

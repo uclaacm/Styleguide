@@ -145,3 +145,5 @@ There aren't really strict guidelines on how to use these typefaces—designing 
 
 {% include "assetbox-template-large.html", title: "Download Template" , file: "partials/large-partial-01.svg" %}
 {% include "assetbox-template-large.html", title: "Download Template" , file: "partials/large-partial-02.png" %}
+
+{% include "color-grid-committees.html" %}
