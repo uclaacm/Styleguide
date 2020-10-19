@@ -142,3 +142,8 @@ As our main display typeface, [Poppins](https://fonts.google.com/specimen/Poppin
 
 ## Keep it Poppins' ##
 There aren't really strict guidelines on how to use these typefaces—designing with them is up to your discretion. Likewise, there's no need to adhere to these type families, as they may change in the future. That being said, when in doubt and don't care about font specifics, use Poppins.
+
+{% include "assetbox-template-large.html", title: "Download Template" , file: "partials/large-partial-01.svg" %}
+{% include "assetbox-template-large.html", title: "Download Template" , file: "partials/large-partial-02.png" %}
+
+{% include "color-grid-committees.html" %}

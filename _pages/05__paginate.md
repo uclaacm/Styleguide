@@ -67,9 +67,9 @@ tags:
   <h2>Colors</h2>
   {{ content }}
 
-  {%- for color in committee.colors %}
-  {% include "colorswatch.html", name: color.name, hex: color.hex, rgb: color.rgb %}
-  {% endfor -%}
+  
+  {% include "color-grid-committees.html", committeePg: committee %}
+  
 
   <h2>Pattern/Motif</h2>
   <p>Unfortunately no pattern assets exist on their own, but we suggest using the corresponding facebook group cover photos for reference:</p>

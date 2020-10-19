@@ -71,9 +71,24 @@ body {
     font-family: "Palanquin Dark", sans-serif;
     margin-bottom: 0em;
     margin-top: 1.5em;
-    clear: both; }
-  .content-body h1 {
-    line-height: 1em; }
+    clear: both;
+    font-family: Poppins;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.585em;
+    text-transform: uppercase;
+    color: #737373; }
+  .content-body h1, .content-body h2 {
+    line-height: 1em;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px; }
+  .content-body h3 {
+    font-weight: 600;
+    font-size: 24.6676px;
+    line-height: 37px;
+    color: #131313; }
   .content-body p {
     line-height: 1.6em; }
   .content-body .button {
@@ -269,18 +284,112 @@ body {
     font-weight: bold;
     font-size: 40px;
     line-height: 60px;
-    color: #000000; }
+    color: #000000;
+    letter-spacing: revert;
+    text-transform: initial; }
   .landing-banner .landing-text h2 {
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 23px;
-    color: #2D2D2D; }
+    color: #2D2D2D;
+    letter-spacing: revert;
+    text-transform: initial; }
 
 .landing-banner img {
   vertical-align: middle;
   width: 50%; }
+
+.partials-container-lg {
+  display: inline-block;
+  vertical-align: top;
+  width: 500px;
+  margin: 10px 5px 0 0;
+  border-radius: 5px; }
+  .partials-container-lg .partials-content-lg {
+    padding: 20px;
+    padding-bottom: 8px; }
+    .partials-container-lg .partials-content-lg img {
+      width: 100%; }
+  .partials-container-lg .partials-title-lg {
+    font-family: Poppins;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-right: 20px;
+    background-color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.12em;
+    color: #434343; }
+    .partials-container-lg .partials-title-lg img {
+      width: 100%;
+      max-width: 16px;
+      padding-left: 3px;
+      transition: 0.5s; }
+      .partials-container-lg .partials-title-lg img:hover {
+        transform: scale(1.08); }
+
+.color-grid-container {
+  display: grid;
+  max-width: 925px;
+  grid-template-areas: "primary primary primary primary-text"
+ "secondary-1 secondary-2 secondary-3 secondary-text"
+ "accent accent accent accent-text"
+ "gradient gradient gradient gradient-text";
+  gap: 10px;
+  height: 30rem; }
+  .color-grid-container #primary {
+    grid-area: primary;
+    border-radius: 4.71541px; }
+  .color-grid-container #primary-text {
+    grid-area: primary-text; }
+  .color-grid-container #secondary-1 {
+    grid-area: secondary-1;
+    border-radius: 4.71541px; }
+  .color-grid-container #secondary-2 {
+    grid-area: secondary-2;
+    background: cyan;
+    border-radius: 4.71541px; }
+  .color-grid-container #secondary-3 {
+    grid-area: secondary-3;
+    background: red;
+    border-radius: 4.71541px; }
+  .color-grid-container #secondary-text {
+    grid-area: secondary-text; }
+  .color-grid-container #accent {
+    grid-area: accent;
+    background: lavender;
+    border-radius: 4.71541px; }
+  .color-grid-container #accent-text {
+    grid-area: accent-text; }
+  .color-grid-container #gradient {
+    grid-area: gradient;
+    background: skyblue;
+    border-radius: 4.71541px; }
+  .color-grid-container #gradient-text {
+    grid-area: gradient-text; }
+  .color-grid-container > div {
+    position: relative; }
+    .color-grid-container > div .color-text {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      color: white;
+      padding: 1rem;
+      font-size: 0.8rem; }
+  .color-grid-container .grid-text {
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.33125rem;
+    line-height: 37px; }
 
 /**
  * Syntax highlighting styles
