@@ -349,6 +349,8 @@ body {
       font-size: 40px;
       line-height: 60px;
       color: #000000;
+      letter-spacing: revert;
+      text-transform: initial;
     }
     h2 {
       font-family: Open Sans;
@@ -357,6 +359,8 @@ body {
       font-size: 14px;
       line-height: 23px;
       color: #2D2D2D;
+      letter-spacing: revert;
+      text-transform: initial;
       }
   }
   img {
