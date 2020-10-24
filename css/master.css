@@ -336,10 +336,7 @@ body {
 .color-grid-container {
   display: grid;
   max-width: 925px;
-  grid-template-areas: "primary primary primary primary-text"
- "secondary-1 secondary-2 secondary-3 secondary-text"
- "accent accent accent accent-text"
- "gradient gradient gradient gradient-text";
+  grid-template-areas: "primary primary primary primary-text" "secondary-1 secondary-2 secondary-3 secondary-text" "accent accent accent accent-text" "gradient gradient gradient gradient-text";
   gap: 10px;
   height: 30rem; }
   .color-grid-container #primary {
@@ -660,3 +657,21 @@ footer {
     font-weight: 200;
     font-size: 10px;
     line-height: 1.5em; }
+
+.landing-page-links {
+  display: inline-block;
+  position: relative;
+  width: 23%;
+  height: 10vw;
+  margin: 0 1.5% 2vw 0;
+  background-color: #ECECEC;
+  border-radius: 8px; }
+  .landing-page-links img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .landing-page-links .helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle; }

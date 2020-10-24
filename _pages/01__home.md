@@ -16,3 +16,12 @@ permalink: "/"
         </h2>
     </div><img src="{{ site.baseurl }}/assets/partials/landing-page-graphic.svg">
 </div>
+
+{% include 'landing-page-links.html', file: "design" %}
+{% include 'landing-page-links.html', file: "design" %}
+{% include 'landing-page-links.html', file: "design" %}
+{% include 'landing-page-links.html', file: "design" %}
+{% include 'landing-page-links.html', file: "design" %}
+{% include 'landing-page-links.html', file: "design" %}
+{% include 'landing-page-links.html', file: "design" %}
+{% include 'landing-page-links.html', file: "design" %}
