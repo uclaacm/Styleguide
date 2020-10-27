@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Source+Code+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
 *,
 *::before,
 *::after {
@@ -7,7 +8,7 @@
 
 body {
   margin: 0;
-  font-family: "Chivo", sans-serif;
+  font-family: "Open Sans", sans-serif;
   width: 100vw;
   height: 100vh; }
 
@@ -68,7 +69,7 @@ body {
   font-size: 20px;
   color: #242424; }
   .content-body h1, .content-body h2, .content-body h3 {
-    font-family: "Palanquin Dark", sans-serif;
+    font-family: "Poppins", sans-serif;
     margin-bottom: 0em;
     margin-top: 1.5em;
     clear: both;
@@ -119,7 +120,10 @@ body {
     max-width: 150px;
     margin: 0 auto; }
   .content-body .image-full-width {
-    max-width: 100%; }
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw; }
 
 .committee-container {
   display: inline-block;
@@ -340,10 +344,10 @@ body {
     font-size: 1.33125rem;
     line-height: 37px; }
 
-#motif-head {
-  width: 100vw;
-  padding-left: 0px;
-  padding-right: 0px; }
+#bottom-img {
+  padding: 150px 15% 50px;
+  padding-top: 1rem;
+  padding-bottom: 0; }
 
 /**
  * Syntax highlighting styles
@@ -490,6 +494,7 @@ body {
   position: fixed;
   background-color: white;
   display: table;
+  z-index: 500;
   /* The 'About' and 'Guidelines' links -- 'Committees' is separate due to dropdown menu */ }
   .navigation .links {
     display: block;
@@ -529,7 +534,7 @@ body {
     background-color: #242424;
     min-width: 180px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    z-index: 5000;
     /* individual links */ }
     .navigation-committee .dropdown-content a {
       padding: 16px 16px;
@@ -558,7 +563,7 @@ body {
 footer {
   height: 220px;
   width: 100vw;
-  font-family: "Palanquin Dark", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: white;
   background-color: #181818;
   text-align: center;
