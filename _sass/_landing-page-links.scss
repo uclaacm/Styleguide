@@ -11,10 +11,6 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-    }
-    .helper {
-        display: inline-block;
-        height: 100%;
-        vertical-align: middle;
+        max-width: 70%;
     }
 }
