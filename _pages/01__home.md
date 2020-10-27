@@ -15,19 +15,18 @@ permalink: "/"
             Here you can find information about our branding alongside a collection of resources and assets.
         </h2>
     </div><img src="{{ site.baseurl }}/assets/partials/landing-page-graphic.svg">
-
-<!-- {% include 'landing-page-links.html', file: "ai" %}
-{% include 'landing-page-links.html', file: "cyber" %}
-{% include 'landing-page-links.html', file: "design" %}
-{% include 'landing-page-links.html', file: "hack" %}
-{% include 'landing-page-links.html', file: "icpc" %}
-{% include 'landing-page-links.html', file: "studio" %}
-{% include 'landing-page-links.html', file: "teachla" %}
-{% include 'landing-page-links.html', file: "w" %} -->
-
+    <div class="landing-subheading">
+        Before You Start Designing
+    </div>
+    <div class="landing-page-links">
+        <img src="{{ site.baseurl }}/assets/logos/acm-wordmark-lightcolor.png">
+    </div>
+    <div class="landing-subheading">
+        Assets
+    </div>
 {% for committee in committees %}
 <div class="landing-page-links">
-    <img src="{{ site.baseurl }}/assets/logos/{{ committee.filename }}-wordmark-lightcolor.png">
+    <a href="{{ site.baseurl }}/committees/{{ committee.filename }}" ><img src="{{ site.baseurl }}/assets/logos/{{ committee.filename }}-wordmark-lightcolor.png"></a>
 </div>
 {% endfor %}
 </div>
