@@ -1,5 +1,7 @@
-node_modules
-_site
-package-lock.json
-css
 .DS_Store
+_site
+css
+css/
+css/master.css
+node_modules/
+package-lock.json

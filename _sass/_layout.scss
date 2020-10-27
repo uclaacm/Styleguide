@@ -75,7 +75,7 @@ body {
 }
 
 .content-body {
-  padding: 150px 15% 50px;
+  padding: 97.5px 15% 50px;
   font-size: 20px;
   color: #242424;
   h1,h2,h3 {
@@ -142,8 +142,12 @@ body {
     margin: 0 auto;
   }
   .image-full-width {
-    max-width: 100%;
+    width: 100vw;
+   position: relative;
+   left: 50%;  
+   margin-left: -50vw;
   }
+  
   
 }
 
@@ -151,38 +155,13 @@ body {
   display: inline-block;
   vertical-align: top;
   font-size: 12px;
-  width: 25em;
-  transition: 0.2s;
-  &:hover{
-    transform: scale(1.08);
-  }
-  &.committee-title {
-    font-size: 20px;
-    transition: none;
-    &:hover{
-      transform: none;
-    }
-  }
-  .committee-logo {
-    float: left;
-    width: 8em;
-    padding: 0.8em;
-    img {
-      max-width: 100%;
-    }
-  }
-  .committee-description {
-    float: right;
-    width: 17em;
-    color: $primary-black;
-    h1 {
-      font-family: $font-display;
-      margin-top: 1.25em;
-    }
-    p {
-      margin-top: 0.25em;
-      line-height: 1.2em;
-    }
+  padding-left: -20px;
+  padding-right: -20px;
+  margin: 0;
+  
+  img{
+    width: 100vw;
+
   }
 }
 
@@ -456,6 +435,12 @@ body {
     line-height: 37px;
   }
   
+}
+
+#bottom-img{
+  padding: 150px 15% 50px;
+  padding-top: 1rem;
+  padding-bottom: 0;
 }
 
 // tablet
