@@ -29,9 +29,11 @@ css_links: ['/css/master.css']
     </head>
     <body>
     {% include "header.html" %}
+    {% comment %}
     <!-- <div class="page-header">
       {% if title %}{{ title }}{% endif %}
     </div> -->
+    {% endcomment %}
     <div class="content">
       <div class="content-body">
         {{ content | safe }}
