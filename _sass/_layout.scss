@@ -336,7 +336,7 @@ body {
   }
 }
 
-.landing-banner {
+.landing-container {
   .landing-text {
     vertical-align: middle;
     display: inline-block;
@@ -367,6 +367,22 @@ body {
     vertical-align: middle;
     width: 50%;
   }
+  .landing-page-links {
+    display: inline-block;
+    position: relative;
+    width: 23%;
+    height: 10vw;
+    margin: 0 1.5% 2vw 0;
+    background-color: #ECECEC;
+    border-radius: 8px;
+    img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 70%;
+    }
+}
 }
 
 
