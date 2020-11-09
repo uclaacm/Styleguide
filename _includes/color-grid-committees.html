@@ -14,34 +14,36 @@
             {{ committee.colors[1].hex }}
         </div>
     </div>
-    <div id="secondary-2" style="background-color: {{ committee.colors[1].hex }}">
-        <div class = "color-text">
-            {{ committee.colors[1].rgb }}
-            <br>
-            {{ committee.colors[1].hex }}
-        </div>
-    </div>
-    <div id="secondary-3" style="background-color: {{ committee.colors[1].hex }}">
-        <div class = "color-text">
-            {{ committee.colors[1].rgb }}
-            <br>
-            {{ committee.colors[1].hex }}
-        </div>
-    </div>
-    <div id="secondary-text" class="grid-text">Secondary Colors</div>
-    <div id="accent" style="background-color: {{ committee.colors[2].hex }}">
+    <div id="secondary-2" style="background-color: {{ committee.colors[2].hex }}">
         <div class = "color-text">
             {{ committee.colors[2].rgb }}
             <br>
             {{ committee.colors[2].hex }}
         </div>
     </div>
-    <div id="acccent-text" class="grid-text">Accent Color</div>
-    <div id="gradient" style="background-color: {{ committee.colors[3].hex }}">
+    <div id="secondary-3" style="background-color: {{ committee.colors[3].hex }}">
         <div class = "color-text">
             {{ committee.colors[3].rgb }}
             <br>
             {{ committee.colors[3].hex }}
+        </div>
+    </div>
+    <div id="secondary-text" class="grid-text">Secondary Colors</div>
+    <div id="accent" style="background-color: {{ committee.colors[4].hex }}">
+        <div class = "color-text">
+            {{ committee.colors[4].rgb }}
+            <br>
+            {{ committee.colors[4].hex }}
+        </div>
+    </div>
+    <div id="acccent-text" class="grid-text">Accent Color</div>
+    <div id="gradient" style="background: linear-gradient(90deg, rgb{{ committee.colors[5].rgb }} 0%, rgb{{ committee.colors[6].rgb }} 100%);">
+        <div class = "color-text">
+            {{ committee.colors[5].rgb }}
+            {{ committee.colors[6].rgb }}
+            <br>
+            {{ committee.colors[5].hex }}
+            {{ committee.colors[6].hex }}
         </div>
     </div>
     <div id="gradient-text" class="grid-text">Gradient</div>
