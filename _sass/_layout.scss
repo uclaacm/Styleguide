@@ -142,13 +142,13 @@ body {
     margin: 0 auto;
   }
   .image-full-width {
+    height: 45rem;
+    object-fit: cover;
     width: 100vw;
-   position: relative;
-   left: 50%;  
-   margin-left: -50vw;
-  }
-  
-  
+    position: relative;
+    left: 50%;  
+    margin-left: -50vw;
+  } 
 }
 
 .committee-container {
@@ -438,7 +438,7 @@ body {
 }
 
 #bottom-img{
-  padding: 150px 15% 50px;
+  padding: 120px 15% 50px;
   padding-top: 1rem;
   padding-bottom: 0;
 }
