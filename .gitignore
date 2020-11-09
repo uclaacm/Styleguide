@@ -1,6 +1,5 @@
 .DS_Store
 _site
-css
 css/
 css/master.css
 node_modules/
