@@ -5,8 +5,14 @@ permalink: "/guidelines/"
 tags: nav
 date: 2000-01-02
 ---
+<div>
+    <img class="image-full-width" src="/assets/partials/guidelines-banner.svg">
+</div>
+<style type="text/css" rel="stylesheet">
+* { color: red; }
+</style>
 
-# Logos
+## Logos
 
 For each group, we’ve created a logomark and a wordmark. There’s currently no guidelines on using the two together. For using either of them in general though, we suggest making sure the margins for logomarks are at least ¼ its height/width, and the margins for wordmarks are ½ of its height.
 
