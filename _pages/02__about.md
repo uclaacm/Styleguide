@@ -6,7 +6,7 @@ tags: nav
 date: 2000-01-01
 ---
 
-![ACM Design Logo]({{ site.baseurl }}/assets/home/design-logo.png){: #logo}
+![ACM Design Logo]({{ site.baseurl }}/assets/logos/design-logo.png){: #logo}
 
 # Communicating Tech for People: UCLA ACM's Official Styleguide  #
 Hey there! This is UCLA ACM's official styleguide, created by UCLA ACM Design. We've created a collection of resources and assets for the entirety of UCLA ACM to use, so we can spend less time on locating where a logo's PNG is, and more time on preparing events and workshops.
