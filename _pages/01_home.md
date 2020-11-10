@@ -19,17 +19,17 @@ permalink: "/"
         Before You Start Designing
     </div>
     <div class="landing-page-links">
-        <a href="{{ site.baseurl }}" style="text-decoration: none"><p id="guidelines">Guidelines</p></a>
+        <a href="{{ site.baseurl }}/guidelines" style="text-decoration: none"><p id="guidelines">Guidelines</p></a>
     </div>
     <div class="landing-subheading">
         Assets
     </div>
 <div class="landing-page-links">
-    <a href="{{ site.baseurl }}"><img id="acm" src="{{ site.baseurl }}/assets/logos/acm-logo-wordmark.png"></a>
+    <a href="{{ site.baseurl }}/assets/downloads/acm-assets.zip"><img id="acm" src="{{ site.baseurl }}/assets/logos/acm-logo-wordmark.png"></a>
 </div>
 {% for committee in committees %}
 <div class="landing-page-links">
-    <a href="{{ site.baseurl }}/committees/{{ committee.filename }}"><img src="{{ site.baseurl }}/assets/logos/{{ committee.filename }}-logo-wordmark-dark-gradient.png"></a>
+    <a href="{{ site.baseurl }}/assets/downloads/{{ committee.filename }}-assets.zip"><img src="{{ site.baseurl }}/assets/logos/{{ committee.filename }}-logo-wordmark-dark-gradient.png"></a>
 </div>
 {% endfor %}
 </div>
