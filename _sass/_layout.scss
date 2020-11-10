@@ -316,6 +316,7 @@ body {
 }
 
 .landing-container {
+  padding-top: 5vh;
   .landing-text {
     vertical-align: middle;
     display: inline-block;
@@ -353,21 +354,39 @@ body {
     font-weight: 500;
     font-size: 24px;
     line-height: 36px;
+    padding-top: 4vh;
   }
   .landing-page-links {
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     width: 22%;
     height: 8vw;
     margin: 1vw 1.5% 0.2vw 0;
     background-color: #ECECEC;
     border-radius: 8px;
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
     img {
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        max-width: 70%;
+        width: auto;
+        height: 32%;
+    }
+    #acm {
+      height: 52%;
+    }
+    #guidelines {
+      position: relative;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 1.5vw;
+      color: #6045FA;
+      text-align: center;
     }
 }
 }
