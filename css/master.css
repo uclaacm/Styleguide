@@ -65,7 +65,7 @@ body {
   width: auto; }
 
 .content-body {
-  padding: 150px 15% 50px;
+  padding: 97.5px 15% 50px;
   font-size: 20px;
   color: #242424; }
   .content-body h1, .content-body h2, .content-body h3 {
@@ -120,6 +120,8 @@ body {
     max-width: 150px;
     margin: 0 auto; }
   .content-body .image-full-width {
+    height: 45rem;
+    object-fit: cover;
     width: 100vw;
     position: relative;
     left: 50%;
@@ -373,7 +375,7 @@ body {
     line-height: 37px; }
 
 #bottom-img {
-  padding: 150px 15% 50px;
+  padding: 120px 15% 50px;
   padding-top: 1rem;
   padding-bottom: 0; }
 
@@ -523,6 +525,8 @@ body {
   background-color: white;
   display: table;
   z-index: 500;
+  /* Not in the figma - but if the nav bar is floating, adds much needed separation between nav bar and content */
+  box-shadow: 0px 3px 5px #8e8e8e33;
   /* The 'About' and 'Guidelines' links -- 'Committees' is separate due to dropdown menu */ }
   .navigation .links {
     display: block;

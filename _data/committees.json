@@ -6,24 +6,39 @@
         "hex": "00D4CA",
         "colors": [
             {
-                "name": "W Primary Teal",
+                "name": "W Primary",
                 "hex": "#1BC3A9",
                 "rgb": "(27, 195, 169)"
             },
             {
-                "name": "W Tint 1",
+                "name": "W Secondary 1",
                 "hex": "#56E4B1",
                 "rgb": "(86, 228, 177)"
             },
             {
-                "name": "W Dark",
+                "name": "W Secondary 2",
+                "hex": "#1BC3A9",
+                "rgb": "(27, 195, 169)"
+            },
+            {
+                "name": "W Secondary 3",
                 "hex": "#135468",
                 "rgb": "(19, 84, 104)"
             },
             {
-                "name": "W Secondary",
+                "name": "W Accent",
                 "hex": "#3B65F9",
                 "rgb": "(59, 101, 249)"
+            },
+            {
+                "name": "W Gradient 1",
+                "hex": "#03D1C8",
+                "rgb": "(3, 209, 200)"
+            },
+            {
+                "name": "W Gradient 2",
+                "hex": "#51F392",
+                "rgb": "(81, 243, 146)"
             }
         ]
     },
@@ -34,24 +49,39 @@
         "hex": "C960FF",
         "colors": [
             {
-                "name": "Hack Purple",
+                "name": "Hack Primary",
                 "hex": "#C960FF",
                 "rgb": "(201, 96, 255)"
             },
             {
-                "name": "Hack Tint",
+                "name": "Hack Secondary 1",
                 "hex": "#C137D8",
                 "rgb": "(219, 153, 253)"
             },
             {
-                "name": "Hack Dark",
+                "name": "Hack Secondary 2",
+                "hex": "#9C28C5",
+                "rgb": "(156, 40, 197)"
+            },
+            {
+                "name": "Hack Secondary 3",
                 "hex": "#3E2961",
                 "rgb": "(62, 41, 97)"
             },
             {
-                "name": "Hack Secondary",
+                "name": "Hack Accent",
                 "hex": "#FF477E",
                 "rgb": "(255, 71, 126)"
+            },
+            {
+                "name": "Hack Gradient 1",
+                "hex": "#BD00FF",
+                "rgb": "(189, 0, 255)"
+            },
+            {
+                "name": "Hack Gradient 2",
+                "hex": "#FF5F96",
+                "rgb": "(255, 95, 150)"
             }
         ]
     },
@@ -62,24 +92,39 @@
         "hex": "FF8383",
         "colors": [
             {
-                "name": "ICPC Tangerine",
+                "name": "ICPC Primary",
                 "hex": "#FF8383",
                 "rgb": "(255, 131, 131)"
             },
             {
-                "name": "ICPC Tint",
+                "name": "ICPC Secondary 1",
                 "hex": "#F38F70",
                 "rgb": "(243, 143, 112)"
             },
             {
-                "name": "ICPC Dark",
+                "name": "ICPC Secondary 2",
+                "hex": "#FF1A6C",
+                "rgb": "(255, 26, 108)"
+            },
+            {
+                "name": "ICPC Secondary 3",
                 "hex": "#45385A",
                 "rgb": "(69, 56, 90)"
             },
             {
-                "name": "ICPC Secondary",
+                "name": "ICPC Accent",
                 "hex": "#182862",
                 "rgb": "(24, 40, 98)"
+            },
+            {
+                "name": "ICPC Gradient 1",
+                "hex": "#FF6B6B",
+                "rgb": "(255, 107, 107)"
+            },
+            {
+                "name": "ICPC Gradient 2",
+                "hex": "#FF9CE3",
+                "rgb": "(255, 156, 227)"
             }
         ]
     },
@@ -90,24 +135,39 @@
         "hex": "28B2FF",
         "colors": [
             {
-                "name": "AI Arctic",
+                "name": "AI Primary",
                 "hex": "#28B2FF",
                 "rgb": "(40, 178, 255)"
             },
             {
-                "name": "AI Tint",
+                "name": "AI Secondary 1",
                 "hex": "#35DDF3",
                 "rgb": "(53, 221, 243)"
             },
             {
-                "name": "AI Dark",
+                "name": "AI Secondary 2",
+                "hex": "#28B2FF",
+                "rgb": "(40, 178, 255)"
+            },
+            {
+                "name": "AI Secondary 3",
                 "hex": "#132BD1",
                 "rgb": "(19, 43, 209)"
             },
             {
-                "name": "AI Secondary",
-                "hex": "#FF8D69",
-                "rgb": "(255, 141, 105)"
+                "name": "AI Accent",
+                "hex": "#FF699F",
+                "rgb": "(255, 105, 159)"
+            },
+            {
+                "name": "AI Gradient 1",
+                "hex": "#28B2FF",
+                "rgb": "(40, 178, 255)"
+            },
+            {
+                "name": "AI Gradient 2",
+                "hex": "#2FE6FF",
+                "rgb": "(47, 230, 255)"
             }
         ]
     },
@@ -118,24 +178,39 @@
         "hex": "FB4469",
         "colors": [
             {
-                "name": "Studio Raspberry",
+                "name": "Studio Primary",
                 "hex": "#FB4469",
                 "rgb": "(251, 68, 105)"
             },
             {
-                "name": "Studio Tint",
+                "name": "Studio Secondary 1",
                 "hex": "#FF8C93",
                 "rgb": "(255, 140, 147)"
             },
             {
-                "name": "Studio Dark",
-                "hex": "#4C1925",
-                "rgb": "(76,25,37)"
+                "name": "Studio Secondary 2",
+                "hex": "#E83D3D",
+                "rgb": "(232, 61, 61)"
             },
             {
-                "name": "Studio Secondary",
+                "name": "Studio Secondary 3",
+                "hex": "#4C1941",
+                "rgb": "(76, 25, 65)"
+            },
+            {
+                "name": "Studio Accent",
                 "hex": "#FF6CC7",
                 "rgb": "(255, 108, 199)"
+            },
+            {
+                "name": "Studio Gradient 1",
+                "hex": "#FF3939",
+                "rgb": "(255, 57, 57)"
+            },
+            {
+                "name": "Studio Gradient 2",
+                "hex": "#FF71D7",
+                "rgb": "(255, 113, 215)"
             }
         ]
     },
@@ -146,24 +221,39 @@
         "hex": "FFCB44",
         "colors": [
             {
-                "name": "Cyber Amber",
-                "hex": "#FFCB44",
+                "name": "Cyber Primary",
+                "hex": "#FFBA44",
                 "rgb": "(255, 186, 68)"
             },
             {
-                "name": "Cyber Tint",
+                "name": "Cyber Secondary 1",
                 "hex": "#FFE81A",
                 "rgb": "(255, 232, 26)"
             },
             {
-                "name": "Cyber Dark",
+                "name": "Cyber Secondary 2",
+                "hex": "#FFDA1A",
+                "rgb": "(255, 218, 26)"
+            },
+            {
+                "name": "Cyber Secondary 3",
                 "hex": "#FF8C4C",
                 "rgb": "(255, 140, 76)"
             },
             {
-                "name": "Cyber Secondary",
+                "name": "Cyber Accent",
                 "hex": "#F44D8A",
                 "rgb": "(244, 77, 138)"
+            },
+            {
+                "name": "Cyber Gradient 1",
+                "hex": "#F5B100",
+                "rgb": "(245, 177, 0)"
+            },
+            {
+                "name": "Cyber Gradient 2",
+                "hex": "#FFE040",
+                "rgb": "(255, 244, 64)"
             }
         ]
     },
@@ -174,24 +264,39 @@
         "hex": "FE8D3C",
         "colors": [
             {
-                "name": "Design Amber",
+                "name": "Design Primary",
                 "hex": "#FE8D3C",
                 "rgb": "(254, 141, 60)"
             },
             {
-                "name": "Design Tint",
+                "name": "Design Secondary 1",
                 "hex": "#FFAC30",
                 "rgb": "(255, 172, 48)"
             },
             {
-                "name": "Design Dark",
+                "name": "Design Secondary 2",
+                "hex": "#FF7A00",
+                "rgb": "(255, 122, 0)"
+            },
+            {
+                "name": "Design Secondary 3",
                 "hex": "#522D14",
                 "rgb": "(82, 45, 20)"
             },
             {
-                "name": "Design Secondary",
+                "name": "Design Accent",
                 "hex": "#1955B3",
                 "rgb": "(25, 85, 179)"
+            },
+            {
+                "name": "Design Gradient 1",
+                "hex": "#F97313",
+                "rgb": "(249, 115, 19)"
+            },
+            {
+                "name": "Design Gradient 2",
+                "hex": "#FFD260",
+                "rgb": "(255, 210, 96)"
             }
         ]
     },
@@ -202,24 +307,39 @@
         "hex": "5EDA12",
         "colors": [
             {
-                "name": "Teach LA Lime",
+                "name": "Teach LA Primary",
                 "hex": "#5EDA12",
                 "rgb": "(94, 218, 18)"
             },
             {
-                "name": "Teach LA Tint",
+                "name": "Teach LA Secondary 1",
                 "hex": "#B0EE00",
                 "rgb": "(176, 238, 0)"
             },
             {
-                "name": "Teach LA Black",
+                "name": "Teach LA Secondary 2",
+                "hex": "#28AA26",
+                "rgb": "(40, 170, 38)"
+            },
+            {
+                "name": "Teach LA Secondary 3",
                 "hex": "#016D3A",
                 "rgb": "(1, 109, 58)"
             },
             {
-                "name": "Teach LA Secondary",
+                "name": "Teach LA Accent",
                 "hex": "#09D9C0",
                 "rgb": "(9, 217, 192)"
+            },
+            {
+                "name": "Teach LA Gradient 1",
+                "hex": "#50C609",
+                "rgb": "(80, 198, 9)"
+            },
+            {
+                "name": "Teach LA Gradient 2",
+                "hex": "#BCF223",
+                "rgb": "(188, 242, 35)"
             }
         ]
     }
