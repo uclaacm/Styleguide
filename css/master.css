@@ -259,6 +259,34 @@ body {
     text-align: center;
     letter-spacing: 0.12em; }
 
+.landing-banner .landing-text {
+  vertical-align: middle;
+  display: inline-block;
+  width: 50%; }
+  .landing-banner .landing-text h1 {
+    margin-top: 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    color: #000000;
+    letter-spacing: revert;
+    text-transform: initial; }
+  .landing-banner .landing-text h2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #2D2D2D;
+    letter-spacing: revert;
+    text-transform: initial; }
+
+.landing-banner img {
+  vertical-align: middle;
+  width: 50%; }
+
 .partials-container-lg {
   display: inline-block;
   vertical-align: top;
@@ -623,3 +651,21 @@ footer {
     font-weight: 200;
     font-size: 10px;
     line-height: 1.5em; }
+
+.landing-page-links {
+  display: inline-block;
+  position: relative;
+  width: 23%;
+  height: 10vw;
+  margin: 0 1.5% 2vw 0;
+  background-color: #ECECEC;
+  border-radius: 8px; }
+  .landing-page-links img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .landing-page-links .helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle; }
