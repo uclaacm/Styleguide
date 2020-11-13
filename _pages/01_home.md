@@ -26,9 +26,6 @@ permalink: "/"
     </div>
     <div class="landing-subheading">
         Assets
-        {% include "guidelines-image-box.html" bg-color: "#DCFFDD", content: "assets/logos/acm-logo-wordmark.png" %}
-        {% include "guidelines-text-box.html" bg-color: "#FFDCDC;
-", content: "ACM at UCLA" %}
     </div>
 <div class="landing-page-links">
     <a href="{{ site.baseurl }}/committees/acm"><img id="acm" src="{{ site.baseurl }}/assets/logos/acm-logo-wordmark.png"></a>
