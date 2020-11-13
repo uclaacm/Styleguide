@@ -373,7 +373,7 @@ body {
 .color-grid-container {
   display: grid;
   max-width: 925px;
-  grid-template-areas: "primary primary primary primary-text" "secondary-1 secondary-2 secondary-3 secondary-text" "accent accent accent accent-text" "gradient gradient gradient gradient-text";
+  grid-template-areas: "primary primary primary primary-text" "secondary-1 secondary-2 secondary-3 secondary-text" "accent accent accent accent-text" "gradient gradient gradient gradient-text";
   gap: 10px;
   height: 30rem; }
   .color-grid-container #primary {
@@ -494,6 +494,17 @@ body {
   padding: 120px 15% 50px;
   padding-top: 1rem;
   padding-bottom: 0; }
+
+.guidelines-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px; }
+  .guidelines-box p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; }
 
 /**
  * Syntax highlighting styles

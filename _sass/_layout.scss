@@ -690,6 +690,19 @@ body {
   padding-bottom: 0;
 }
 
+.guidelines-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+}
+
 // tablet
 @media only screen and (max-width: 1000px) {}
 
