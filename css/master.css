@@ -70,7 +70,7 @@ body {
 
 .content-body {
   padding: 97.5px 15% 50px;
-  font-size: 20px;
+  font-size: 1.125rem;
   color: #242424; }
   .content-body h1, .content-body h2, .content-body h3 {
     font-family: "Poppins", sans-serif;
@@ -415,6 +415,71 @@ body {
     font-weight: 600;
     font-size: 1.33125rem;
     line-height: 37px; }
+
+.guidelines-color-grid-container {
+  display: grid;
+  width: 100%;
+  grid-template-areas: "primary primary primary primary primary primary primary-text" "secondary-1 secondary-1 secondary-2 secondary-2 secondary-3 secondary-3 secondary-text" "accent accent accent accent accent accent accent-text" "gradient gradient gradient gradient gradient gradient gradient-text"  "mono-1 mono-1 mono-1 mono-2 mono-2 mono-2 mono-text";
+  gap: 10px;
+  grid-template-columns: repeat(6, 1fr) 50%; }
+  .guidelines-color-grid-container #primary {
+    grid-area: primary;
+    border-radius: 4.71541px; }
+  .guidelines-color-grid-container #primary-text {
+    grid-area: primary-text; }
+  .guidelines-color-grid-container #secondary-1 {
+    grid-area: secondary-1;
+    border-radius: 4.71541px; }
+  .guidelines-color-grid-container #secondary-2 {
+    grid-area: secondary-2;
+    background: cyan;
+    border-radius: 4.71541px; }
+  .guidelines-color-grid-container #secondary-3 {
+    grid-area: secondary-3;
+    background: red;
+    border-radius: 4.71541px; }
+  .guidelines-color-grid-container #secondary-text {
+    grid-area: secondary-text; }
+  .guidelines-color-grid-container #accent {
+    grid-area: accent;
+    background: lavender;
+    border-radius: 4.71541px; }
+  .guidelines-color-grid-container #accent-text {
+    grid-area: accent-text; }
+  .guidelines-color-grid-container #gradient {
+    grid-area: gradient;
+    background: skyblue;
+    border-radius: 4.71541px; }
+  .guidelines-color-grid-container #gradient-text {
+    grid-area: gradient-text; }
+  .guidelines-color-grid-container #mono-1 {
+    grid-area: mono-1;
+    border-radius: 4.69765px; }
+  .guidelines-color-grid-container #mono-2 {
+    grid-area: mono-2;
+    border: 2.34882px solid #EEEEEE;
+    border-radius: 4.69765px; }
+  .guidelines-color-grid-container #mono-text {
+    grid-area: mono-text; }
+  .guidelines-color-grid-container > div {
+    position: relative; }
+    .guidelines-color-grid-container > div .color-text {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      color: white;
+      padding: 1rem;
+      font-size: 0.8rem; }
+  .guidelines-color-grid-container .grid-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem; }
+    .guidelines-color-grid-container .grid-text h3 {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.33125rem;
+      line-height: 37px; }
 
 #bottom-img {
   padding: 120px 15% 50px;

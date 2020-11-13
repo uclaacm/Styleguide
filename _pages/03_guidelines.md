@@ -9,156 +9,122 @@ date: 2000-01-02
     <img class="image-full-width" src="/assets/partials/guidelines-banner.svg">
 </div>
 <style type="text/css" rel="stylesheet">
-* { color: red; }
+* { color: black; }
 </style>
 
-## Logos
-
-For each group, we’ve created a logomark and a wordmark. There’s currently no guidelines on using the two together. For using either of them in general though, we suggest making sure the margins for logomarks are at least ¼ its height/width, and the margins for wordmarks are ½ of its height.
-
-![Logo Margin Diagram]({{ site.baseurl }}/assets/logos/logo-margins.png){: .image-full-width}
-
-An exception to this would be when using them in conjunction with each other, or with extra “branded” elements like the committee taglines.
-
-![AI Cover Photo]({{ site.baseurl }}/assets/logos/ai-motif-applied.png){: .image-full-width}
-
-{% include "button.html", file: "allmarks.zip", filename:"all-logos", content: "Download all logomarks and wordmarks" %}
 
 ## Logomarks
 
-Our logomark takes inspiration from ACM's official diamond-shaped logo. Each has an icon representing each committee's topic of focus.
+ACM at UCLA logomarks are visual cues of what each committees, and ACM as a whole, does. 
 
-{% include "assetbox-light.html", title: "UCLA ACM logomark", file: "logos/acm-logo.png" %}
-{% include "assetbox-light.html", title: "ACM-W logomark", file: "logos/w-logo.png" %}
-{% include "assetbox-light.html", title: "ACM Hack logomark", file: "logos/hack-logo.png" %}
-{% include "assetbox-light.html", title: "ACM ICPC logomark", file: "logos/icpc-logo.png" %}
-{% include "assetbox-light.html", title: "ACM AI logomark", file: "logos/ai-logo.png" %}
-{% include "assetbox-light.html", title: "ACM Studio logomark", file: "logos/studio-logo.png" %}
-{% include "assetbox-light.html", title: "ACM Cyber logomark", file: "logos/cyber-logo.png" %}
-{% include "assetbox-light.html", title: "ACM Design logomark", file: "logos/design-logo.png" %}
-{% include "assetbox-light.html", title: "ACM TeachLA logomark", file: "logos/teachla-logo.png" %}
+### Spacing and Sizing 
 
-### Suggested Usage for logomarks
+Standard logomark images are pre-formatted to meet clearspace requirements. In cases where you need to modify these assests to create custom logomarks, use the following templates to maintain sufficent clearspace. 
+{% include "assetbox-template-large.html", title: "Download Template" , file: "partials/large-partial-01.svg" %}
+{% include "assetbox-template-large.html", title: "Download Template" , file: "partials/large-partial-02.png" %}
 
-Use logomarks when you are limited in the space you're given to insert branding. (Ex: Laptop Sticker)
+For stand-alone logos, use the following template.
+For wordmarks-logo combo, use the following template. If no committee name is present, remove the dot and treat the ‘m’ as the rightmost character. 
 
-{% include "button.html", file: "_Logomarks.zip", filename: "logomarks", content: "Download all logomarks" %}
 
-## Wordmarks
-
-{% include "assetbox-light.html", title: "UCLA ACM wordmark", file: "logos/acm-wordmark-dark-gradient.png" %}
-{% include "assetbox-light.html", title: "ACM-W wordmark", file: "logos/w-wordmark-dark-gradient.png" %}
-{% include "assetbox-light.html", title: "ACM Hack wordmark", file: "logos/hack-wordmark-dark-gradient.png" %}
-{% include "assetbox-light.html", title: "ACM ICPC wordmark", file: "logos/icpc-wordmark-dark-gradient.png" %}
-{% include "assetbox-light.html", title: "ACM AI wordmark", file: "logos/ai-wordmark-dark-gradient.png" %}
-{% include "assetbox-light.html", title: "ACM Studio wordmark", file: "logos/studio-wordmark-dark-gradient.png" %}
-{% include "assetbox-light.html", title: "ACM Cyber wordmark", file: "logos/cyber-wordmark-dark-gradient.png" %}
-{% include "assetbox-light.html", title: "ACM Design wordmark", file: "logos/design-wordmark-dark-gradient.png" %}
-{% include "assetbox-light.html", title: "ACM TeachLA wordmark", file: "logos/teachla-wordmark-dark-gradient.png" %}
-
-### Suggested Usage for wordmarks
-
-Try to use wordmarks in conjunction with the logomarks. If this isn't possible, make sure the sizing of the wordmark clearly establishes the committee as the group of ownership.
-
-{% include "button.html", file: "_Wordmarks.zip", filename: "wordmarks", content: "Download all wordmarks" %}
-
-# Colors
-
-Each group in UCLA ACM has four colors: a primary color, a lighter and darker version of the primary color, and a secondary color.
+### Color
+All logos come in two types - light and dark. Makes sure to use the version that maintains a color contrast of at least 0.7 between the background and the color of the diamond. 
 
 {% include "ok-bad-partials.html", title: "OK", file: "partials/acmGood01partial.svg" %}
 {% include "ok-bad-partials.html", title: "OK", file: "partials/acmGood02partial.svg" %}
 {% include "ok-bad-partials.html", title: "BAD", file: "partials/acmBad03partial.svg" %}
 {% include "ok-bad-partials.html", title: "BAD", file: "partials/acmBad04partial.svg" %}
 
-## Primary Colors
+## Wordmarks
 
-These are the main differentiating components between committees. They make up each committees' logos and are the key elements to the committees' graphics.
-{% include "colorswatch.html", name: "ACM Cobalt", hex: "#3B59ED", rgb: "(59, 89, 237)" %}
-{% for committee in committees %}
+ACM at UCLA Wordmarks are used when the name of the comittee has to be clarified. Nuilt using the proprietary Westwood Sans font, they are designed to be legiable in large print while keeping it aligned with ACM’s geometric art style. They can either be used alongside the logomark, or by itself.
 
-<div class="color-container">
-    <div style="background-color: {{ committee.colors[0].hex }}" class="color"></div>
-    <div class="color-label">
-        <p class="color-name">{{ committee.colors[0].name }}</p>
-        <p>HEX: {{ committee.colors[0].hex }}</p>
-        <p>RGB: {{ committee.colors[0].rgb }}</p>
-    </div>
-</div>
-{% endfor %}
+### Spacing and Sizing
+Standard logomark images are pre-formatted to meet clearspace requirements. In cases where you need to modify these assests to create custom logomarks, use the following templates to maintain sufficent clearspace. 
 
-## Light Primary Colors
+For wordmarks-logo combo, use the following template. Note that this is the same as the template in the “Logomark” section
+For wordmarks-logo combo, use the following template. If no committee name is present, remove the dot and treat the ‘m’ as the rightmost character.
 
-Use these where you would like to have committee branding, without as much emphasis.
-{% include "colorswatch.html", name: "ACM Tint", hex: "#ACBAFA", rgb: "(172, 186, 250)" %}
-{% for committee in committees %}
+{% include "assetbox-template-large.html", title: "Download Template" , file: "partials/spacing-01.png" %}
+{% include "assetbox-template-large.html", title: "Download Template" , file: "partials/spacing-02.svg" %}
 
-<div class="color-container">
-    <div style="background-color: {{ committee.colors[1].hex }}" class="color"></div>
-    <div class="color-label">
-        <p class="color-name">{{ committee.colors[1].name }}</p>
-        <p>HEX: {{ committee.colors[1].hex }}</p>
-        <p>RGB: {{ committee.colors[1].rgb }}</p>
-    </div>
-</div>
-{% endfor %}
+### Color
+Comittee wordmarks, in addition to light/dark versions, have a “basic” version and the gradient version. Whenever possible, the gradient version should be used. The basic version should be reserved for cases where colors are limited, such as physical merchendise, or when the gradient has a low color contrast compared to the background 
+{% include "ok-bad-partials.html", title: "OK", file: "partials/color-good-01.svg" %}
+{% include "ok-bad-partials.html", title: "OK", file: "partials/color-good-02.svg" %}
+{% include "ok-bad-partials.html", title: "BAD", file: "partials/color-bad-01.svg" %}
+{% include "ok-bad-partials.html", title: "BAD", file: "partials/color-bad-01.svg" %}
 
-## Dark Primary Colors
 
-Use these shades in situations where you would normally use black.
-{% include "colorswatch.html", name: "ACM Black", hex: "#262938", rgb: "(38, 41, 56)" %}
-{% for committee in committees %}
+### In Type
+When typing out wordmarks as text, capitalize ACM as well as the first letter in the second word. The dot should be converted to a space.
 
-<div class="color-container">
-    <div style="background-color: {{ committee.colors[2].hex }}" class="color"></div>
-    <div class="color-label">
-        <p class="color-name">{{ committee.colors[2].name }}</p>
-        <p>HEX: {{ committee.colors[2].hex }}</p>
-        <p>RGB: {{ committee.colors[2].rgb }}</p>
-    </div>
-</div>
-{% endfor %}
+<img src="{{ site.baseurl}}/assets/partials/in-type.svg"
+    alt="In Type Graphic"
+    style="width:80%; margin:2rem 0; display:block; margin-left:auto; margin-right:auto" />
 
-## Secondary Colors
 
-Each committee's secondary color is one of the other committee's primary color (ex. Hack's secondary is Studio's Raspberry).
-{% include "colorswatch.html", name: "ACM Secondary", hex: "#FFBA44", rgb: "(255, 186, 68)" %}
-{% for committee in committees %}
 
-<div class="color-container">
-    <div style="background-color: {{ committee.colors[3].hex }}" class="color"></div>
-    <div class="color-label">
-        <p class="color-name">{{ committee.colors[3].name }}</p>
-        <p>HEX: {{ committee.colors[3].hex }}</p>
-        <p>RGB: {{ committee.colors[3].rgb }}</p>
-    </div>
-</div>
-{% endfor %}
+To add subtitles, use a vertical line separated by a single space:
+#### ACM Hack | Hackschool Series
 
-## Supplementary Colors
+## Compliance
+In order to comply with UCLA and ACM’s branding plicies, there are several rules to follow.  
 
-These colors are always available to use, regardless of committee. When normally using pure black (#000000), opt for the black below instead.
-{% include "colorswatch.html", name: "White", hex: "#FFFFFF", rgb: "(255, 255, 255)" %}
-{% include "colorswatch.html", name: "Black", hex: "#242424", rgb: "(24, 24, 24)" %}
+### UCLA Policies
+These rules apply for all activities on campus
 
-# Typography
 
-UCLA ACM uses three main typefaces: Poppins, Palanquin Dark, and Chivo.
 
-{% include "type.html", family: "Poppins", weight: "700" %}
+All official documents and mediums facing the general public must use the version superceded by “at UCLA”. Non-official materials (e.g. posters, fliers, social media posts) do not need the “at UCLA”
+
+For committees, supercede the “at UCLA” after the full committee name.  
+
+“UCLA” must be in all caps
+
+
+### ACM Policies
+These rules apply for all activities/materials **directly** dealing with **ACM HQ**.
+
+Wordmarks are designed to be used on campus. Do not use them in relation to ACM HQ. 
+
+When creating custom wordmarks or typing it out, use “UCLA ACM”
+
+“ACM” and “UCLA” should be all caps
+
+
+## Colors
+Each committee, including the general ACM at UCLA, has 4 colors defined, as well as a “gradient”. 
+{% include "guidelines-color-grid.html"%}
+
+### Ratio
+New ACM branding recommends light theme. The bottom chart shows a recommended ratios of colors. The exact ratios are not specified to allow flexibility in design.  
+
+<img src="{{ site.baseurl}}/assets/partials/ratio-guidelines.svg"
+     alt="In Type Graphic"
+     style="width:100%; height:auto; margin:2rem 0" />
+
+## Typography
+ACM at UCLA has 4 fonts defined for various uses
+
+CREATE TYPOGRAPHY COMPONENT
+
+## Art
+ACM at UCLA, like many other tech-related organizations, predominatly use vector-based art, However, in order to help it stand out from other organizations, there are several key art directions to follow.  
+
+## Questions?
+Contact Haki or Tomoki
+
+
+
+
+<!-- {% include "type.html", family: "Poppins", weight: "700" %}
 As our main display typeface, [Poppins](https://fonts.google.com/specimen/Poppins "Poppins on Google Fonts") is used for virtually all content with ACM branding. It's fun and friendly, and represents what we want our events to be like. As such, Poppins is the foundation for all our committees' wordmarks. We suggest using this whenever you want your content to have a strong association with ACM.
 
 {% include "type.html", family: "Palanquin Dark", weight: "700" %}
 [Palanquin Dark](https://fonts.google.com/specimen/Palanquin+Dark "Palanquin Dark on Google Fonts") is our main header typeface, which we use on all our websites when we have copy/headings that speak, not show. It has a more organic vibe compared to Poppins. We suggest using Palanquin Dark on your website headings, but not for graphics.
 
 {% include "type.html", family: "Chivo", weight: "400" %}
-[Chivo](https://fonts.google.com/specimen/Chivo "Chivo on Google Fonts") is our main body typeface. It's design is more similar to tech aesthetics, and can be used for casual copy, or more serious situations. We suggest using Chivo for smaller UI elements and body text.
+[Chivo](https://fonts.google.com/specimen/Chivo "Chivo on Google Fonts") is our main body typeface. It's design is more similar to tech aesthetics, and can be used for casual copy, or more serious situations. We suggest using Chivo for smaller UI elements and body text. -->
 
-## Keep it Poppins'
 
-There aren't really strict guidelines on how to use these typefaces—designing with them is up to your discretion. Likewise, there's no need to adhere to these type families, as they may change in the future. That being said, when in doubt and don't care about font specifics, use Poppins.
-
-{% include "assetbox-template-large.html", title: "Download Template" , file: "partials/large-partial-01.svg" %}
-{% include "assetbox-template-large.html", title: "Download Template" , file: "partials/large-partial-02.png" %}
-
-{% include "color-grid-committees.html" %}
