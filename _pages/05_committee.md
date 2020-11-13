@@ -13,7 +13,9 @@ tags:
 ---
 
 <div>  
+  {% if committee.filename != "acm" %}
   <img class="image-full-width" src="{{ site.baseurl }}/assets/logos/{{ committee.filename }}-motif-applied.png">
+  {% endif %}
 
   <div style="padding-bottom: 3rem; padding-top: 3rem;">
   <h2>Logomarks</h2>
@@ -55,6 +57,8 @@ tags:
 
 </div>
 
+{% if committee.filename != "acm" %}
+
 <div style="padding-bottom: 3rem; padding-top: 3rem;">
   <h2>Pattern/Motif</h2>
   <p>Unfortunately no pattern assets exist on their own, but we suggest using the corresponding facebook group cover photos for reference:</p>
@@ -63,5 +67,6 @@ tags:
   <p>Base Motif:<p>
   <img class="image-full-width" id="bottom-img" src="{{ site.baseurl }}/assets/logos/{{ committee.filename }}-motif-base.png">
 </div>
+{% endif %}
 
 </div>
