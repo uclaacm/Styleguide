@@ -1,34 +1,31 @@
-
-  {% if page.url contains committee.filename %}
-    <footer class="active-{{ committee.filename }}-bg">
-      <div class="socials">
-        <!-- to be replaced by actual links and corresponding logos -->
-          <a href="/">{% include 'facebook-logo.svg' %}</a>
-          <a href="/">{% include 'facebook-logo.svg' %}</a>
-          <a href="/">{% include 'facebook-logo.svg' %}</a>
-          <a href="/">{% include 'facebook-logo.svg' %}</a>
-        <div class="vl"></div>
-        <p id="email">email@uclaacm.com</p>
-      </div>
-      <img src="{{ site.baseurl }}/assets/logos/design-logo-light.png" class="logo">
-      <p id="committee-name">ACM at UCLA acm.{{ committee.filename }} &copy
-        <br>made and maintained by acm.design &copy 2020
-      </p>
-    </footer>
-  {% else %}
-    <footer>
-      <div class="socials">
-        <!-- to be replaced by actual links and corresponding logos -->
-          <a href="/">{% include 'facebook-logo.svg' %}</a>
-          <a href="/">{% include 'facebook-logo.svg' %}</a>
-          <a href="/">{% include 'facebook-logo.svg' %}</a>
-          <a href="/">{% include 'facebook-logo.svg' %}</a>
-        <div class="vl"></div>
-        <p id="email">email@uclaacm.com</p>
-      </div>
-      <img src="{{ site.baseurl }}/assets/logos/design-logo-light.png" class="logo">
-      <p id="committee-name">ACM at UCLA &copy
-        <br>made and maintained by acm.design &copy 2020
-      </p>
-    </footer>
-  {% endif %}
+{% if page.url contains committee.filename %}
+  <footer class="active-{{ committee.filename }}-bg">
+    <div class="socials">
+        <a href="https://www.facebook.com/uclaacm"><img src="{{ site.baseurl }}/assets/facebook-logo.svg"></a>
+        <a href="/"><img src="{{ site.baseurl }}/assets/facebook-logo.svg"></a>
+        <a href="/"><img src="{{ site.baseurl }}/assets/facebook-logo.svg"></a>
+        <a href="/"><img src="{{ site.baseurl }}/assets/facebook-logo.svg"></a>
+      <div class="vl"></div>
+      <p id="email">acm@ucla.edu</p>
+    </div>
+    <img src="{{ site.baseurl }}/assets/logos/design-logo-light.png" class="logo">
+    <p id="committee-name">ACM at UCLA acm.{{ committee.filename }} &copy
+      <br>made and maintained by acm.design &copy 2020
+    </p>
+  </footer>
+{% else %}
+  <footer>
+    <div class="socials">
+        <a href="https://www.facebook.com/uclaacm"><img src="{{ site.baseurl }}/assets/facebook-logo.svg"></a>
+        <a href="/"><img src="{{ site.baseurl }}/assets/facebook-logo.svg"></a>
+        <a href="/"><img src="{{ site.baseurl }}/assets/facebook-logo.svg"></a>
+        <a href="/"><img src="{{ site.baseurl }}/assets/facebook-logo.svg"></a>
+      <div class="vl"></div>
+      <p id="email">acm@ucla.edu</p>
+    </div>
+    <img src="{{ site.baseurl }}/assets/logos/design-logo-light.png" class="logo">
+    <p id="committee-name">ACM at UCLA &copy
+      <br>made and maintained by acm.design &copy 2020
+    </p>
+  </footer>
+{% endif %}
