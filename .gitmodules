@@ -1,0 +1,3 @@
+[submodule "assets/WestwoodSans"]
+	path = assets/WestwoodSans
+	url = https://github.com/uclaacm/Westwood_Sans.git
