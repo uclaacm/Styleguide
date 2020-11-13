@@ -13,53 +13,59 @@ body {
   height: 100vh; }
 
 .active-hack {
-  color: #C960FF; }
+  color: #c960ff; }
 
 .active-w {
-  color: #1BC3A9; }
+  color: #1bc3a9; }
 
 .active-ai {
-  color: #1EBDF4; }
+  color: #1ebdf4; }
 
 .active-icpc {
-  color: #FF6B6B; }
+  color: #ff6b6b; }
 
 .active-studio {
-  color: #FB4469; }
+  color: #fb4469; }
 
 .active-cyber {
-  color: #FFBA44; }
+  color: #ffba44; }
 
 .active-design {
-  color: #FE823C; }
+  color: #fe823c; }
 
 .active-teachla {
-  color: #A1D900; }
+  color: #a1d900; }
+
+.active-acm {
+  color: #1e6cff; }
 
 /* ----------------------------------*/
 .active-hack-bg {
-  background-color: #C960FF; }
+  background-color: #c960ff; }
 
 .active-w-bg {
-  background-color: #1BC3A9; }
+  background-color: #1bc3a9; }
 
 .active-ai-bg {
-  background-color: #1EBDF4; }
+  background-color: #1ebdf4; }
 
 .active-icpc-bg {
-  background-color: #FF6B6B; }
+  background-color: #ff6b6b; }
 
 .active-studio-bg {
-  background-color: #FB4469; }
+  background-color: #fb4469; }
 
 .active-cyber-bg {
-  background-color: #FFBA44; }
+  background-color: #ffba44; }
 
 .active-design-bg {
-  background-color: #FE823C; }
+  background-color: #fe823c; }
 
 .active-teachla-bg {
-  background-color: #A1D900; }
+  background-color: #a1d900; }
+
+.active-acm-bg {
+  background-color: #1e6cff; }
 
 .content {
   width: auto; }
@@ -68,7 +74,9 @@ body {
   padding: 97.5px 15% 50px;
   font-size: 20px;
   color: #242424; }
-  .content-body h1, .content-body h2, .content-body h3 {
+  .content-body h1,
+  .content-body h2,
+  .content-body h3 {
     font-family: "Poppins", sans-serif;
     margin-bottom: 0em;
     margin-top: 1.5em;
@@ -80,7 +88,8 @@ body {
     letter-spacing: 0.585em;
     text-transform: uppercase;
     color: #737373; }
-  .content-body h1, .content-body h2 {
+  .content-body h1,
+  .content-body h2 {
     line-height: 1em;
     font-weight: 600;
     font-size: 24px;
@@ -100,15 +109,15 @@ body {
     padding-right: 40px;
     text-decoration: none;
     font-weight: 700;
-    color: #2E2E2E;
+    color: #2e2e2e;
     font-size: 0.75em;
     text-align: center;
     border-radius: 30.27px;
-    background-color: #DADADA;
+    background-color: #dadada;
     width: auto;
     clear: both; }
     .content-body .button:hover {
-      background-color: #3B59ED;
+      background-color: #3b59ed;
       color: white;
       transition: 0.1s; }
     .content-body .button:active {
@@ -140,7 +149,7 @@ body {
 .color-container {
   display: inline-block;
   vertical-align: top;
-  background-color: #DADADA;
+  background-color: #dadada;
   width: 160px;
   font-size: 12px;
   margin: 10px 5px 0 0;
@@ -163,7 +172,7 @@ body {
 .dl-container {
   display: inline-block;
   vertical-align: top;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   width: 190px;
   font-size: 0.75em;
   margin: 10px 5px 0 0;
@@ -173,9 +182,9 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: white;
-    color: #2E2E2E;
+    color: #2e2e2e;
     border-radius: 0px 0px 5px 5px;
-    border: 0.5px solid #CFCFCF;
+    border: 0.5px solid #cfcfcf;
     height: 60px; }
     .dl-container .dl-title img {
       width: 100%;
@@ -189,7 +198,7 @@ body {
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 5px 5px 0px 0px;
-    border: 0.5405px solid #CFCFCF;
+    border: 0.5405px solid #cfcfcf;
     border-bottom: 0;
     display: flex;
     justify-content: center;
@@ -205,7 +214,7 @@ body {
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 5px 5px 0px 0px;
-    border: 0.5405px solid #CFCFCF;
+    border: 0.5405px solid #cfcfcf;
     border-bottom: 0;
     display: flex;
     justify-content: center;
@@ -223,7 +232,7 @@ body {
   margin-left: -30px;
   padding-left: 20px;
   padding-bottom: 20px;
-  background-color: #DADADA; }
+  background-color: #dadada; }
   .type-container h1 {
     font-size: 3em;
     margin-top: 0;
@@ -556,7 +565,7 @@ body {
   padding: 25px 0 15px 15%; }
 
 .active {
-  color: #3B59ED; }
+  color: #3b59ed; }
 
 .not-active {
   color: #3A3A3A; }
