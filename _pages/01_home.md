@@ -28,9 +28,9 @@ permalink: "/"
         Assets
     </div>
 <div class="landing-page-links">
-    <a href="{{ site.baseurl }}/guidelines"><img id="acm" src="{{ site.baseurl }}/assets/logos/acm-logo-wordmark.png"></a>
+    <a href="{{ site.baseurl }}/committees/acm"><img id="acm" src="{{ site.baseurl }}/assets/logos/acm-logo-wordmark.png"></a>
 </div>
-{% for committee in committees %}
+{% for committee in committees limit:8 %}
 <div class="landing-page-links">
     <a href="{{ site.baseurl }}/committees/{{ committee.filename }}"><img src="{{ site.baseurl }}/assets/logos/{{ committee.filename }}-logo-wordmark-dark-gradient.png"></a>
 </div>
