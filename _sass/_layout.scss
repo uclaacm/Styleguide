@@ -78,7 +78,10 @@ body {
   padding: 97.5px 15% 50px;
   font-size: 1.125rem;
   color: #242424;
-  h1,h2,h3 {
+
+  h1,
+  h2,
+  h3 {
     font-family: $font-header;
     margin-bottom: 0em;
     margin-top: 1.5em;
@@ -93,24 +96,28 @@ body {
 
     color: #737373;
   }
-  h1,h2 {
+
+  h1,
+  h2 {
     line-height: 1em;
     font-weight: 600;
     font-size: 24px;
-    line-height: 36px;    
+    line-height: 36px;
   }
 
   // h2 for Applied Motif
-  h3{
+  h3 {
     font-weight: 600;
     font-size: 24.6676px;
     line-height: 37px;
     color: #131313;
   }
+
   p {
     line-height: 1.6em;
   }
-  .button { 
+
+  .button {
     display: table;
     margin-top: 10px;
     padding: 5px;
@@ -125,30 +132,34 @@ body {
     background-color: #DADADA;
     width: auto;
     clear: both;
+
     &:hover {
       background-color: $primary-board;
-      color: white;  
+      color: white;
       transition: 0.1s;
     }
+
     &:active {
       transform: translateY(3px);
       box-shadow: 0px 0px;
-      transition: 0.1s;      
+      transition: 0.1s;
     }
   }
+
   #logo {
     display: block;
     max-width: 150px;
     margin: 0 auto;
   }
+
   .image-full-width {
     height: 45rem;
     object-fit: cover;
     width: 100vw;
     position: relative;
-    left: 50%;  
+    left: 50%;
     margin-left: -50vw;
-  } 
+  }
 }
 
 .committee-container {
@@ -158,8 +169,8 @@ body {
   padding-left: -20px;
   padding-right: -20px;
   margin: 0;
-  
-  img{
+
+  img {
     width: 100vw;
 
   }
@@ -175,18 +186,22 @@ body {
   border-radius: 5px;
   border: 1px solid rgba(#DADADA, 0.1);
   height: 135px;
+
   .color {
     height: 50px;
-    border-radius: 5px 5px 0 0;      
+    border-radius: 5px 5px 0 0;
   }
+
   .color-label {
     padding: 10px;
     height: 95px;
     border-radius: 0 0 5px 5px;
     font-size: 14px;
+
     .color-name {
       font-weight: 700;
     }
+
     p {
       margin: 0;
     }
@@ -201,27 +216,30 @@ body {
   font-size: 0.75em;
   margin: 10px 5px 0 0;
   border-radius: 5px;
-  
+
   .dl-title {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color:white;
+    background-color: white;
     color: #2E2E2E;
     border-radius: 0px 0px 5px 5px;
     border: 0.5px solid #CFCFCF;
     height: 60px;
+
     img {
       width: 100%;
       max-width: 13px;
       padding-left: 3px;
-      
+
       transition: 0.5s;
+
       &:hover {
         transform: scale(1.08);
       }
     }
   }
+
   .dl-content-light {
     padding: 20px;
     padding-left: 40px;
@@ -233,14 +251,17 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 95px;
+
     img {
       width: 100%;
       transition: 0.5s;
+
       &:hover {
         transform: scale(1.08);
       }
     }
   }
+
   .dl-content-dark {
     padding: 20px;
     padding-left: 40px;
@@ -253,9 +274,11 @@ body {
     align-items: center;
     min-height: 95px;
     background: black;
+
     img {
       width: 100%;
       transition: 0.5s;
+
       &:hover {
         transform: scale(1.08);
       }
@@ -269,28 +292,31 @@ body {
   padding-left: 20px;
   padding-bottom: 20px;
   background-color: #DADADA;
+
   h1 {
     font-size: 3em;
     margin-top: 0;
     line-height: 2em;
     font-family: inherit;
   }
+
   p {
     margin: 0;
     font-size: 1.2em;
+
     &.type-upper {
       text-transform: uppercase;
     }
   }
 }
 
-.asset-container-ok-bad{
+.asset-container-ok-bad {
   display: inline-block;
   vertical-align: top;
   justify-content: center;
   background-color: white;
 
-  .asset-content-ok-bad{
+  .asset-content-ok-bad {
     padding: 20px;
     border-radius: 9.28px;
     display: flex;
@@ -298,12 +324,14 @@ body {
     align-items: center;
     min-height: 95px;
     background: white;
+
     img {
       width: 100%;
     }
 
   }
-  .asset-title-ok-bad{
+
+  .asset-title-ok-bad {
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
@@ -311,20 +339,23 @@ body {
     line-height: 27px;
     text-align: center;
     letter-spacing: 0.12em;
-    
+
   }
 }
 
 .landing-container {
   padding-top: 5vh;
+
   .landing-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     .landing-header-text {
       // vertical-align: middle;
       display: inline-block;
       width: 50%;
+
       h1 {
         margin-top: 0;
         font-family: Poppins;
@@ -336,6 +367,7 @@ body {
         letter-spacing: revert;
         text-transform: initial;
       }
+
       h2 {
         font-family: Open Sans;
         font-style: normal;
@@ -345,8 +377,9 @@ body {
         color: #2D2D2D;
         letter-spacing: revert;
         text-transform: initial;
-        }
+      }
     }
+
     img {
       width: 50%;
     }
@@ -360,6 +393,7 @@ body {
     line-height: 36px;
     padding-top: 4vh;
   }
+
   .landing-page-links {
     display: inline-flex;
     justify-content: center;
@@ -370,19 +404,23 @@ body {
     margin: 1vw 1.5% 0.2vw 0;
     background-color: #ECECEC;
     border-radius: 8px;
+
     a {
       display: flex;
       justify-content: center;
       align-items: center;
     }
+
     img {
-        position: absolute;
-        width: auto;
-        height: 32%;
+      position: absolute;
+      width: auto;
+      height: 32%;
     }
+
     #acm {
       height: 52%;
     }
+
     #guidelines {
       position: relative;
       font-family: Poppins;
@@ -392,7 +430,7 @@ body {
       color: #6045FA;
       text-align: center;
     }
-}
+  }
 }
 
 
@@ -406,30 +444,33 @@ body {
   .partials-content-lg {
     padding: 20px;
     padding-bottom: 8px;
+
     img {
       width: 100%;
     }
   }
-  
+
   .partials-title-lg {
     font-family: Poppins;
     text-align: right;
     padding-top: 10px;
     padding-bottom: 8px;
     padding-right: 20px;
-    background-color:white;
+    background-color: white;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 18px;
     letter-spacing: 0.12em;
     color: #434343;
+
     img {
       width: 100%;
       max-width: 16px;
       padding-left: 3px;
-      
+
       transition: 0.5s;
+
       &:hover {
         transform: scale(1.08);
       }
@@ -438,62 +479,73 @@ body {
 }
 
 
-.color-grid-container{
+.color-grid-container {
   display: grid;
   max-width: 925px;
-  grid-template-areas: 
-  "primary primary primary primary-text"
-  "secondary-1 secondary-2 secondary-3 secondary-text"
-  "accent accent accent accent-text"
-  "gradient gradient gradient gradient-text";
+  grid-template-areas:
+    "primary primary primary primary-text"
+    "secondary-1 secondary-2 secondary-3 secondary-text"
+    "accent accent accent accent-text"
+    "gradient gradient gradient gradient-text";
   gap: 10px;
   height: 30rem;
-  #primary{
+
+  #primary {
     grid-area: primary;
-    
+
     border-radius: 4.71541px;
   }
-  #primary-text{
+
+  #primary-text {
     grid-area: primary-text;
   }
-  #secondary-1{
+
+  #secondary-1 {
     grid-area: secondary-1;
-    
+
     border-radius: 4.71541px;
   }
-  #secondary-2{
+
+  #secondary-2 {
     grid-area: secondary-2;
     background: cyan;
     border-radius: 4.71541px;
   }
-  #secondary-3{
+
+  #secondary-3 {
     grid-area: secondary-3;
     background: red;
     border-radius: 4.71541px;
   }
-  #secondary-text{
+
+  #secondary-text {
     grid-area: secondary-text;
   }
-  #accent{
+
+  #accent {
     grid-area: accent;
     background: lavender;
     border-radius: 4.71541px;
   }
-  #accent-text{
+
+  #accent-text {
     grid-area: accent-text;
   }
-  #gradient{
+
+  #gradient {
     grid-area: gradient;
     background: skyblue;
     border-radius: 4.71541px;
   }
-  #gradient-text{
+
+  #gradient-text {
     grid-area: gradient-text;
   }
-  > div {
+
+  >div {
     position: relative;
-    
-    .color-text{
+
+    .color-text {
       position: absolute;
       bottom: 0;
       left: 0;
@@ -502,7 +554,8 @@ body {
       font-size: 0.8rem;
     }
   }
-  .grid-text{
+
+  .grid-text {
     display: flex;
     align-items: center;
     padding-left: 2rem;
@@ -512,80 +565,92 @@ body {
     font-size: 1.33125rem;
     line-height: 37px;
   }
-  
+
 }
 
-.guidelines-color-grid-container{
+.guidelines-color-grid-container {
   display: grid;
   width: 100%;
-  grid-template-areas: 
-  "primary primary primary primary primary primary primary-text"
-  "secondary-1 secondary-1 secondary-2 secondary-2 secondary-3 secondary-3 secondary-text"
-  "accent accent accent accent accent accent accent-text"
-  "gradient gradient gradient gradient gradient gradient gradient-text" 
-  "mono-1 mono-1 mono-1 mono-2 mono-2 mono-2 mono-text";
+  grid-template-areas:
+    "primary primary primary primary primary primary primary-text"
+    "secondary-1 secondary-1 secondary-2 secondary-2 secondary-3 secondary-3 secondary-text"
+    "accent accent accent accent accent accent accent-text"
+    "gradient gradient gradient gradient gradient gradient gradient-text"
+    "mono-1 mono-1 mono-1 mono-2 mono-2 mono-2 mono-text";
   gap: 10px;
   grid-template-columns: repeat(6, 1fr) 50%;
-  #primary{
+
+  #primary {
     grid-area: primary;
-    
+
     border-radius: 4.71541px;
   }
-  #primary-text{
+
+  #primary-text {
     grid-area: primary-text;
   }
-  #secondary-1{
+
+  #secondary-1 {
     grid-area: secondary-1;
-    
+
     border-radius: 4.71541px;
   }
-  #secondary-2{
+
+  #secondary-2 {
     grid-area: secondary-2;
     background: cyan;
     border-radius: 4.71541px;
   }
-  #secondary-3{
+
+  #secondary-3 {
     grid-area: secondary-3;
     background: red;
     border-radius: 4.71541px;
   }
-  #secondary-text{
+
+  #secondary-text {
     grid-area: secondary-text;
   }
-  #accent{
+
+  #accent {
     grid-area: accent;
     background: lavender;
     border-radius: 4.71541px;
   }
-  #accent-text{
+
+  #accent-text {
     grid-area: accent-text;
   }
-  #gradient{
+
+  #gradient {
     grid-area: gradient;
     background: skyblue;
     border-radius: 4.71541px;
   }
-  #gradient-text{
+
+  #gradient-text {
     grid-area: gradient-text;
   }
 
-  #mono-1{
+  #mono-1 {
     grid-area: mono-1;
     border-radius: 4.69765px;
   }
 
-  #mono-2{
+  #mono-2 {
     grid-area: mono-2;
     border: 2.34882px solid #EEEEEE;
     border-radius: 4.69765px;
   }
-  #mono-text{
+
+  #mono-text {
     grid-area: mono-text;
   }
-  > div {
+
+  >div {
     position: relative;
-    
-    .color-text{
+
+    .color-text {
       position: absolute;
       bottom: 0;
       left: 0;
@@ -594,11 +659,13 @@ body {
       font-size: 0.8rem;
     }
   }
-  .grid-text{
+
+  .grid-text {
     display: flex;
     flex-direction: column;
     padding-left: 2rem;
-    h3{
+
+    h3 {
       font-family: Poppins;
       font-style: normal;
       font-weight: 600;
@@ -606,21 +673,17 @@ body {
       line-height: 37px;
     }
   }
-  
+
 }
 
-#bottom-img{
+#bottom-img {
   padding: 120px 15% 50px;
   padding-top: 1rem;
   padding-bottom: 0;
 }
 
 // tablet
-@media only screen and (max-width: 1000px){
-
-}
+@media only screen and (max-width: 1000px) {}
 
 //mobile
-@media only screen and (max-width: 400px){
-
-}
+@media only screen and (max-width: 400px) {}
