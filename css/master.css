@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Source+Code+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+@font-face {
+  font-family: WestwoodSans;
+  src: url("../assets/WestwoodSans/Westwood_Sans.otf") format("opentype"); }
+
 *,
 *::before,
 *::after {
@@ -267,6 +271,72 @@ body {
     line-height: 27px;
     text-align: center;
     letter-spacing: 0.12em; }
+
+.landing-container {
+  padding-top: 5vh; }
+  .landing-container .landing-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .landing-container .landing-header .landing-header-text {
+      display: inline-block;
+      width: 50%; }
+      .landing-container .landing-header .landing-header-text h1 {
+        margin-top: 0;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 60px;
+        color: #000000;
+        letter-spacing: revert;
+        text-transform: initial; }
+      .landing-container .landing-header .landing-header-text h2 {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 23px;
+        color: #2D2D2D;
+        letter-spacing: revert;
+        text-transform: initial; }
+    .landing-container .landing-header img {
+      width: 50%; }
+  .landing-container .landing-subheading {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 4vh; }
+  .landing-container .landing-page-links {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 22%;
+    height: 8vw;
+    margin: 1vw 1.5% 0.2vw 0;
+    background-color: #ECECEC;
+    border-radius: 8px; }
+    .landing-container .landing-page-links a {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .landing-container .landing-page-links img {
+      position: absolute;
+      width: auto;
+      height: 32%; }
+    .landing-container .landing-page-links #acm {
+      height: 52%; }
+    .landing-container .landing-page-links #guidelines {
+      position: relative;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 1.5vw;
+      color: #6045FA;
+      text-align: center; }
 
 .partials-container-lg {
   display: inline-block;

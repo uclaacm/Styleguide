@@ -16,6 +16,11 @@ $primary-teachla: #a1d900;
 $primary-acm: #1e6cff;
 $primary-black: #242424;
 
+@font-face {
+  font-family: WestwoodSans;
+  src: url("../assets/WestwoodSans/Westwood_Sans.otf") format("opentype");
+}
+
 *,
 *::before,
 *::after {
