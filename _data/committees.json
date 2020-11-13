@@ -3,7 +3,7 @@
         "title": "W",
         "filename": "w",
         "tagline": "Starting Conversations About Diversity in Tech",
-        "hex": "00D4CA",
+        "hex": "1BC3A9",
         "colors": [
             {
                 "name": "W Primary",
@@ -218,7 +218,7 @@
         "title": "Cyber",
         "filename": "cyber",
         "tagline": "Cybersecurity Made Simple",
-        "hex": "FFCB44",
+        "hex": "FFBA44",
         "colors": [
             {
                 "name": "Cyber Primary",
@@ -340,6 +340,49 @@
                 "name": "Teach LA Gradient 2",
                 "hex": "#BCF223",
                 "rgb": "(188, 242, 35)"
+            }
+        ]
+    },
+    {
+        "title": "ACM",
+        "filename": "acm",
+        "tagline": "acm",
+        "hex": "1E6CFF",
+        "colors": [
+            {
+                "name": "ACM Primary",
+                "hex": "#1E6CFF",
+                "rgb": "(30, 108, 255)"
+            },
+            {
+                "name": "ACM Secondary 1",
+                "hex": "#3DA2FF",
+                "rgb": "(61, 162, 255)"
+            },
+            {
+                "name": "ACM Secondary 2",
+                "hex": "#0057FF",
+                "rgb": "(0, 87, 255)"
+            },
+            {
+                "name": "ACM Secondary 3",
+                "hex": "#091BB9",
+                "rgb": "(9, 27, 185)"
+            },
+            {
+                "name": "ACM Accent",
+                "hex": "#3DD0FF",
+                "rgb": "(61, 208, 255)"
+            },
+            {
+                "name": "ACM Gradient 1",
+                "hex": "#298CFF",
+                "rgb": "(41, 140, 255)"
+            },
+            {
+                "name": "ACM Gradient 2",
+                "hex": "#0F44FF",
+                "rgb": "(15, 68, 255)"
             }
         ]
     }
