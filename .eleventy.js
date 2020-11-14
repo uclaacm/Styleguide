@@ -31,10 +31,10 @@ module.exports = function (eleventyConfig) {
     let options = {
         html:true, 
         breaks: true,
-        linkify: true
+        linkify: true,
     };
 
-    let md_lib = md_it(options).use(md_attr);
+    let md_lib = md_it(options).use(md_attr).disable('code');
     eleventyConfig.setLibrary("md", md_lib);
 
     eleventyConfig.addFilter('jsonify', function (variable) {

@@ -6,24 +6,39 @@
         "hex": "1BC3A9",
         "colors": [
             {
-                "name": "W Teal",
+                "name": "W Primary",
                 "hex": "#1BC3A9",
                 "rgb": "(27, 195, 169)"
             },
             {
-                "name": "W Tint",
-                "hex": "#80D3C6",
-                "rgb": "(128, 211, 198)"
+                "name": "W Secondary 1",
+                "hex": "#56E4B1",
+                "rgb": "(86, 228, 177)"
             },
             {
-                "name": "W Black",
-                "hex": "#233431",
-                "rgb": "(35, 52, 49)"
+                "name": "W Secondary 2",
+                "hex": "#1BC3A9",
+                "rgb": "(27, 195, 169)"
             },
             {
-                "name": "W Secondary",
-                "hex": "#3B59ED",
-                "rgb": "(59, 89, 237)"
+                "name": "W Secondary 3",
+                "hex": "#135468",
+                "rgb": "(19, 84, 104)"
+            },
+            {
+                "name": "W Accent",
+                "hex": "#3B65F9",
+                "rgb": "(59, 101, 249)"
+            },
+            {
+                "name": "W Gradient 1",
+                "hex": "#03D1C8",
+                "rgb": "(3, 209, 200)"
+            },
+            {
+                "name": "W Gradient 2",
+                "hex": "#51F392",
+                "rgb": "(81, 243, 146)"
             }
         ]
     },
@@ -34,24 +49,39 @@
         "hex": "C960FF",
         "colors": [
             {
-                "name": "Hack Purple",
+                "name": "Hack Primary",
                 "hex": "#C960FF",
                 "rgb": "(201, 96, 255)"
             },
             {
-                "name": "Hack Tint",
-                "hex": "#DB99FD",
+                "name": "Hack Secondary 1",
+                "hex": "#C137D8",
                 "rgb": "(219, 153, 253)"
             },
             {
-                "name": "Hack Black",
-                "hex": "#352A3A",
-                "rgb": "(53, 42, 58)"
+                "name": "Hack Secondary 2",
+                "hex": "#9C28C5",
+                "rgb": "(156, 40, 197)"
             },
             {
-                "name": "Hack Secondary",
-                "hex": "#ED3266",
-                "rgb": "(237, 50, 102)"
+                "name": "Hack Secondary 3",
+                "hex": "#3E2961",
+                "rgb": "(62, 41, 97)"
+            },
+            {
+                "name": "Hack Accent",
+                "hex": "#FF477E",
+                "rgb": "(255, 71, 126)"
+            },
+            {
+                "name": "Hack Gradient 1",
+                "hex": "#BD00FF",
+                "rgb": "(189, 0, 255)"
+            },
+            {
+                "name": "Hack Gradient 2",
+                "hex": "#FF5F96",
+                "rgb": "(255, 95, 150)"
             }
         ]
     },
@@ -59,27 +89,42 @@
         "title": "ICPC",
         "filename": "icpc",
         "tagline": "Mastering Algorithms and Competitive Programming",
-        "hex": "FF6B6B",
+        "hex": "FF8383",
         "colors": [
             {
-                "name": "ICPC Tangerine",
+                "name": "ICPC Primary",
+                "hex": "#FF8383",
+                "rgb": "(255, 131, 131)"
+            },
+            {
+                "name": "ICPC Secondary 1",
+                "hex": "#F38F70",
+                "rgb": "(243, 143, 112)"
+            },
+            {
+                "name": "ICPC Secondary 2",
+                "hex": "#FF1A6C",
+                "rgb": "(255, 26, 108)"
+            },
+            {
+                "name": "ICPC Secondary 3",
+                "hex": "#45385A",
+                "rgb": "(69, 56, 90)"
+            },
+            {
+                "name": "ICPC Accent",
+                "hex": "#182862",
+                "rgb": "(24, 40, 98)"
+            },
+            {
+                "name": "ICPC Gradient 1",
                 "hex": "#FF6B6B",
                 "rgb": "(255, 107, 107)"
             },
             {
-                "name": "ICPC Tint",
-                "hex": "#EEAEAE",
-                "rgb": "(238, 174, 174)"
-            },
-            {
-                "name": "ICPC Black",
-                "hex": "#3A2B2B",
-                "rgb": "(58, 43, 43)"
-            },
-            {
-                "name": "ICPC Secondary",
-                "hex": "#1BC3A9",
-                "rgb": "(27, 195, 169)"
+                "name": "ICPC Gradient 2",
+                "hex": "#FF9CE3",
+                "rgb": "(255, 156, 227)"
             }
         ]
     },
@@ -87,27 +132,42 @@
         "title": "AI",
         "filename": "ai",
         "tagline": "Learning Machine Learning",
-        "hex": "1EBDF4",
+        "hex": "28B2FF",
         "colors": [
             {
-                "name": "AI Arctic",
-                "hex": "#1EBDF4",
-                "rgb": "(30, 189, 244)"
+                "name": "AI Primary",
+                "hex": "#28B2FF",
+                "rgb": "(40, 178, 255)"
             },
             {
-                "name": "AI Tint",
-                "hex": "#94D8F0",
-                "rgb": "(148, 216, 240)"
+                "name": "AI Secondary 1",
+                "hex": "#35DDF3",
+                "rgb": "(53, 221, 243)"
             },
             {
-                "name": "AI Black",
-                "hex": "#233339",
-                "rgb": "(35, 51, 57)"
+                "name": "AI Secondary 2",
+                "hex": "#28B2FF",
+                "rgb": "(40, 178, 255)"
             },
             {
-                "name": "AI Secondary",
-                "hex": "#C960FF",
-                "rgb": "(201, 96, 255)"
+                "name": "AI Secondary 3",
+                "hex": "#132BD1",
+                "rgb": "(19, 43, 209)"
+            },
+            {
+                "name": "AI Accent",
+                "hex": "#FF699F",
+                "rgb": "(255, 105, 159)"
+            },
+            {
+                "name": "AI Gradient 1",
+                "hex": "#28B2FF",
+                "rgb": "(40, 178, 255)"
+            },
+            {
+                "name": "AI Gradient 2",
+                "hex": "#2FE6FF",
+                "rgb": "(47, 230, 255)"
             }
         ]
     },
@@ -115,27 +175,42 @@
         "title": "Studio",
         "filename": "studio",
         "tagline": "Creative Expression through Games and VR",
-        "hex": "ED3266",
+        "hex": "FB4469",
         "colors": [
             {
-                "name": "Studio Raspberry",
-                "hex": "#ED3266",
-                "rgb": "(237, 50, 102)"
+                "name": "Studio Primary",
+                "hex": "#FB4469",
+                "rgb": "(251, 68, 105)"
             },
             {
-                "name": "Studio Tint",
-                "hex": "#F09FB0",
-                "rgb": "(240, 159, 176)"
+                "name": "Studio Secondary 1",
+                "hex": "#FF8C93",
+                "rgb": "(255, 140, 147)"
             },
             {
-                "name": "Studio Black",
-                "hex": "#3A2B2B",
-                "rgb": "(58, 43, 43)"
+                "name": "Studio Secondary 2",
+                "hex": "#E83D3D",
+                "rgb": "(232, 61, 61)"
             },
             {
-                "name": "Studio Secondary",
-                "hex": "#FF6B6B",
-                "rgb": "(255, 107, 107)"
+                "name": "Studio Secondary 3",
+                "hex": "#4C1941",
+                "rgb": "(76, 25, 65)"
+            },
+            {
+                "name": "Studio Accent",
+                "hex": "#FF6CC7",
+                "rgb": "(255, 108, 199)"
+            },
+            {
+                "name": "Studio Gradient 1",
+                "hex": "#FF3939",
+                "rgb": "(255, 57, 57)"
+            },
+            {
+                "name": "Studio Gradient 2",
+                "hex": "#FF71D7",
+                "rgb": "(255, 113, 215)"
             }
         ]
     },
@@ -146,24 +221,39 @@
         "hex": "FFBA44",
         "colors": [
             {
-                "name": "Cyber Amber",
+                "name": "Cyber Primary",
                 "hex": "#FFBA44",
                 "rgb": "(255, 186, 68)"
             },
             {
-                "name": "Cyber Tint",
-                "hex": "#EDCD98",
-                "rgb": "(237, 205, 152)"
+                "name": "Cyber Secondary 1",
+                "hex": "#FFE81A",
+                "rgb": "(255, 232, 26)"
             },
             {
-                "name": "Cyber Black",
-                "hex": "#3A3327",
-                "rgb": "(58, 51, 39)"
+                "name": "Cyber Secondary 2",
+                "hex": "#FFDA1A",
+                "rgb": "(255, 218, 26)"
             },
             {
-                "name": "Cyber Secondary",
-                "hex": "#1EBDF4",
-                "rgb": "(30, 189, 244)"
+                "name": "Cyber Secondary 3",
+                "hex": "#FF8C4C",
+                "rgb": "(255, 140, 76)"
+            },
+            {
+                "name": "Cyber Accent",
+                "hex": "#F44D8A",
+                "rgb": "(244, 77, 138)"
+            },
+            {
+                "name": "Cyber Gradient 1",
+                "hex": "#F5B100",
+                "rgb": "(245, 177, 0)"
+            },
+            {
+                "name": "Cyber Gradient 2",
+                "hex": "#FFE040",
+                "rgb": "(255, 244, 64)"
             }
         ]
     },
@@ -171,27 +261,42 @@
         "title": "Design",
         "filename": "design",
         "tagline": "Form Follows Function",
-        "hex": "FE823C",
+        "hex": "FE8D3C",
         "colors": [
             {
-                "name": "Design Amber",
-                "hex": "#FE823C",
-                "rgb": "(254, 130, 60)"
+                "name": "Design Primary",
+                "hex": "#FE8D3C",
+                "rgb": "(254, 141, 60)"
             },
             {
-                "name": "Design Tint",
-                "hex": "#FFBC96",
-                "rgb": "(255, 188, 150)"
+                "name": "Design Secondary 1",
+                "hex": "#FFAC30",
+                "rgb": "(255, 172, 48)"
             },
             {
-                "name": "Design Black",
-                "hex": "#372B25",
-                "rgb": "(55, 43, 37)"
+                "name": "Design Secondary 2",
+                "hex": "#FF7A00",
+                "rgb": "(255, 122, 0)"
             },
             {
-                "name": "Design Secondary",
-                "hex": "#A1D900",
-                "rgb": "(161, 217, 0)"
+                "name": "Design Secondary 3",
+                "hex": "#522D14",
+                "rgb": "(82, 45, 20)"
+            },
+            {
+                "name": "Design Accent",
+                "hex": "#1955B3",
+                "rgb": "(25, 85, 179)"
+            },
+            {
+                "name": "Design Gradient 1",
+                "hex": "#F97313",
+                "rgb": "(249, 115, 19)"
+            },
+            {
+                "name": "Design Gradient 2",
+                "hex": "#FFD260",
+                "rgb": "(255, 210, 96)"
             }
         ]
     },
@@ -199,27 +304,85 @@
         "title": "Teach LA",
         "filename": "teachla",
         "tagline": "Make Coding Accessible",
-        "hex": "A1D900",
+        "hex": "5EDA12",
         "colors": [
             {
-                "name": "Teach LA Lime",
-                "hex": "#A1D900",
-                "rgb": "(161, 217, 0)"
+                "name": "Teach LA Primary",
+                "hex": "#5EDA12",
+                "rgb": "(94, 218, 18)"
             },
             {
-                "name": "Teach LA Tint",
-                "hex": "#C6DC85",
-                "rgb": "(198, 220, 133)"
+                "name": "Teach LA Secondary 1",
+                "hex": "#B0EE00",
+                "rgb": "(176, 238, 0)"
             },
             {
-                "name": "Teach LA Black",
-                "hex": "#2C3022",
-                "rgb": "(44, 48, 34)"
+                "name": "Teach LA Secondary 2",
+                "hex": "#28AA26",
+                "rgb": "(40, 170, 38)"
             },
             {
-                "name": "Teach LA Secondary",
-                "hex": "#FE823C",
-                "rgb": "(254, 130, 60)"
+                "name": "Teach LA Secondary 3",
+                "hex": "#016D3A",
+                "rgb": "(1, 109, 58)"
+            },
+            {
+                "name": "Teach LA Accent",
+                "hex": "#09D9C0",
+                "rgb": "(9, 217, 192)"
+            },
+            {
+                "name": "Teach LA Gradient 1",
+                "hex": "#50C609",
+                "rgb": "(80, 198, 9)"
+            },
+            {
+                "name": "Teach LA Gradient 2",
+                "hex": "#BCF223",
+                "rgb": "(188, 242, 35)"
+            }
+        ]
+    },
+    {
+        "title": "ACM",
+        "filename": "acm",
+        "tagline": "acm",
+        "hex": "1E6CFF",
+        "colors": [
+            {
+                "name": "ACM Primary",
+                "hex": "#1E6CFF",
+                "rgb": "(30, 108, 255)"
+            },
+            {
+                "name": "ACM Secondary 1",
+                "hex": "#3DA2FF",
+                "rgb": "(61, 162, 255)"
+            },
+            {
+                "name": "ACM Secondary 2",
+                "hex": "#0057FF",
+                "rgb": "(0, 87, 255)"
+            },
+            {
+                "name": "ACM Secondary 3",
+                "hex": "#091BB9",
+                "rgb": "(9, 27, 185)"
+            },
+            {
+                "name": "ACM Accent",
+                "hex": "#3DD0FF",
+                "rgb": "(61, 208, 255)"
+            },
+            {
+                "name": "ACM Gradient 1",
+                "hex": "#298CFF",
+                "rgb": "(41, 140, 255)"
+            },
+            {
+                "name": "ACM Gradient 2",
+                "hex": "#0F44FF",
+                "rgb": "(15, 68, 255)"
             }
         ]
     }

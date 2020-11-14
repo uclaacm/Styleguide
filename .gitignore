@@ -1,3 +1,6 @@
-node_modules
+.DS_Store
 _site
+css/
+css/master.css
+node_modules/
 package-lock.json

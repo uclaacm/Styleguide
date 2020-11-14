@@ -10,7 +10,7 @@ css_links: ['/css/master.css']
 {%- endif -%}
 
 <!DOCTYPE HTML>
-<html>
+<html style="overflow-x: hidden;">
     <head>
         <meta charset="utf-8">
         <meta name="description" content="{{ desc }}">
@@ -23,18 +23,21 @@ css_links: ['/css/master.css']
         {% endfor %}
 
         <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-        <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark:400,700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">  
-        <link href="https://fonts.googleapis.com/css?family=Chivo:300,400,700,900" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
-        <link rel="shortcut icon" type="image/png" href="{{ site.baseurl}}/assets/favicon.png" />
+        
+        <link rel="shortcut icon" type="image/png" href="{{ site.baseurl}}/assets/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl}}/assets/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl}}/assets/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl}}/assets/favicon-16x16.png">
+        <link rel="manifest" href="{{ site.baseurl}}/assets/site.webmanifest">
        
     </head>
     <body>
     {% include "header.html" %}
-    <div class="page-header">
+    {% comment %}
+    <!-- <div class="page-header">
       {% if title %}{{ title }}{% endif %}
-    </div>
+    </div> -->
+    {% endcomment %}
     <div class="content">
       <div class="content-body">
         {{ content | safe }}
