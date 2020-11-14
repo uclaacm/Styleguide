@@ -136,7 +136,6 @@ body {
     max-width: 150px;
     margin: 0 auto; }
   .content-body .image-full-width {
-    height: 45rem;
     object-fit: cover;
     width: 100vw;
     position: relative;
@@ -737,6 +736,8 @@ body {
       .navigation-committee .dropdown-content a:hover {
         opacity: 0.7; }
   .navigation-committee:hover .dropdown-content {
+    display: block; }
+  .navigation-committee:active .dropdown-content {
     display: block; }
 
 /* 'acm at UCLA' logo */
