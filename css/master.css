@@ -89,20 +89,23 @@ body {
     font-style: normal;
     display: flex;
     align-items: center;
-    letter-spacing: 0.585em;
-    text-transform: uppercase;
-    color: #737373; }
+    z-index: 30;
+    color: black;
+    position: relative; }
   .content-body h1,
   .content-body h2 {
     line-height: 1em;
     font-weight: 600;
-    font-size: 24px;
-    line-height: 36px; }
+    font-size: 3rem;
+    line-height: 36px;
+    letter-spacing: 0.585em;
+    text-transform: uppercase; }
   .content-body h3 {
     font-weight: 600;
     font-size: 24.6676px;
     line-height: 37px;
-    color: #131313; }
+    color: #131313;
+    letter-spacing: 0.05em; }
   .content-body p {
     line-height: 1.6em; }
   .content-body .button {
@@ -113,11 +116,11 @@ body {
     padding-right: 40px;
     text-decoration: none;
     font-weight: 700;
-    color: #2e2e2e;
+    color: #2E2E2E;
     font-size: 0.75em;
     text-align: center;
     border-radius: 30.27px;
-    background-color: #dadada;
+    background-color: #DADADA;
     width: auto;
     clear: both; }
     .content-body .button:hover {
@@ -153,7 +156,7 @@ body {
 .color-container {
   display: inline-block;
   vertical-align: top;
-  background-color: #dadada;
+  background-color: #DADADA;
   width: 160px;
   font-size: 12px;
   margin: 10px 5px 0 0;
@@ -176,7 +179,7 @@ body {
 .dl-container {
   display: inline-block;
   vertical-align: top;
-  background-color: #f5f5f5;
+  background-color: #F5F5F5;
   width: 190px;
   font-size: 0.75em;
   margin: 10px 5px 0 0;
@@ -186,9 +189,9 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: white;
-    color: #2e2e2e;
+    color: #2E2E2E;
     border-radius: 0px 0px 5px 5px;
-    border: 0.5px solid #cfcfcf;
+    border: 0.5px solid #CFCFCF;
     height: 60px; }
     .dl-container .dl-title img {
       width: 100%;
@@ -202,7 +205,7 @@ body {
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 5px 5px 0px 0px;
-    border: 0.5405px solid #cfcfcf;
+    border: 0.5405px solid #CFCFCF;
     border-bottom: 0;
     display: flex;
     justify-content: center;
@@ -218,7 +221,7 @@ body {
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 5px 5px 0px 0px;
-    border: 0.5405px solid #cfcfcf;
+    border: 0.5405px solid #CFCFCF;
     border-bottom: 0;
     display: flex;
     justify-content: center;
@@ -236,7 +239,7 @@ body {
   margin-left: -30px;
   padding-left: 20px;
   padding-bottom: 20px;
-  background-color: #dadada; }
+  background-color: #DADADA; }
   .type-container h1 {
     font-size: 3em;
     margin-top: 0;
@@ -341,11 +344,9 @@ body {
 .partials-container-lg {
   display: inline-block;
   vertical-align: top;
-  width: 500px;
   margin: 10px 5px 0 0;
   border-radius: 5px; }
   .partials-container-lg .partials-content-lg {
-    padding: 20px;
     padding-bottom: 8px; }
     .partials-container-lg .partials-content-lg img {
       width: 100%; }
@@ -428,7 +429,7 @@ body {
 .guidelines-color-grid-container {
   display: grid;
   width: 100%;
-  grid-template-areas: "primary primary primary primary primary primary primary-text" "secondary-1 secondary-1 secondary-2 secondary-2 secondary-3 secondary-3 secondary-text" "accent accent accent accent accent accent accent-text" "gradient gradient gradient gradient gradient gradient gradient-text"  "mono-1 mono-1 mono-1 mono-2 mono-2 mono-2 mono-text";
+  grid-template-areas: "primary primary primary primary primary primary primary-text" "secondary-1 secondary-1 secondary-2 secondary-2 secondary-3 secondary-3 secondary-text" "accent accent accent accent accent accent accent-text" "gradient gradient gradient gradient gradient gradient gradient-text" "mono-1 mono-1 mono-1 mono-2 mono-2 mono-2 mono-text";
   gap: 10px;
   grid-template-columns: repeat(6, 1fr) 50%; }
   .guidelines-color-grid-container #primary {
@@ -488,7 +489,10 @@ body {
       font-style: normal;
       font-weight: 600;
       font-size: 1.33125rem;
-      line-height: 37px; }
+      line-height: 37px;
+      margin-top: 0; }
+    .guidelines-color-grid-container .grid-text p {
+      margin-top: 0; }
 
 #bottom-img {
   padding: 120px 15% 50px;
@@ -505,6 +509,36 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0; }
+
+.spacing-logomarks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  width: 100%; }
+
+.half-p {
+  width: 60%; }
+
+.section-guidelines h2, .section-guidelines h3, .section-guidelines p {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.center-figure {
+  display: flex;
+  justify-content: center;
+  width: 100%; }
+
+.typography-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  width: 100%; }
+
+.art-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 70px;
+  width: 100%; }
 
 /**
  * Syntax highlighting styles
