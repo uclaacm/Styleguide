@@ -74,7 +74,7 @@ body {
 }
 
 .active-teachla-bg {
-  background-color: $primary-teachla;
+  background-color: $accent-teachla;
 }
 
 .active-acm-bg {
@@ -196,6 +196,17 @@ body {
     width: 100vw;
 
   }
+}
+
+#committee-h2{
+  padding-bottom: 0.55rem;
+  font-size: 1.5rem;
+  color: #737373;
+}
+
+#committee-p{
+  font-weight: 600;
+  font-family: "Poppins";
 }
 
 .color-container {
@@ -701,7 +712,7 @@ body {
 }
 
 #bottom-img {
-  padding: 120px 15% 50px;
+  width:100%;
   padding-top: 1rem;
   padding-bottom: 0;
 }

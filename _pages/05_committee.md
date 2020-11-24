@@ -14,12 +14,12 @@ tags:
 
 
   {% if committee.filename != "acm" %}
-  <img class="image-full-width" src="{{ site.baseurl }}/assets/logos/{{ committee.filename }}-motif-applied.png">
+  <img class="image-full-width" src="{{ site.baseurl }}/assets/resized-banners/{{ committee.filename }}-banner.svg">
   {% endif %}
 
   <div style="padding-bottom: 3rem; padding-top: 3rem;">
-  <h2>Logomarks</h2>
-  <p>We suggest using the white and black logomarks in situations where the primary logomark may not be clearly visible.</p>
+  <h2 id="committee-h2">Logomarks</h2>
+  
   {% capture logomark_filepath %}logos/{{committee.filename}}-logo.png{% endcapture %}
   {% capture white_logomark_filepath %}logos/{{committee.filename}}-logo-light.png{% endcapture %}
   {% capture black_logomark_filepath %}logos/{{committee.filename}}-logo-dark.png{% endcapture %}
@@ -35,8 +35,8 @@ tags:
 </div>
 
 <div style="padding-bottom: 3rem; padding-top: 3rem;">
-  <h2>Wordmarks</h2>
-  <p>We suggest using the wordmark contrasts the most with the background.</p>
+  <h2 id="committee-h2">Wordmarks</h2>
+  
 {% if committee.filename != "acm" %}
 {% capture darkcolor_wordmark_filepath %}logos/{{committee.filename}}-wordmark-light-gradient.png{% endcapture %} 
 {% capture lightcolor_wordmark_filepath %}logos/{{committee.filename}}-wordmark-dark-gradient.png{% endcapture %}
@@ -69,7 +69,7 @@ tags:
 </div>
 
 <div style="padding-bottom: 3rem; padding-top: 3rem;">
-  <h2 style="padding: 0.5rem;">Colors</h2>
+  <h2 id="committee-h2">Colors</h2>
   {{ content }}
 
 {% include "color-grid-committees.html", committeePg: committee %}
@@ -79,12 +79,11 @@ tags:
 {% if committee.filename != "acm" %}
 
 <div style="padding-bottom: 3rem; padding-top: 3rem;">
-  <h2>Pattern/Motif</h2>
-  <p>Unfortunately no pattern assets exist on their own, but we suggest using the corresponding facebook group cover photos for reference:</p>
-  <p>Applied Motif:<p>
-  <img class="image-full-width" id="bottom-img" src="{{ site.baseurl }}/assets/logos/{{ committee.filename }}-motif-applied.png">
-  <p>Base Motif:<p>
-  <img class="image-full-width" id="bottom-img" src="{{ site.baseurl }}/assets/logos/{{ committee.filename }}-motif-base.png">
+  <h2 id="committee-h2">Pattern/Motif</h2>
+  <p id="committee-p">Base Motif:<p>
+  <img id="bottom-img" src="{{ site.baseurl }}/assets/logos/{{ committee.filename }}-motif-base.png">
+  <p id="committee-p" style="padding-top: 5rem;">Applied Motif:<p>
+  <img id="bottom-img" src="{{ site.baseurl }}/assets/logos/{{ committee.filename }}-motif-applied.png">
 </div>
 {% endif %}
 
