@@ -2,7 +2,10 @@ body {
   margin: 0;
   font-family: $font-body;
   width: 100vw;
-  height: 100vh;
+
+  grid-template-columns: 1fr repeat(11, 56px 30px) 56px 1fr;
+  grid-template-areas: ". c1 c2 c3 c4 c5 c6 c7 c8 c9 c10 c11 c12 .";
+  display:grid;
 }
 
 .active-hack {
@@ -79,13 +82,23 @@ body {
 }
 
 .content {
-  width: auto;
+  grid-column: c1 / span 23;
+  grid-template-columns: subgrid;
 }
 
 .content-body {
-  padding: 97.5px 15% 50px;
+  //padding: 97.5px 15% 50px;
+  
+  grid-template-columns:  repeat(11, 56px 30px) 56px ;
+  grid-template-areas: "c1 c2 c3 c4 c5 c6 c7 c8 c9 c10 c11 c12";
+  display:grid;
+
   font-size: 1.125rem;
   color: #242424;
+
+  > section, > div {
+    grid-column: c1 / span 23;
+  }
 
   h1,
   h2,

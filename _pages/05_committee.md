@@ -12,7 +12,7 @@ permalink: "/committees/{{ committee.filename }}/"
 tags:
 ---
 
-<div>  
+
   {% if committee.filename != "acm" %}
   <img class="image-full-width" src="{{ site.baseurl }}/assets/logos/{{ committee.filename }}-motif-applied.png">
   {% endif %}
@@ -88,4 +88,4 @@ tags:
 </div>
 {% endif %}
 
-</div>
+

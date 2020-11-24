@@ -14,7 +14,9 @@ body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
   width: 100vw;
-  height: 100vh; }
+  grid-template-columns: 1fr repeat(11, 56px 30px) 56px 1fr;
+  grid-template-areas: ". c1 c2 c3 c4 c5 c6 c7 c8 c9 c10 c11 c12 .";
+  display: grid; }
 
 .active-hack {
   color: #c960ff; }
@@ -72,12 +74,17 @@ body {
   background-color: #1e6cff; }
 
 .content {
-  width: auto; }
+  grid-column: c1 / span 23;
+  grid-template-columns: subgrid; }
 
 .content-body {
-  padding: 97.5px 15% 50px;
+  grid-template-columns: repeat(11, 56px 30px) 56px;
+  grid-template-areas: "c1 c2 c3 c4 c5 c6 c7 c8 c9 c10 c11 c12";
+  display: grid;
   font-size: 1.125rem;
   color: #242424; }
+  .content-body > section, .content-body > div {
+    grid-column: c1 / span 23; }
   .content-body h1,
   .content-body h2,
   .content-body h3 {
@@ -687,6 +694,7 @@ body {
   z-index: 500;
   /* Not in the figma - but if the nav bar is floating, adds much needed separation between nav bar and content */
   box-shadow: 0px 3px 5px #8e8e8e33;
+  padding: 0px calc(50% - 500px);
   /* The 'About' and 'Guidelines' links -- 'Committees' is separate due to dropdown menu */ }
   .navigation .links {
     display: block;
@@ -697,7 +705,7 @@ body {
     font-weight: 500;
     letter-spacing: 0em;
     text-align: center;
-    padding: 30px 12.5% 30px 30px;
+    padding: 30px 0% 30px 30px;
     /* prep for mobile layout */ }
     .navigation .links a {
       vertical-align: middle;
@@ -743,7 +751,7 @@ body {
 /* 'acm at UCLA' logo */
 .navigation-home {
   float: left;
-  padding: 25px 0 15px 15%; }
+  padding: 25px 0 15px 0%; }
 
 .active {
   color: #3b59ed; }
