@@ -1,7 +1,7 @@
 {
   "name": "design-guideline",
   "version": "1.0.0",
-  "description": "Branding guidelines for UCLA ACM",
+  "description": "Branding guidelines for ACM at UCLA",
   "main": "index.js",
   "scripts": {
     "build": "gulp sass; eleventy",
