@@ -8,11 +8,11 @@ permalink: "/"
     <div class="landing-header">
         <div class="landing-header-text">
             <h1>
-                UCLA ACM<br>
+                ACM at UCLA<br>
                 Styleguide
             </h1>
             <h2>
-                Welcome to the UCLA ACM branding guideline website!<br>
+                Welcome to the ACM at UCLA branding guideline website!<br>
                 Here you can find information about our branding<br>
                 alongside a collection of resources and assets.
             </h2>
