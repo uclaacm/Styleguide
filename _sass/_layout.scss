@@ -185,6 +185,17 @@ body {
   }
 }
 
+#committee-h2{
+  padding-bottom: 0.55rem;
+  font-size: 1.5rem;
+  color: #737373;
+}
+
+#committee-p{
+  font-weight: 600;
+  font-family: "Poppins";
+}
+
 .color-container {
   display: inline-block;
   vertical-align: top;
@@ -688,7 +699,7 @@ body {
 }
 
 #bottom-img {
-  padding: 120px 15% 50px;
+  width:100%;
   padding-top: 1rem;
   padding-bottom: 0;
 }
