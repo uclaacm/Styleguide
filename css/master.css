@@ -23,10 +23,10 @@ body {
   color: #1bc3a9; }
 
 .active-ai {
-  color: #1ebdf4; }
+  color: #28B2FF; }
 
 .active-icpc {
-  color: #ff6b6b; }
+  color: #FF8383; }
 
 .active-studio {
   color: #fb4469; }
@@ -35,13 +35,13 @@ body {
   color: #ffba44; }
 
 .active-design {
-  color: #fe823c; }
+  color: #FE8D3C; }
 
 .active-teachla {
   color: #a1d900; }
 
 .active-acm {
-  color: #1e6cff; }
+  color: #1E6CFF; }
 
 /* ----------------------------------*/
 .active-hack-bg {
@@ -51,10 +51,10 @@ body {
   background-color: #1bc3a9; }
 
 .active-ai-bg {
-  background-color: #1ebdf4; }
+  background-color: #28B2FF; }
 
 .active-icpc-bg {
-  background-color: #ff6b6b; }
+  background-color: #FF8383; }
 
 .active-studio-bg {
   background-color: #fb4469; }
@@ -63,13 +63,13 @@ body {
   background-color: #ffba44; }
 
 .active-design-bg {
-  background-color: #fe823c; }
+  background-color: #FE8D3C; }
 
 .active-teachla-bg {
-  background-color: #a1d900; }
+  background-color: #09D9C0; }
 
 .active-acm-bg {
-  background-color: #1e6cff; }
+  background-color: #1E6CFF; }
 
 .content {
   width: auto; }
@@ -234,7 +234,7 @@ body {
         transform: scale(1.08); }
 
 .type-container {
-  border-left: 10px solid #242424;
+  border-left: 10px solid #181818;
   margin-left: -30px;
   padding-left: 20px;
   padding-bottom: 20px;
