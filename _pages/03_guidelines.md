@@ -64,7 +64,7 @@ date: 2000-01-02
     transform: translateX(-15%);
     border: 0.4px solid #DBDBDB;
     z-index:-5;">
-    <p class="half-p">ACM at UCLA Wordmarks are used when the name of the comittee has to be clarified. Built using the proprietary Westwood Sans font, they are designed to be legiable in large print while keeping it aligned with ACM’s geometric art style. They can either be used alongside the logomark, or by itself.</p> 
+    <p class="half-p">ACM at UCLA Wordmarks are used when the name of the comittee has to be clarified. Built using the proprietary Westwood Sans font, they are designed to be legible in large print while keeping it aligned with ACM’s geometric art style. They can either be used alongside the logomark, or by itself.</p> 
     <section>
         <h3>Spacing and Sizing</h3>
         <hr style="
@@ -89,7 +89,7 @@ date: 2000-01-02
         transform: translateX(-50%);
         border: 0.15px solid #DBDBDB;
         z-index:-5;">
-        <p class="half-p" style="padding-top:30px; padding-bottom:30px;">Comittee wordmarks, in addition to light/dark versions, have a “basic” version and the gradient version. Whenever possible, the gradient version should be used. The basic version should be reserved for cases where colors are limited, such as physical merchendise, or when the gradient has a low color contrast compared to the background</p>
+        <p class="half-p" style="padding-top:30px; padding-bottom:30px;">Comittee wordmarks, in addition to light/dark versions, have a “basic” version and the gradient version. Whenever possible, the gradient version should be used. The basic version should be reserved for cases where colors are limited, such as physical merchandise, or when the gradient has a low color contrast compared to the background.</p>
         <div class="center-figure">
             {% include "ok-bad-partials.html", title: "OK", file: "partials/color-good-01.svg" %}
             {% include "ok-bad-partials.html", title: "OK", file: "partials/color-good-02.svg" %}
@@ -184,7 +184,7 @@ date: 2000-01-02
     transform: translateX(-15%);
     border: 0.4px solid #DBDBDB;
     z-index:-5;">
-    <p class="half-p" style="padding-top:30px; padding-bottom:30px;">ACM at UCLA has 4 fonts defined for various uses</p> 
+    <p class="half-p" style="padding-top:30px; padding-bottom:30px;">ACM at UCLA has 4 fonts defined for various uses.</p> 
     <div class="typography-grid">
         <div>
             <img src="{{ site.baseurl}}/assets/partials/westwood-sans.svg"
