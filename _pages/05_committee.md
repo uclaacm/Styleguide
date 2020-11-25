@@ -17,7 +17,7 @@ tags:
   <img class="image-full-width" src="{{ site.baseurl }}/assets/resized-banners/{{ committee.filename }}-banner.svg">
   {% endif %}
 
-  <div style="padding-bottom: 3rem; padding-top: 3rem;">
+  <section section="padding-bottom: 3rem; padding-top: 3rem;">
   <h2 id="committee-h2">Logomarks</h2>
   
   {% capture logomark_filepath %}logos/{{committee.filename}}-logo.png{% endcapture %}
@@ -32,9 +32,9 @@ tags:
 {% capture logomark_dl_button %}Download all {{committee.title}} logomarks{% endcapture %}
 {% include "button.html", file: logomark_dl, filename: logomark_dl, content: logomark_dl_button %}
 
-</div>
+</section>
 
-<div style="padding-bottom: 3rem; padding-top: 3rem;">
+<section section="padding-bottom: 3rem; padding-top: 3rem;">
   <h2 id="committee-h2">Wordmarks</h2>
   
 {% if committee.filename != "acm" %}
@@ -66,25 +66,25 @@ tags:
 {% include "assetbox-light.html", title: "Dark wordmark", file: dark_wordmark_filepath %}
 {% endif %}
 
-</div>
+</section>
 
-<div style="padding-bottom: 3rem; padding-top: 3rem;">
+<section section="padding-bottom: 3rem; padding-top: 3rem;">
   <h2 id="committee-h2">Colors</h2>
   {{ content }}
 
 {% include "color-grid-committees.html", committeePg: committee %}
 
-</div>
+</section>
 
 {% if committee.filename != "acm" %}
 
-<div style="padding-bottom: 3rem; padding-top: 3rem;">
+<section section="padding-bottom: 3rem; padding-top: 3rem;">
   <h2 id="committee-h2">Pattern/Motif</h2>
   <p id="committee-p">Base Motif:<p>
   <img id="bottom-img" src="{{ site.baseurl }}/assets/logos/{{ committee.filename }}-motif-base.png">
-  <p id="committee-p" style="padding-top: 5rem;">Applied Motif:<p>
+  <p id="committee-p" section="padding-top: 5rem;">Applied Motif:<p>
   <img id="bottom-img" src="{{ site.baseurl }}/assets/logos/{{ committee.filename }}-motif-applied.png">
-</div>
+</section>
 {% endif %}
 
 

@@ -84,7 +84,10 @@ body {
   font-size: 1.125rem;
   color: #242424; }
   .content-body > section, .content-body > div {
-    grid-column: c1 / span 23; }
+    grid-column: c1 / span 23;
+    grid-template-columns: repeat(11, 56px 30px) 56px;
+    grid-template-areas: "c1 c2 c3 c4 c5 c6 c7 c8 c9 c10 c11 c12";
+    display: grid; }
   .content-body h1,
   .content-body h2,
   .content-body h3 {
