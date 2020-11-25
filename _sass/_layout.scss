@@ -2,10 +2,6 @@ body {
   margin: 0;
   font-family: $font-body;
   width: 100vw;
-
-  grid-template-columns: 1fr repeat(11, 56px 30px) 56px 1fr;
-  grid-template-areas: ". c1 c2 c3 c4 c5 c6 c7 c8 c9 c10 c11 c12 .";
-  display:grid;
 }
 
 .active-hack {
@@ -82,30 +78,36 @@ body {
 }
 
 .content {
-  grid-column: c1 / span 23;
-  grid-template-columns: subgrid;
+  width:100%;
 }
 
 .content-body {
-  //padding: 97.5px 15% 50px;
-  
-  grid-template-columns:  repeat(11, 56px 30px) 56px ;
-  grid-template-areas: "c1 c2 c3 c4 c5 c6 c7 c8 c9 c10 c11 c12";
-  display:grid;
 
   font-size: 1.125rem;
   color: #242424;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  // > img, > .landing{
+  //   width:100%;
+  // }
+  .image-full-width {
+    object-fit: cover;
+    width: 100vw;
+  }
 
   > section, > div {
     grid-column: c1 / span 23;
     grid-template-columns:  repeat(11, 56px 30px) 56px ;
-    grid-template-areas: "c1 c2 c3 c4 c5 c6 c7 c8 c9 c10 c11 c12";
+    grid-template-areas: "c1 . c2 . c3 . c4 . c5 . c6 . c7 . c8 . c9 . c10 . c11 . c12";
     display:grid;
+
   }
 
-  h1,
-  h2,
-  h3 {
+  h1, h2, h3 {
+    grid-column: c1 / span 23;
+
     font-family: $font-header;
     margin-bottom: 0em;
     margin-top: 1.5em;
@@ -115,9 +117,7 @@ body {
     font-style: normal;
     display: flex;
     align-items: center;
-    z-index: 30;
-    color:black;
-    position: relative;
+    color:$primary-black;
   }
 
   h1,
@@ -141,6 +141,7 @@ body {
 
   p {
     line-height: 1.6em;
+    grid-column: c1 / span 23;
   }
 
   .button {
@@ -176,14 +177,6 @@ body {
     display: block;
     max-width: 150px;
     margin: 0 auto;
-  }
-
-  .image-full-width {
-    object-fit: cover;
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    margin-left: -50vw;
   }
 }
 
@@ -248,10 +241,25 @@ body {
   display: inline-block;
   vertical-align: top;
   background-color: #F5F5F5;
-  width: 190px;
   font-size: 0.75em;
-  margin: 10px 5px 0 0;
   border-radius: 5px;
+  height:200px;
+
+  &:nth-child(4n - 2){
+    grid-column: c1 / span 5;
+  }
+
+  &:nth-child(4n - 1){
+    grid-column: c4 / span 5;
+  }
+
+  &:nth-child(4n - 0){
+    grid-column: c7 / span 5;
+  }
+
+  &:nth-child(4n + 1){
+    grid-column: c10 / span 5;
+  }
 
   .dl-title {
     text-align: center;
@@ -514,6 +522,8 @@ body {
 
 
 .color-grid-container {
+  grid-column: c1 / span 23;
+
   display: grid;
   max-width: 925px;
   grid-template-areas:
