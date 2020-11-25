@@ -1,16 +1,15 @@
 module.exports = function (eleventyConfig) {
 
-    //Tell 11ty to search these directories for files
     eleventyConfig.addPassthroughCopy('css');
     eleventyConfig.addPassthroughCopy('assets');
-    //eleventyConfig.addPassthroughCopy('pages');
-    eleventyConfig.addPassthroughCopy('_includes');
+    eleventyConfig.addPassthroughCopy("CNAME");
+
+    eleventyConfig.addWatchTarget("./css/*");
 
     //Add collection for committees
     eleventyConfig.addCollection('committees', collection => {
         return collection.getFilteredByGlob('_committees/*.md');
     });
-
     eleventyConfig.addCollection('pages', collection => {
         return collection.getFilteredByGlob('_pages/*.md');
     });
@@ -23,11 +22,8 @@ module.exports = function (eleventyConfig) {
         ]
     });
 
-    eleventyConfig.addPassthroughCopy("CNAME");
-
     let md_it = require("markdown-it");
     var md_attr = require("markdown-it-attrs");
-
     let options = {
         html:true, 
         breaks: true,
@@ -41,7 +37,6 @@ module.exports = function (eleventyConfig) {
         return JSON.stringify(variable);
       });
 
-    //Tell 11ty that all files 
     return {
         passthroughFileCopy: true,
         pathPrefix: "/",
