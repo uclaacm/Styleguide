@@ -94,9 +94,12 @@ main {
     .left{
       grid-column: c1 / span 6;
       &.wide {grid-column: c1 / span 7;}
+      &.narrow {grid-column: c1 / span 5;}
     }
     .right {
       grid-column: c7 / span 6;
+      &.wide {grid-column: c6 / span 7;}
+      &.narrow {grid-column: c7 / span 5;}
     }
     .col-1, .col-2, .col-3, .col-4{
       object-fit: cover;
