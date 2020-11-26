@@ -81,103 +81,9 @@ body {
   width:100%;
 }
 
-.content-body {
-
-  font-size: 1.125rem;
-  color: #242424;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-
-  // > img, > .landing{
-  //   width:100%;
-  // }
-  .image-full-width {
+.image-full-width {
     object-fit: cover;
     width: 100vw;
-  }
-
-  > section, > div {
-    grid-column: c1 / span 23;
-    grid-template-columns:  repeat(11, 56px 30px) 56px ;
-    grid-template-areas: "c1 . c2 . c3 . c4 . c5 . c6 . c7 . c8 . c9 . c10 . c11 . c12";
-    display:grid;
-
-  }
-
-  h1, h2, h3 {
-    grid-column: c1 / span 23;
-
-    font-family: $font-header;
-    margin-bottom: 0em;
-    margin-top: 1.5em;
-    clear: both;
-
-    font-family: Poppins;
-    font-style: normal;
-    display: flex;
-    align-items: center;
-    color:$primary-black;
-  }
-
-  h1,
-  h2 {
-    line-height: 1em;
-    font-weight: 600;
-    font-size: 3rem;
-    line-height: 36px;
-    letter-spacing: 0.585em;
-    text-transform: uppercase;
-  }
-
-  // h2 for Applied Motif
-  h3 {
-    font-weight: 600;
-    font-size: 24.6676px;
-    line-height: 37px;
-    color: #131313;
-    letter-spacing: 0.05em;
-  }
-
-  p {
-    line-height: 1.6em;
-    grid-column: c1 / span 23;
-  }
-
-  .button {
-    display: table;
-    margin-top: 10px;
-    padding: 5px;
-    padding-left: 40px;
-    padding-right: 40px;
-    text-decoration: none;
-    font-weight: 700;
-    color: #2E2E2E;
-    font-size: 0.75em;
-    text-align: center;
-    border-radius: 30.27px;
-    background-color: #DADADA;
-    width: auto;
-    clear: both;
-
-    &:hover {
-      background-color: $primary-board;
-      color: white;
-      transition: 0.1s;
-    }
-
-    &:active {
-      transform: translateY(3px);
-      box-shadow: 0px 0px;
-      transition: 0.1s;
-    }
-  }
-
-  #logo {
-    display: block;
-    max-width: 150px;
-    margin: 0 auto;
-  }
 }
 
 .committee-container {
@@ -244,22 +150,6 @@ body {
   font-size: 0.75em;
   border-radius: 5px;
   height:200px;
-
-  &:nth-child(4n - 2){
-    grid-column: c1 / span 5;
-  }
-
-  &:nth-child(4n - 1){
-    grid-column: c4 / span 5;
-  }
-
-  &:nth-child(4n - 0){
-    grid-column: c7 / span 5;
-  }
-
-  &:nth-child(4n + 1){
-    grid-column: c10 / span 5;
-  }
 
   .dl-title {
     text-align: center;
@@ -400,28 +290,28 @@ body {
       display: inline-block;
       width: 50%;
 
-      h1 {
-        margin-top: 0;
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 40px;
-        line-height: 60px;
-        color: #000000;
-        letter-spacing: revert;
-        text-transform: initial;
-      }
+      // h1 {
+      //   margin-top: 0;
+      //   font-family: Poppins;
+      //   font-style: normal;
+      //   font-weight: bold;
+      //   font-size: 40px;
+      //   line-height: 60px;
+      //   color: #000000;
+      //   letter-spacing: revert;
+      //   text-transform: initial;
+      // }
 
-      h2 {
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 23px;
-        color: #2D2D2D;
-        letter-spacing: revert;
-        text-transform: initial;
-      }
+      // h2 {
+      //   font-family: Open Sans;
+      //   font-style: normal;
+      //   font-weight: normal;
+      //   font-size: 14px;
+      //   line-height: 23px;
+      //   color: #2D2D2D;
+      //   letter-spacing: revert;
+      //   text-transform: initial;
+      // }
     }
 
     img {
@@ -481,7 +371,6 @@ body {
 .partials-container-lg {
   display: inline-block;
   vertical-align: top;
-  margin: 10px 5px 0 0;
   border-radius: 5px;
 
   .partials-content-lg {
@@ -522,7 +411,7 @@ body {
 
 
 .color-grid-container {
-  grid-column: c1 / span 23;
+  grid-column: c1 / span 12;
 
   display: grid;
   max-width: 925px;
@@ -744,23 +633,11 @@ body {
 }
 
 
-.spacing-logomarks{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 30px;
-  width: 100%;
-  
-}
-
-.half-p{
-  width: 60%;
-}
-
 .section-guidelines{
-  h2,h3,p{
-  padding-top: 15px;
-  padding-bottom: 15px;
-  }
+  // h2,h3,p{
+  // padding-top: 15px;
+  // padding-bottom: 15px;
+  // }
 }
 .center-figure{
   display:flex;
