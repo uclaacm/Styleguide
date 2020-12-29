@@ -7,11 +7,7 @@
         {% if node.data.title == "Committees" %}
 
         <div class="navigation-committee">
-            {% if page.url == node.url %}
             <div class="dropbtn">{{ node.data.title }}</div>
-            {% else %}
-            <div class="dropbtn">{{ node.data.title }}</div>
-            {% endif %}
             <div id="dropdown" class="dropdown-content">
                 {% for committee in committees %}
                 <script>console.log("{{ committee.filename }}")</script>
