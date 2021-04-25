@@ -6,43 +6,49 @@ css_links: ['/css/master.css']
 
 {%- assign $title = title -%}
 {%- if renderData.title -%}
-  {%- assign $title = renderData.title -%}
+{%- assign $title = renderData.title -%}
 {%- endif -%}
 
 <!DOCTYPE HTML>
 <html style="overflow-x: hidden;">
-    <head>
-        <meta charset="utf-8">
-        <meta name="description" content="{{ desc }}">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <title>ACM at UCLA | {{ title }}</title>
 
-        {% for ref in css_links %}
-        <link rel="stylesheet" href="{{ ref | prepend: site.baseurl}}">
-        {% endfor %}
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="{{ desc }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-        
-        <link rel="shortcut icon" type="image/png" href="{{ site.baseurl}}/assets/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl}}/assets/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl}}/assets/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl}}/assets/favicon-16x16.png">
-        <link rel="manifest" href="{{ site.baseurl}}/assets/site.webmanifest">
-       
-    </head>
-    <body>
-    {% include "header.html" %}
-    {% comment %}
-    <!-- <div class="page-header">
+  <title>ACM at UCLA | {{ title }}</title>
+
+  {% for ref in css_links %}
+  <link rel="stylesheet" href="{{ ref | prepend: site.baseurl}}">
+  {% endfor %}
+
+  <!-- Westwood CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/uclaacm/WestwoodCSS@latest/dist/main.min.css">
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  <link rel="shortcut icon" type="image/png" href="{{ site.baseurl}}/assets/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl}}/assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl}}/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl}}/assets/favicon-16x16.png">
+  <link rel="manifest" href="{{ site.baseurl}}/assets/site.webmanifest">
+
+</head>
+
+<body>
+  {% include "header.html" %}
+  {% comment %}
+  <!-- <div class="page-header">
       {% if title %}{{ title }}{% endif %}
     </div> -->
-    {% endcomment %}
-    <div class="content">
-      <main>
-        {{ content | safe }}
-      </main>
-      {% include "footer.html" %}
-    </div>
-    </body>
+  {% endcomment %}
+  <div class="content">
+    <main>
+      {{ content | safe }}
+    </main>
+    {% include "footer.html" %}
+  </div>
+</body>
+
 </html>
