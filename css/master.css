@@ -424,6 +424,15 @@ body {
   grid-gap: 70px;
   width: 100%; }
 
+.dark-background {
+  background: black; }
+
+.shadow {
+  box-shadow: 0px 18px 40px -4px #181b3140; }
+
+.shadow.low {
+  box-shadow: 0px 14px 40px -2px #181b3140; }
+
 /**
  * Syntax highlighting styles
  */

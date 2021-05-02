@@ -563,12 +563,12 @@ body {
 }
 
 
-.section-guidelines{
+//.section-guidelines{
   // h2,h3,p{
   // padding-top: 15px;
   // padding-bottom: 15px;
   // }
-}
+//}
 .center-figure{
   display:flex;
   justify-content: center;
@@ -590,6 +590,18 @@ body {
   width: 100%;
   
 }
+
+
+//POST WESTWOOD CSS ADDITIONS
+
+.dark-background {
+  background: black;
+}
+
+.shadow {
+  box-shadow: 0px 18px 40px -4px #181b3140; }
+  .shadow.low {
+    box-shadow: 0px 14px 40px -2px #181b3140; }
 
 
 // tablet
