@@ -1,158 +1,179 @@
-
 main {
-    width:100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  
-    > section, > section > section, > section > section > section{
-      grid-column: c1 / span 12;
-      grid-template-columns:  repeat(12, 56px);
-      gap: 0px 30px;
-      grid-template-areas: "c1 c2 c3 c4 c5 c6 c7 c8 c9 c10 c11 c12";
-      display:grid;
-    }
-    > section { padding: 120px 0px;}
-    > section > section{ padding: 60px 0px; }
-  
-    h1, h2, h3, h4, h5{
-      grid-column: c1 / span 12;
-      font-family: $font-header;
-      font-style: normal;
-      color:$primary-black;
-      margin:0px;
-    }
-  
-    h1 {
-      font-weight: 600;
-      font-size: 3rem;
-      &.upper{
-        letter-spacing: 0.6em;
-        text-transform: uppercase;
-      }
-    }
-   
-    h2 {
-      font-weight: 600;
-      font-size: 2.5rem;
-      margin-bottom: 20px;
-      &.upper{
-        letter-spacing: 0.6em;
-        text-transform: uppercase;
-      }
-    }
+  // width: 100%;
+  // display: flex;
+  // justify-content: center;
+  // flex-wrap: wrap;
 
-    h3 {
-      font-weight: 600;
-      font-size: 1.5rem;
-      margin-bottom: 30px;
-      &.upper{
-        letter-spacing: 0.6em;
-        text-transform: uppercase;
-      }
-    }
-  
-    h4 {
-      font-weight: 600;
-      font-size: 1.2rem;
-      color: $primary-darkgrey;
-      margin-bottom:30px;
-      &.upper{
-        letter-spacing: 0.6em;
-        text-transform: uppercase;
-      }
-    }
+  // > section, > section > section, > section > section > section{
+  //   grid-column: c1 / span 12;
+  //   grid-template-columns:  repeat(12, 56px);
+  //   gap: 0px 30px;
+  //   grid-template-areas: "c1 c2 c3 c4 c5 c6 c7 c8 c9 c10 c11 c12";
+  //   display:grid;
+  // }
+  > section {
+    padding: 120px 0px;
+  }
+  > section > section {
+    padding: 60px 0px;
+  }
 
-    h5 {
-        font-weight: 600;
-        font-size: 1rem;
-        color: $primary-darkgrey;
-        margin-bottom: 20px;
-        &.upper{
-          letter-spacing: 0.6em;
-          text-transform: uppercase;
-        }
-      }
-  
-    p {
-        font-size: 1rem;
-        line-height: 1.6em;
-        grid-column: c1 / span 12;
-        color: $primary-darkgrey;
-        margin:0px;
-        margin-bottom: 40px;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    grid-column: c1 / span 12;
+    font-family: $font-header;
+    font-style: normal;
+    color: $primary-black;
+    margin: 0px;
+  }
 
-        &.big{
-            color:#585858;
-            font-size: 1.3rem;
-            line-height: 1.7em;
-            margin-bottom: 60px;
-            font-weight: 600;
-        }
-    }   
-  
-    .left{
-      grid-column: c1 / span 6;
-      &.wide {grid-column: c1 / span 7;}
-      &.narrow {grid-column: c1 / span 5;}
+  h1 {
+    font-weight: 600;
+    font-size: 3rem;
+    &.upper {
+      letter-spacing: 0.6em;
+      text-transform: uppercase;
     }
-    .right {
-      grid-column: c7 / span 6;
-      &.wide {grid-column: c6 / span 7;}
-      &.narrow {grid-column: c7 / span 5;}
+  }
+
+  h2 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    &.upper {
+      letter-spacing: 0.6em;
+      text-transform: uppercase;
     }
-    .col-1, .col-2, .col-3, .col-4{
-      object-fit: cover;
-      width:100%;
+  }
+
+  h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    &.upper {
+      letter-spacing: 0.6em;
+      text-transform: uppercase;
     }
-    .col-1{
-      grid-column: span 12;
-      &.narrow{
-        grid-column: c3 / span 8;
-      }
+  }
+
+  h4 {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: $primary-darkgrey;
+    margin-bottom: 30px;
+    &.upper {
+      letter-spacing: 0.6em;
+      text-transform: uppercase;
     }
-    .col-2{grid-column: span 6;}
-    .col-3{grid-column: span 4;}
-    .col-4{grid-column: span 3;}
-    
+  }
+
+  h5 {
+    font-weight: 600;
+    font-size: 1rem;
+    color: $primary-darkgrey;
+    margin-bottom: 20px;
+    &.upper {
+      letter-spacing: 0.6em;
+      text-transform: uppercase;
+    }
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.6em;
+    grid-column: c1 / span 12;
+    color: $primary-darkgrey;
+    margin: 0px;
+    margin-bottom: 40px;
+
+    &.big {
+      color: #585858;
+      font-size: 1.3rem;
+      line-height: 1.7em;
+      margin-bottom: 60px;
+      font-weight: 600;
+    }
+  }
+
+  .left {
+    grid-column: c1 / span 6;
+    &.wide {
+      grid-column: c1 / span 7;
+    }
+    &.narrow {
+      grid-column: c1 / span 5;
+    }
+  }
+  .right {
+    grid-column: c7 / span 6;
+    &.wide {
+      grid-column: c6 / span 7;
+    }
+    &.narrow {
+      grid-column: c7 / span 5;
+    }
+  }
+  // .col-1,
+  // .col-2,
+  // .col-3,
+  // .col-4 {
+  //   object-fit: cover;
+  //   width: 100%;
+  // }
+  // .col-1 {
+  //   grid-column: span 12;
+  //   &.narrow {
+  //     grid-column: c3 / span 8;
+  //   }
+  // }
+  // .col-2 {
+  //   grid-column: span 6;
+  // }
+  // .col-3 {
+  //   grid-column: span 4;
+  // }
+  // .col-4 {
+  //   grid-column: span 3;
+  // }
 }
-  
 
 .button {
-    padding: 10px 25px;
-    border-radius: 30.27px;
-    background-color: #DADADA;
-    width: auto;
-    
-    color:$primary-black;
-    font-size: 0.8rem;
-    font-weight: 600;
-    text-align: center;
-    text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 30.27px;
+  background-color: #dadada;
+  width: auto;
 
-    &:hover {
-        background-color: $primary-board;
-        color: white;
-        transition: 0.2s;
-    }
+  color: $primary-black;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
 
-    &:active {
-        transform: translateY(3px);
-        box-shadow: 0px 0px;
-        transition: 0.2s;
-    }
+  &:hover {
+    background-color: $primary-board;
+    color: white;
+    transition: 0.2s;
+  }
+
+  &:active {
+    transform: translateY(3px);
+    box-shadow: 0px 0px;
+    transition: 0.2s;
+  }
 }
-  
+
 .shadow {
-    box-shadow: 0px 18px 40px -4px #181b3140;
-    &.low{
-        box-shadow: 0px 14px 40px -2px #181b3140;
-    }
+  box-shadow: 0px 18px 40px -4px #181b3140;
+  &.low {
+    box-shadow: 0px 14px 40px -2px #181b3140;
+  }
 }
-
 
 #logo {
-    display: block;
-    max-width: 150px;
-    margin: 0 auto;
+  display: block;
+  max-width: 150px;
+  margin: 0 auto;
 }

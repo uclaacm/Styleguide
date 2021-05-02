@@ -22,10 +22,11 @@ tags:
   {% capture logomark_filepath %}logos/{{committee.filename}}-logo.png{% endcapture %}
   {% capture white_logomark_filepath %}logos/{{committee.filename}}-logo-light.png{% endcapture %}
   {% capture black_logomark_filepath %}logos/{{committee.filename}}-logo-dark.png{% endcapture %}
-
+  <div class="row">
 {% include "assetbox-light.html", title: "Primary logomark", file: logomark_filepath %}
 {% include "assetbox-dark.html", title: "White logomark", file: white_logomark_filepath %}
 {% include "assetbox-light.html", title: "Black logomark", file: black_logomark_filepath %}
+  </div>
 {% capture logomark_dl %}{{committee.filename}}-assets.zip{% endcapture %}
 {% capture logomark_dl_button %}Download all {{committee.title}} logomarks{% endcapture %}
 {% include "button.html", file: logomark_dl, filename: logomark_dl, content: logomark_dl_button %}
@@ -40,10 +41,14 @@ tags:
   {% capture lightcolor_wordmark_filepath %}logos/{{committee.filename}}-wordmark-dark-gradient.png{% endcapture %}
   {% capture light_wordmark_filepath %}logos/{{committee.filename}}-wordmark-light.png{% endcapture %}
   {% capture dark_wordmark_filepath %}logos/{{committee.filename}}-wordmark-dark.png{% endcapture %}
-  {% include "assetbox-light.html", title: "Primary wordmark", file: lightcolor_wordmark_filepath %}
-  {% include "assetbox-dark.html", title: "Secondary wordmark", file: darkcolor_wordmark_filepath %}
-  {% include "assetbox-dark.html", title: "Light wordmark", file: light_wordmark_filepath %}
-  {% include "assetbox-light.html", title: "Dark wordmark", file: dark_wordmark_filepath %}
+  <div class="row">
+
+{% include "assetbox-light.html", title: "Primary wordmark", file: lightcolor_wordmark_filepath %}
+{% include "assetbox-dark.html", title: "Secondary wordmark", file: darkcolor_wordmark_filepath %}
+{% include "assetbox-dark.html", title: "Light wordmark", file: light_wordmark_filepath %}
+{% include "assetbox-light.html", title: "Dark wordmark", file: dark_wordmark_filepath %}
+
+  </div>
 
 {% else %}
 {% capture logo_wordmark_filepath %}logos/{{committee.filename}}-logo-wordmark.png{% endcapture %}
@@ -54,6 +59,9 @@ tags:
 {% capture dark_logo_wordmark_extended_filepath %}logos/{{committee.filename}}-logo-wordmark-extended-dark.png{% endcapture %}
 {% capture light_wordmark_filepath %}logos/{{committee.filename}}-wordmark-light.png{% endcapture %}
 {% capture dark_wordmark_filepath %}logos/{{committee.filename}}-wordmark-dark.png{% endcapture %}
+
+  <div class="row">
+
 {% include "assetbox-light.html", title: "Logo wordmark", file: logo_wordmark_filepath %}
 {% include "assetbox-dark.html", title: "Light logo wordmark", file: light_logo_wordmark_filepath %}
 {% include "assetbox-light.html", title: "Dark logo wordmark", file: dark_logo_wordmark_filepath %}
@@ -62,6 +70,8 @@ tags:
 {% include "assetbox-light.html", title: "Dark wordmark extended", file: dark_logo_wordmark_extended_filepath %}
 {% include "assetbox-dark.html", title: "Light wordmark", file: light_wordmark_filepath %}
 {% include "assetbox-light.html", title: "Dark wordmark", file: dark_wordmark_filepath %}
+
+</div>
 {% endif %}
 
 </section>
