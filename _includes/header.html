@@ -1,34 +1,37 @@
-<nav class="navigation">
-    <div class="navigation-home">
+<nav class="navbar">
+    <div class="navbar-brand">
         <a href="{{ site.baseurl }}/">{% include 'ucla-acm-logo.svg' %}</a>
     </div>
-    <div class="links">
+    <div class="navbar-items">
         {% for node in collections.nav %}
         {% if node.data.title == "Committees" %}
 
-        <div class="navigation-committee">
-            <div class="dropbtn">{{ node.data.title }}</div>
-            <div id="dropdown" class="dropdown-content">
-                {% for committee in committees %}
-                <script>console.log("{{ committee.filename }}")</script>
-                {% if page.url contains committee.filename %}
-                <a href="{{ site.baseurl }}/committees/{{ committee.filename }}/"
-                    class="active-{{ committee.filename | downcase}}">{{ committee.title }}</a>
-                {% else %}
-                <a href="{{ site.baseurl }}/committees/{{ committee.filename }}/"
-                    class="committee-not-active">{{ committee.title }}</a>
-                {% endif %}
-                {% endfor %}
+        <div class="navbar-dropdown">
+            <div class="dropdown-button">{{ node.data.title }}
+                <div class="dropdown-items">
+                    {% for committee in committees %}
+                    <script>console.log("{{ committee.filename }}")</script>
+                    {% if page.url contains committee.filename %}
+                    <a href="{{ site.baseurl }}/committees/{{ committee.filename }}/"
+                        class="active-{{ committee.filename | downcase}}">{{ committee.title }}</a>
+                    {% else %}
+                    <a href="{{ site.baseurl }}/committees/{{ committee.filename }}/"
+                        class="committee-not-active">{{ committee.title }}</a>
+                    {% endif %}
+                    {% endfor %}
+                </div>
             </div>
         </div>
 
         {% else %}
-        {% if page.url == node.url %}
-        <a href="{{{{ node.url | prepend: site.baseurl }}" class="active">{{ node.data.title }}</a>
+            <div class="navbar-link">
+            {% if page.url == node.url %}
+                <a href="{{{{ node.url | prepend: site.baseurl }}" class="active">{{ node.data.title }}</a>
             {% else %}
                 <a href="{{{{ node.url | prepend: site.baseurl }}" class="not-active">{{ node.data.title }}</a>
             {% endif %}
         {% endif %}
+        </div>
     {% endfor %}
     </div>
 </nav>
