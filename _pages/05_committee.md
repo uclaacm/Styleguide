@@ -22,7 +22,7 @@ tags:
   {% capture logomark_filepath %}logos/{{committee.filename}}-logo.png{% endcapture %}
   {% capture white_logomark_filepath %}logos/{{committee.filename}}-logo-light.png{% endcapture %}
   {% capture black_logomark_filepath %}logos/{{committee.filename}}-logo-dark.png{% endcapture %}
-  <div class="row">
+  <div class="row row-element">
 {% include "assetbox-light.html", title: "Primary logomark", file: logomark_filepath %}
 {% include "assetbox-dark.html", title: "White logomark", file: white_logomark_filepath %}
 {% include "assetbox-light.html", title: "Black logomark", file: black_logomark_filepath %}

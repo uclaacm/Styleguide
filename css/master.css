@@ -433,6 +433,15 @@ body {
 .shadow.low {
   box-shadow: 0px 14px 40px -2px #181b3140; }
 
+.row-element {
+  padding-bottom: 1.125rem; }
+
+.card-square {
+  min-height: 95px;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px; }
+
 /**
  * Syntax highlighting styles
  */
@@ -710,7 +719,7 @@ footer {
     line-height: 1.5em; }
 
 main > section {
-  padding: 120px 0px; }
+  padding: 120px; }
 
 main > section > section {
   padding: 60px 0px; }
@@ -769,11 +778,8 @@ main h5 {
 
 main p {
   font-size: 1rem;
-  line-height: 1.6em;
   grid-column: c1 / span 12;
-  color: #535353;
-  margin: 0px;
-  margin-bottom: 40px; }
+  color: #535353; }
   main p.big {
     color: #585858;
     font-size: 1.3rem;

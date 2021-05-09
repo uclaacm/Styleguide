@@ -12,7 +12,7 @@ main {
   //   display:grid;
   // }
   > section {
-    padding: 120px 0px;
+    padding: 120px;
   }
   > section > section {
     padding: 60px 0px;
@@ -83,11 +83,9 @@ main {
 
   p {
     font-size: 1rem;
-    line-height: 1.6em;
+    // line-height: 1.6em;
     grid-column: c1 / span 12;
     color: $primary-darkgrey;
-    margin: 0px;
-    margin-bottom: 40px;
 
     &.big {
       color: #585858;

@@ -603,6 +603,17 @@ body {
   .shadow.low {
     box-shadow: 0px 14px 40px -2px #181b3140; }
 
+.row-element {
+  padding-bottom: 1.125rem;
+}
+
+.card-square {
+  min-height: 95px;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 
 // tablet
 @media only screen and (max-width: 1000px) {}
