@@ -74,7 +74,7 @@ date: 2000-01-02
 
 <section class="section-guidelines">
     <h2 class="upper">Compliance</h2>
-    <p class="big left wide">In order to comply with UCLA and ACM’s branding plicies, there are several rules to follow.  </p> 
+    <p class="big left wide">In order to comply with UCLA and ACM’s branding policies, there are several rules to follow.  </p> 
     <section>
         <h3>UCLA Policies</h3>
         <p class="left wide" style="margin-top:30px; margin-bottom:10px;">These rules apply for all activities on campus</p>
