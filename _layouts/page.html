@@ -24,7 +24,7 @@ css_links: ['/css/master.css']
   {% endfor %}
 
   <!-- Westwood CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/uclaacm/WestwoodCSS@latest/dist/main.min.css">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/uclaacm/WestwoodCSS@latest/dist/main.min.css"> -->
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
@@ -36,7 +36,7 @@ css_links: ['/css/master.css']
 
 </head>
 
-<body>
+<body class= "has-navbar-fixed-top">
   {% include "header.html" %}
   {% comment %}
   <!-- <div class="page-header">
