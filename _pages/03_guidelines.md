@@ -22,7 +22,7 @@ date: 2000-01-02
         </section>
         <section>
             {% include "assetbox-template-large.html", title: "Download Template" , file: "partials/large-partial-01.svg" %}
-            {% include "assetbox-template-large.html", title: "Download Template" , file: "partials/large-partial-02.png" %}     
+            {% include "assetbox-template-large.html", title: "Download Template" , file: "partials/large-partial-02.svg" %}     
         </section>
     </section>
     <section>
@@ -46,7 +46,7 @@ date: 2000-01-02
         <section>   
             <p class="left">For wordmarks-logo combo, use the following template. Note that this is the same as the template in the “Logomark” section</p>
             <p class="right">For wordmarks-logo combo, use the following template. If no committee name is present, remove the dot and treat the ‘m’ as the rightmost character.</p>
-            {% include "assetbox-template-large.html", title: "Download Template" , file: "partials/spacing-01.png" %}
+            {% include "assetbox-template-large.html", title: "Download Template" , file: "partials/spacing-01.svg" %}
             {% include "assetbox-template-large.html", title: "Download Template" , file: "partials/spacing-02.svg" %}    
         </section>
     </section>
