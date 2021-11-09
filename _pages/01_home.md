@@ -4,29 +4,24 @@ title: ACM Design
 permalink: "/"
 ---
 
-<section>
-    <div class="landing-text left">
-        <h2>
-            ACM at UCLA<br>
-            Styleguide
-        </h2>
+<section class="landing-page-welcome">
+    <div class="container">
+        <h2>Welcome</h2>
         <p>
-            Welcome to the ACM at UCLA branding guideline website!<br>
-            Here you can find information about our branding<br>
-            alongside a collection of resources and assets.
+            ACM Styleguide is the one-stop location to know<br>
+            everything about our branding.
         </p>
     </div>
-    <img class="right" src="{{ site.baseurl }}/assets/partials/landing-page-graphic.svg">
 </section>
-<section>
-    <h3>Before You Start Designing</h3>
-    <div class="landing-page-links col-4">
-        <a href="{{ site.baseurl }}/guidelines"><p id="guidelines">Guidelines</p></a>
-    </div>
-    <h3>Assets</h3>
-    <div class="landing-page-links col-4">
-        <a href="{{ site.baseurl }}/committees/acm"><img id="acm" src="{{ site.baseurl }}/assets/logos/acm-logo-wordmark.png"></a>
-    </div>
-    {% for committee in committees limit:8 %}<div class="landing-page-links col-4"><a href="{{ site.baseurl }}/committees/{{ committee.filename }}"><img src="{{ site.baseurl }}/assets/logos/{{ committee.filename }}-logo-wordmark-dark-gradient.png"></a></div>{% endfor %}
+
+<section class="landing-page-grid">
+    <div class="container is-widescreen">
+        <div class="grid">
+            <div class="landing-page-links">
+                <a href="{{ site.baseurl }}/committees/acm"><img id="acm" src="{{ site.baseurl }}/assets/logos/acm-logo-wordmark.png"></a>
+            </div>
+            {% for committee in committees limit:8 %}<div class="landing-page-links"><a href="{{ site.baseurl }}/committees/{{ committee.filename }}"><img src="{{ site.baseurl }}/assets/logos/{{ committee.filename }}-logo-wordmark-dark-gradient.png"></a></div>{% endfor %}
+            </div>
+        </div>
     </div>
 <section>

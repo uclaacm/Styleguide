@@ -6,7 +6,8 @@
   "scripts": {
     "watch:eleventy": "eleventy --serve --watch",
     "watch:sass": "node-sass -w -r _sass -o css",
-    "start": "npm-run-all --parallel watch:*"
+    "build": "node-sass _sass -o css",
+    "start": "npm-run-all --parallel watch:* build"
   },
   "repository": {
     "type": "git",

@@ -280,8 +280,7 @@ body {
 }
 
 .landing-page-links {
-    margin: 20px 0px;
-    height:100px;
+    margin: 0;
     background-color: #ECECEC;
     border-radius: 8px;
     display: flex;
@@ -591,6 +590,31 @@ body {
   
 }
 
+.landing-page-welcome {
+  display: initial;
+  text-align: center;
+  h2 {
+    font-size: 4.25rem;
+  }
+  p {
+    font-size: 1rem;
+    color: #818181;
+  }
+}
+
+.landing-page-grid {
+  display: flex;
+  justify-content: center;
+  .grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2vw;
+    width: 70vw;
+    div {
+      aspect-ratio: 1;
+    }
+  }
+}
 
 // tablet
 @media only screen and (max-width: 1000px) {}

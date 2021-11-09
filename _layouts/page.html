@@ -10,7 +10,7 @@ css_links: ['/css/master.css']
 {%- endif -%}
 
 <!DOCTYPE HTML>
-<html style="overflow-x: hidden;">
+<html class="has-navbar-fixed-top" style="overflow-x: hidden;">
 
 <head>
   <meta charset="utf-8">
@@ -38,11 +38,6 @@ css_links: ['/css/master.css']
 
 <body class= "has-navbar-fixed-top">
   {% include "header.html" %}
-  {% comment %}
-  <!-- <div class="page-header">
-      {% if title %}{{ title }}{% endif %}
-    </div> -->
-  {% endcomment %}
   <div class="content">
     <main>
       {{ content | safe }}
