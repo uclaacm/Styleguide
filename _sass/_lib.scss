@@ -9,7 +9,7 @@ main {
       grid-template-areas: "c1 c2 c3 c4 c5 c6 c7 c8 c9 c10 c11 c12";
       display:grid;
     }
-    > section { padding: 120px 0px;}
+    > section { margin: 120px 0px;}
     > section > section{ padding: 60px 0px; }
   
     h1, h2, h3, h4, h5{

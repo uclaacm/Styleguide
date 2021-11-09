@@ -292,8 +292,13 @@ body {
       justify-content: center;
       align-items: center;
     }
-    img { height:30px; }
-    #acm { height:52px; }
+    img { 
+      height: calc(2vw + 5px);
+    }
+    #acm { 
+      max-height: calc(2vw + 25px);
+      height: auto;
+    }
     p { margin-bottom:0px; }
 }
 
@@ -591,7 +596,8 @@ body {
 }
 
 .landing-page-welcome {
-  display: initial;
+  display: flex;
+  justify-content: center;
   text-align: center;
   h2 {
     font-size: 4.25rem;
@@ -610,8 +616,24 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 2vw;
     width: 70vw;
-    div {
+    .landing-page-links {
       aspect-ratio: 1;
+    }
+  }
+  .landing-page-guidelines {
+    padding-top: 5%;
+    padding-left: 5%;
+    grid-column-end: span 2;
+    grid-row: 1/1;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 1rem;
+    p {
+      color: #2D3D48;
+    }
+    a {
+      color: #2D3D48;
+      text-decoration: underline;
     }
   }
 }
