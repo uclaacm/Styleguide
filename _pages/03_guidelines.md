@@ -145,7 +145,7 @@ date: 2000-01-02
             alt="In Type Graphic"
             style="width:100%; height:auto; margin:0" />
             <h4 style="margin-top:20px; margin-bottom:10px">Vector is the basics</h4>
-            <p style="margin-top:5px; margin-bottom:5px">Pixel-based art should rarely, if ever, be used. This is to make inmplementations on digital media easier, as well as to speed up production.</p>
+            <p style="margin-top:5px; margin-bottom:5px">Pixel-based art should rarely, if ever, be used. This is to make implementations on digital media easier, as well as to speed up production.</p>
         </div>
         <div class="col-3">
             <img src="{{ site.baseurl}}/assets/partials/art02.svg"
